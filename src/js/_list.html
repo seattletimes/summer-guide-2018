@@ -1,11 +1,8 @@
 <% data.forEach(function(row){ %>
-<div class="item">
-  <h2><%= row.name %></h2>
-  <div class="description"><%= row.description %></div>
-  <ul class="meta">
-    <li> Dates: <%= row.date %>
-    <li> <%= row.details %>
-  </ul>
-
-</div>
+<tr class="item">
+  <th><%= row.name %></th>
+  <td class="dates"><%= row.date_text %></td>
+  <td class="description"><%= row.description %></td>
+  <td class="details"><%= row.details || "" %></td>
+</tr>
 <% }); %>
