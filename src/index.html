@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <%= t.include("partials/_head.html", grunt.data.json) %>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+<header class="top">
+    <h1>A header! Maybe an image! Talk to graphics!</h1>
+
+    <p>
+      Planning out your summer? Use this interactive guide to find activities around Seattle, May through August 2017, from festivals to pool time to Fourth of July activities.
+    </header>
+
+    <main class="table-container">
+      <div class="controls">
+        <a class="filter" data-date="Ongoing">Ongoing</a>
+        <a class="filter" data-date="">All</a>
+      </div>
+
+
+      <nav class="filters">
+              <div>
+                <h2 class="nav-header">Choose categories</h2>
+
+                <ul class="categories">
+
+                  <li>
+                    <input type="checkbox" data-category="arts" id="arts">
+                    <label for="arts">Arts, Exhibits &amp; Expos</label>
+                  </li>
+
+                  <li>
+                    <input type="checkbox" data-category="holiday" id="holiday">
+                    <label for="holiday">Fourth of July</label>
+                  </li>
+
+                  <li>
+                    <input type="checkbox" data-category="outdoors" id="outdoors">
+                    <label for="outdoors">Outdoors</label>
+                  </li>
+
+                  <li>
+                    <input type="checkbox" data-category="aquatic" id="aquatic">
+                    <label for="aquatic">Aquatic Activities</label>
+                  </li>
+
+                  <li>
+                    <input type="checkbox" data-category="festivals" id="festivals">
+                    <label for="festivals">Festivals & Parades</label>
+                  </li>
+
+                  <li>
+                    <input type="checkbox" data-category="food" id="food">
+                    <label for="food">Food & Drink</label>
+                  </li>
+
+                  <li>
+                    <input type="checkbox" data-category="music" id="music">
+                    <label for="music">Music</label>
+                  </li>
+
+                </ul>
+              </div>
+
+            <!-- month filter -->
+
+              <div>
+                <h2 class="nav-header">Choose a month</h2>
+
+                <ul class="months">
+
+                  <li>
+                    <input type="checkbox" data-month="may" id="may">
+                    <label for="may">May</label>
+                  </li>
+
+                  <li>
+                    <input type="checkbox" data-month="june" id="june">
+                    <label for="june">June</label>
+                  </li>
+
+                  <li>
+                    <input type="checkbox" data-month="july" id="july">
+                    <label for="july">July</label>
+                  </li>
+
+                  <li>
+                    <input type="checkbox" data-month="aug" id="aug">
+                    <label for="aug">August</label>
+                  </li>
+
+                  <li>
+                    <input type="checkbox" data-month="sept" id="sept">
+                    <label for="sept">September</label>
+                  </li>
+
+                </ul>
+              </div>
+            <!-- end month filter -->
+
+              <div class="advanced">
+                <input type="text" placeholder="Search events" class="search">
+                <input type="checkbox" class="editors" id="editors">
+              </div>
+            </nav>
+
+
+            <table class="summer-events">
+                   <thead>
+                     <tr>
+                       <th class="category">
+                       <th class="date">Date
+                       <th class="event">Event
+                       <th class="location">Location
+                       <th class="description">Description
+                   <tbody class="events">
+
+// How do I connect the div class to the table?
+
+  <body>
+
+    <div class="event-listings">
+
+
+    </div>
+    <script>
+window.eventData = <%= JSON.stringify(json.events) %>;
+    </script>
+
+    <script src="app.js" async></script>
+    <% if (json.project.production) { %>
+    <%= !json.project.embedded ? t.include("partials/_analytics.html") : "" %>
+    <%= t.include("partials/_workHere.html") %>
+    <% } %>
+  </body>
+</html>
