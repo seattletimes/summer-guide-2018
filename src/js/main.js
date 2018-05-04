@@ -1,75 +1,43 @@
 // require("./lib/ads");
-// var track = require("./lib/tracking");
-
 var $ = require("./lib/qsa");
-var dot = require("./lib/dot");
-
-var listTemplate = dot.compile(require("./_list.html"));
-var listContainer = $.one(".event-listings");
 
 // Pre-process data:
 // * add a months array based on the dates specified
 // * split category field into an array
+// * create a timestamps object for scheduling
 window.eventData.forEach(function(row) {
+  row.timestamps = {};
   if (row.date) {
-    row.months = [ row.date.split("/")[0] ];
+    var [m, d, y] = row.date.split("/").map(Number);
+    row.months = [ m ];
+    row.timestamps.date = new Date(y, m - 1, d, 0);
   } else {
-    var startMonth = 5;
-    var endMonth = 9;
+    var start = [5, 1, 2018];
+    var end = [9, 30, 2018];
     if (row.start) {
-      [startMonth] = row.start.split("/") * 1;
+      start = row.start.split("/").map(Number);
     }
     if (row.end) {
-      [endMonth] = row.end.split("/") * 1;
+      end = row.end.split("/").map(Number);
     }
+    var [ startMonth ] = start;
+    var [ endMonth ] = end;
     row.months = [];
     for (var i = startMonth; i <= endMonth; i++) row.months.push(i);
+    row.timestamps = {
+      start: new Date(start[2], start[0] - 1, start[1], 0),
+      end: new Date(end[2], end[0] - 1, end[1], 24) 
+    }
   }
-if (!row.category) console.log(row);
+
   row.categories = row.category ? row.category.split(" ") : [];
 });
 
-// Test: do two lists have items in common?
-var intersects = function(a, b) {
-  var aMap = {};
-  a.forEach(k => aMap[k] = true);
-  for (var i = 0; i < b.length; i++) {
-    if (b[i] in aMap) return true;
-  }
-  return false;
-};
+require("./list")();
+require("./planner");
 
-// Show items matching the months array
-var filterMonths = function(list, months) {
-  if (!months || !months.length) return list;
-  return list.filter(d => intersects(d.months, months));
-};
-
-// Show items included in a list of categories
-var filterCategories = function(list, cats) {
-  if (!cats || !cats.length) return list;
-  return list.filter(d => intersects(cats, d.categories));
-}
-
-// Apply all filters to the full list
-var applyFilters = function() {
-  // Get form inputs
-  var categories = $(".category:checked").map(c => c.value);
-  var months = $(".month:checked").map(m => m.value).sort();
-  // Set up a filter chain, in which the result of each step is passed into the next
-  var filters = [
-    list => filterMonths(list, months),
-    list => filterCategories(list, categories)
-  ];
-  // Start with the full list of events
-  var list = window.eventData;
-  // Run through the filter chain, progressively updating `list`
-  filters.forEach(f => list = f(list));
-  // Output HTML into template from final results
-  listContainer.innerHTML = listTemplate(list);
-};
-
-applyFilters();
-
-var filterContainer = $.one(".filters");
-filterContainer.addEventListener("change", applyFilters);
+$("[data-tab]").forEach(a => a.addEventListener("click", function() {
+  var selector = `.tab.${this.getAttribute("data-tab")}`;
+  $.one(".tab.selected").classList.remove("selected");
+  $.one(selector).classList.add("selected");
+}));

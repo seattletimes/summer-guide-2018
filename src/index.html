@@ -18,38 +18,60 @@
 
     <main class="constrained">
 
-      <nav class="filters">
-        <h2 class="nav-header">Choose categories</h2>
-
-        <ul class="categories">
-          <% json.categories.forEach(function(item) { %>
-          <li>
-            <input class="category" type="checkbox" value="<%= item.short %>" id="<%= item.short %>" checked="checked">
-            <label for="<%= item.short %>"><%= item.long %></label>
-          <% }); %>
-        </ul>
-
-        <h2 class="nav-header">Choose a month</h2>
-
-        <ul class="months">
-          <% [
-            { short: "5", long: "May" },
-            { short: "6", long: "June" },
-            { short: "7", long: "July" },
-            { short: "8", long: "August" },
-            { short: "9", long: "September" }
-          ].forEach(function(item) { %>
-          <li>
-            <input class="month" type="checkbox" value="<%= item.short %>" id="<%= item.short %>" checked="checked">
-            <label for="<%= item.short %>"><%= item.long %></label>
-          <% }); %>
-        </ul>
+      <nav class="tab-select">
+        <a data-tab="listing">Show all listings</a> |
+        <a data-tab="itinerary">Plan your day!</a>
       </nav>
 
-    <table>
-      <thead></thead>
-      <tbody class="event-listings"></tbody>
-    </table>
+      <div class="listing tab selected">
+          <nav class="filters">
+          <h2 class="nav-header">Choose categories</h2>
+
+          <ul class="categories">
+            <% json.categories.forEach(function(item) { %>
+            <li>
+              <input class="category" type="checkbox" value="<%= item.short %>" id="<%= item.short %>" checked="checked">
+              <label for="<%= item.short %>"><%= item.long %></label>
+            <% }); %>
+          </ul>
+
+          <h2 class="nav-header">Choose a month</h2>
+
+          <ul class="months">
+            <% [
+              { short: "5", long: "May" },
+              { short: "6", long: "June" },
+              { short: "7", long: "July" },
+              { short: "8", long: "August" },
+              { short: "9", long: "September" }
+            ].forEach(function(item) { %>
+            <li>
+              <input class="month" type="checkbox" value="<%= item.short %>" id="<%= item.short %>" checked="checked">
+              <label for="<%= item.short %>"><%= item.long %></label>
+            <% }); %>
+          </ul>
+        </nav>
+
+      <table>
+        <thead></thead>
+        <tbody class="event-listings"></tbody>
+      </table>
+    </div>
+
+    <div class="itinerary tab">
+      <div class="controls">
+        <input type="date" name="date" placeholder="MM/DD/YYYY">
+        <select name="quadrant">
+          <option value="north">North</option>
+          <option value="south">South</option>
+        </select>
+        <button class="generate-itinerary">Go</button>
+      </div>
+
+      <div class="itinerary-results">
+        <ul></ul>
+      </div>
+    </div>
 
     <script>
 window.eventData = <%= JSON.stringify(json.events) %>;
