@@ -7,7 +7,9 @@ var dot = require("./lib/dot");
 var listTemplate = dot.compile(require("./_list.html"));
 var listContainer = $.one(".event-listings");
 
-// Pre-process data, adding a months array based on the dates specified
+// Pre-process data:
+// * add a months array based on the dates specified
+// * split category field into an array
 window.eventData.forEach(function(row) {
   if (row.date) {
     row.months = [ row.date.split("/")[0] ];
@@ -23,6 +25,8 @@ window.eventData.forEach(function(row) {
     row.months = [];
     for (var i = startMonth; i <= endMonth; i++) row.months.push(i);
   }
+if (!row.category) console.log(row);
+  row.categories = row.category ? row.category.split(" ") : [];
 });
 
 // Test: do two lists have items in common?
@@ -44,7 +48,7 @@ var filterMonths = function(list, months) {
 // Show items included in a list of categories
 var filterCategories = function(list, cats) {
   if (!cats || !cats.length) return list;
-  return list.filter(d => !d.category || cats.indexOf(d.category) > -1);
+  return list.filter(d => intersects(cats, d.categories));
 }
 
 // Apply all filters to the full list
