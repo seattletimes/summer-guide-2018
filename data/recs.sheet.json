@@ -1,0 +1,206 @@
+[
+  {
+    "name": "The Fat Hen",
+    "category": "food",
+    "quadrant": "North"
+  },
+  {
+    "name": "Portage Bay Cafe",
+    "category": "food",
+    "quadrant": "North"
+  },
+  {
+    "name": "Golden Gardens Park",
+    "category": "outdoors",
+    "quadrant": "North"
+  },
+  {
+    "name": "Burke Gilman Trail",
+    "category": "outdoors",
+    "quadrant": "North"
+  },
+  {
+    "name": "Ballard Locks",
+    "category": "outdoors",
+    "quadrant": "North"
+  },
+  {
+    "name": "Un Bien",
+    "category": "food",
+    "quadrant": "North"
+  },
+  {
+    "name": "Magnuson Park",
+    "category": "outdoors",
+    "quadrant": "North"
+  },
+  {
+    "name": "Agua Verde Paddle Club",
+    "category": "aquatic activities",
+    "quadrant": "North"
+  },
+  {
+    "name": "Center for Wooden Boats",
+    "category": "aquatic activities",
+    "quadrant": "North"
+  },
+  {
+    "name": "JuneBaby",
+    "category": "food",
+    "quadrant": "North"
+  },
+  {
+    "name": "Add-a-Ball",
+    "quadrant": "North"
+  },
+  {
+    "name": "Cafe Avole",
+    "category": "food",
+    "quadrant": "South",
+    "description": "Pronounced \"ah-bole,\" which translates to the first strong cup of coffee in the three-cup jebena ceremony, Cafe Avole serves up complete Jebena Buna (a traditional coffee ceremony practiced in Ethiopia and Eritrea) table service and a small menu.",
+    "url": "https://www.facebook.com/Cafe-Avole-659103624188066/"
+  },
+  {
+    "name": "Wing Luke Museum",
+    "category": "arts",
+    "quadrant": "South"
+  },
+  {
+    "name": "Jefferson Park",
+    "category": "outdoors",
+    "quadrant": "South"
+  },
+  {
+    "name": "Sisters and Brothers",
+    "category": "food",
+    "quadrant": "South"
+  },
+  {
+    "name": "Fantagraphics Bookstore and Gallery",
+    "category": "arts",
+    "quadrant": "South"
+  },
+  {
+    "name": "Georgetown Records",
+    "category": "music",
+    "quadrant": "South"
+  },
+  {
+    "name": "Kubota Garden",
+    "category": "outdoors",
+    "quadrant": "South"
+  },
+  {
+    "name": "Bar Ciudad",
+    "category": "food",
+    "quadrant": "South"
+  },
+  {
+    "name": "Clock-Out Lounge",
+    "category": "music",
+    "quadrant": "South"
+  },
+  {
+    "name": "Breezy Town Pizza",
+    "category": "food",
+    "quadrant": "South"
+  },
+  {
+    "name": "Chace's Pancake Corral",
+    "category": "food",
+    "quadrant": "East"
+  },
+  {
+    "name": "Mercer Slough Nature Park",
+    "category": "outdoors",
+    "quadrant": "East"
+  },
+  {
+    "name": "Trailhead Direct shuttle",
+    "category": "outdoors",
+    "quadrant": "East"
+  },
+  {
+    "name": "Lake Sammamish",
+    "category": "outdoors",
+    "quadrant": "East"
+  },
+  {
+    "name": "KidsQuest Children's Museum",
+    "category": "arts",
+    "quadrant": "East",
+    "description": "If you’ve got young kids to tire out or are a big kid yourself, check out the KidsQuest Children’s Museum for plenty of things to climb on, climb through, ride, build and other action verbs. Unlike most museums, you can let the kids run free here, with classes at the Learning Lab, a Water room, and even a fake store where kids can play shopkeeper.",
+    "url": "https://www.kidsquestmuseum.org/"
+  },
+  {
+    "name": "Marymoor Park",
+    "category": "outdoors",
+    "quadrant": "East"
+  },
+  {
+    "name": "Bellevue Arts Museum",
+    "category": "arts",
+    "quadrant": "East"
+  },
+  {
+    "name": "Tiger Bites",
+    "category": "food",
+    "quadrant": "East"
+  },
+  {
+    "name": "Mox Boarding House",
+    "category": "food",
+    "quadrant": "East",
+    "description": "Stop in at Mox Boarding House during their open gaming hours for a well-stocked game library, a full-service restaurant, beer and wine, and a chance to try out board games you’ve been thinking about buying.",
+    "url": "https://www.moxboardinghouse.com/"
+  },
+  {
+    "name": "Cinemark Reserve",
+    "quadrant": "East"
+  },
+  {
+    "name": "Water taxi",
+    "quadrant": "West"
+  },
+  {
+    "name": "Marination Mai Kai",
+    "category": "food",
+    "quadrant": "West"
+  },
+  {
+    "name": "Alki Kayak Tours",
+    "category": "outdoors",
+    "quadrant": "West"
+  },
+  {
+    "name": "Alki Point Lighthouse",
+    "category": "outdoors",
+    "quadrant": "West"
+  },
+  {
+    "name": "Nightshade Nursery",
+    "quadrant": "West"
+  },
+  {
+    "name": "Lincoln Park",
+    "category": "outdoors",
+    "quadrant": "West"
+  },
+  {
+    "name": "Sunfish",
+    "quadrant": "West"
+  },
+  {
+    "name": "Spud",
+    "quadrant": "West"
+  },
+  {
+    "name": "Supreme",
+    "quadrant": "West"
+  },
+  {
+    "name": "Alki Beach",
+    "category": "outdoors",
+    "quadrant": "West"
+  }
+]

@@ -9,7 +9,8 @@
   },
   {
     "short": "outdoors",
-    "long": "Outdoors"
+    "long": "Outdoors",
+    "notes": "(hikes, nature walks, etc.)"
   },
   {
     "short": "aquatic",
@@ -26,5 +27,18 @@
   {
     "short": "music",
     "long": "Music"
+  },
+  {
+    "short": "market",
+    "long": "Farmers Markets"
+  },
+  {
+    "short": "athletic",
+    "long": "Athletic Events",
+    "notes": "(races, 5Ks, etc.)"
+  },
+  {
+    "short": "cars",
+    "long": "Car Shows"
   }
 ]
