@@ -13,7 +13,6 @@ var padLeft = function(string, length, padder = "0") {
   if (string.length < length) {
     var l = length - string.length;
     var padding = new Array(l + 1).join(padder);
-    console.log(padding);
     return padding + string;
   }
 };

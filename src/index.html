@@ -10,16 +10,20 @@
     <%= t.include("partials/_ad.html", { type: "banner" }) %>
 
     <header class="top">
-      <h1>A header! Maybe an image! Talk to graphics!</h1>
+      <div class="image-container">
+        <img src="./assets/headers/beach.jpg" alt="">
+        <h1>Summer Guide 2018</h1>
+      </div>
+      <div class="credit">Ellen M. Banner / The Seattle Times</div>
 
-      <p>
+      <p class="constrained smaller">
         Planning out your summer? Use this interactive guide to find activities around Seattle, May through August 2017, from festivals to pool time to Fourth of July activities.
     </header>
 
     <main class="constrained">
 
       <nav class="tab-select">
-        <a data-tab="listing">Show all listings</a> |
+        <a data-tab="listing" class="current">Show all listings</a> |
         <a data-tab="itinerary">Plan your day!</a>
       </nav>
 

@@ -1,13 +1,64 @@
 @import "seattletimes";
 
 header {
-  padding: 0 16px;
+  padding: 0 0 48px;
+  max-width: 1200px;
+  margin: auto;
+  position: relative;
+
+  img {
+    width: 100%;
+    display: block;
+  }
+
+  h1 {
+    margin: 0;
+    position: absolute;
+    padding: 40px 0;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to bottom, black, transparent);
+    text-align: center;
+    color: white;
+    font-size: 48px;
+  }
+
+  .credit {
+    text-align: right;
+    font-style: italic;
+    text-transform: uppercase;
+    font-family: @df-sans;
+    font-size: 15px;
+    padding: 0 16px;
+  }
+
+  p.constrained {
+    padding: 16px;
+  }
 }
 
 .constrained {
   max-width: 960px;
   padding: 0 16px;
   margin: auto;
+
+  &.smaller {
+    max-width: 600px;
+  }
+}
+
+.tab-select {
+  text-align: center;
+  font-family: @df-sans;
+
+  a {
+    cursor: pointer;
+  }
+
+  .current {
+    font-weight: bold;
+  }
 }
 
 .tab {
