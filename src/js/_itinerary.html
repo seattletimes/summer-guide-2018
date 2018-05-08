@@ -1,8 +1,8 @@
 <% data.forEach(function(item) {%>
 <li>
   <h4>
-    <%= item.category %>
-    <%if (item.data) { %><button class="reroll" data-cat="<%= item.category %>">Reroll</button><% } %>
+    <%= item.metaMessage %>
+    <%if (item.data) { %><button class="reroll" data-metacat="<%= item.metaName %>">Something else!</button><% } %>
   </h4>
   <% if (item.data) { %>
     <h2><%= item.data.name %></h2>

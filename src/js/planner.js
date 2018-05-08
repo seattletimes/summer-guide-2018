@@ -41,34 +41,32 @@ var drawItem = function(list) {
   return list[(list.length * Math.random()) | 0];
 };
 
-var getItem = function(filters, cats) {
+var getItem = function(filters, metaName) {
   var eligible = filterDate(
     filterCategories(
       filterQuadrant(eventsAndRecs, filters.quadrant),
-      cats),
+      window.metacats[metaName].cats),
     filters.date);
   var data = drawItem(eligible);
   return {
-    category: cats[0], // TODO: use real words
+    metaName,
+    metaMessage: window.metacats[metaName].message,
     data,
   }
 };
 
 var reroll = function() {
-  var cat = this.dataset.cat;
   var nameNode = this.parentNode.nextElementSibling;
   var descNode = nameNode.nextElementSibling;
-
-  var newItem = getItem(spaceTimeFilters, [cat]);
+  var newItem = getItem(spaceTimeFilters, this.dataset.metacat);
   nameNode.innerHTML = newItem.data.name;
   descNode.innerHTML = newItem.data.description || "";
 };
 
 var generatePlan = function() {
   updateFilters();
-  var slots = $(".planner-category:checked").map(c => {
-    var cats = [c.value];
-    return getItem(spaceTimeFilters, cats);
+  var slots = $(".metacategory:checked").map(metaCheckbox => {
+    return getItem(spaceTimeFilters, metaCheckbox.value);
   });
   resultList.innerHTML = planTemplate(slots);
   $(".reroll").forEach( btn => {

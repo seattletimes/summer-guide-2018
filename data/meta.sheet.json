@@ -1,0 +1,14 @@
+{
+  "active": {
+    "message": "… get outside and do something active"
+  },
+  "eat": {
+    "message": "… eat something tasty"
+  },
+  "artistic": {
+    "message": "… enjoy some art"
+  },
+  "other": {
+    "message": "… check out a great summer event"
+  }
+}

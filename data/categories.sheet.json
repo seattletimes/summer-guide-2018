@@ -1,44 +1,54 @@
 [
   {
     "short": "arts",
-    "long": "Arts, Exhibits, & Expos"
+    "long": "Arts, Exhibits, & Expos",
+    "meta": "artistic"
   },
   {
     "short": "fourth",
-    "long": "Fourth of July"
+    "long": "Fourth of July",
+    "meta": "other"
   },
   {
     "short": "outdoors",
     "long": "Outdoors",
+    "meta": "active",
     "notes": "(hikes, nature walks, etc.)"
   },
   {
     "short": "aquatic",
-    "long": "Aquatic Activities"
+    "long": "Aquatic Activities",
+    "meta": "active"
   },
   {
     "short": "festivals",
-    "long": "Festivals & Parades"
+    "long": "Festivals & Parades",
+    "meta": "other"
   },
   {
     "short": "food",
-    "long": "Food & Drink"
+    "long": "Food & Drink",
+    "meta": "eat"
   },
   {
     "short": "music",
-    "long": "Music"
+    "long": "Music",
+    "meta": "artistic"
   },
   {
     "short": "market",
-    "long": "Markets"
+    "long": "Markets",
+    "meta": "other"
   },
   {
     "short": "athletic",
     "long": "Athletic Events",
+    "meta": "active",
     "notes": "(races, 5Ks, etc.)"
   },
   {
     "short": "cars",
-    "long": "Car Shows"
+    "long": "Car Shows",
+    "meta": "other"
   }
 ]

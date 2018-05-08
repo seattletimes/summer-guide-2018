@@ -72,12 +72,12 @@
           <option value="west">West</option>
         </select>
         <div class="filters">
-          <h2 class="nav-header">I would like to see …</h2>
+          <h2 class="nav-header">I would like to …</h2>
           <ul>
-            <% json.categories.forEach(function(item) { %>
+            <% Object.keys(json.meta).forEach(function(metaName) { %>
             <li>
-              <input class="planner-category" type="checkbox" value="<%= item.short %>" id="planner-<%= item.short %>">
-              <label for="planner-<%= item.short %>">… <%= item.long %></label>
+              <input class="metacategory" type="checkbox" value="<%= metaName %>" id="metacat-<%= metaName %>">
+              <label for="metacat-<%= metaName %>">… <%= json.meta[metaName].message %></label>
             <% }); %>
           </ul>
           <button class="generate-itinerary">Go</button>
@@ -92,6 +92,15 @@
     <script>
 window.eventData = <%= JSON.stringify(json.events) %>;
 window.recsData = <%= JSON.stringify(json.recs) %>;
+<% var metacats = json.meta; // Add array of cats to metacat lookup object
+  Object.keys(metacats).forEach((name) => {
+    metacats[name].cats = [];
+  })
+  json.categories.forEach((row) => {
+    metacats[row.meta].cats.push(row.short);
+  })
+%>
+window.metacats = <%= JSON.stringify(metacats) %>;
     </script>
 
     <script src="app.js" async></script>

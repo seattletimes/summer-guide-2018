@@ -2237,5 +2237,451 @@
     "url": "http://blackberryfestival.org/festival-information",
     "description": "Entertainment, blackberry treats and wine, vendors, 10 a.m.-7 p.m. Sept. 1, 10 a.m.-6 p.m. Sept. 2, 10 a.m.-5 p.m. Sept. 3",
     "location": "Bremerton Marina, 100 Washington Beach Blvd., Bremerton"
+  },
+  {
+    "name": "Seafair Summer 4th",
+    "category": "fourth",
+    "quadrant": "seattle",
+    "date_text": "July 4",
+    "date": "7/4/2018",
+    "url": "http://seafair.com/events/2018/scca-seattle-summer-4th",
+    "description": "Food vendors, entertainment, exhibits, beer and beverage gardens, All-American Games featuring pie-eating contests, sack races and more, noon, huge fireworks show set to music, 10 p.m.; Gas Works Park, 2101 N. Northlake Way, Seattle; free; reserved seating available, $40-$60."
+  },
+  {
+    "name": "Bellevue Family Fourth",
+    "category": "fourth",
+    "quadrant": "east",
+    "date_text": "July 4",
+    "date": "7/4/2018",
+    "phone": "425-453-1223",
+    "url": "http://bellevuedowntown.com/events/family-fourth",
+    "description": "Music, family entertainment, Bellevue Parks Family Fun Zone, food vendors, fireworks, performance by Bellevue Youth Symphony Orchestra, 2-11 p.m., Bellevue Downtown Park, 10201 N.E. Fourth St., Bellevue."
+  },
+  {
+    "name": "Newcastle 4th at the Lake Celebration",
+    "category": "fourth",
+    "quadrant": "east",
+    "date_text": "July 4",
+    "date": "7/4/2018",
+    "phone": "425-649-4444",
+    "url": "http://newcastlewa.gov",
+    "description": "Food vendors, live music, fireworks, 6-10:30 p.m., Lake Boren Park, Southeast 84th Avenue and Coal Creek Parkway Southeast, Newcastle."
+  },
+  {
+    "name": "Celebrate Kirkland",
+    "category": "fourth",
+    "quadrant": "east",
+    "date_text": "July 4",
+    "date": "7/4/2018",
+    "url": "http://celebratekirkland.org",
+    "description": "Children’s decorating for parade, 10 a.m., children’s walking parade, 10 a.m., Old Fashioned Downtown Parade, noon, Market and Central Streets; food vendors 1-10:30 p.m.; music in the park 5 p.m.; fireworks display 10:15 p.m., Marina Park, 25 Lake Shore Plaza, Kirkland."
+  },
+  {
+    "name": "Sammamish Fourth on the Plateau",
+    "category": "fourth",
+    "quadrant": "east",
+    "date_text": "July 4",
+    "date": "7/4/2018",
+    "url": "http://sammamish.us/event?id=48557",
+    "description": "Entertainment, 6 p.m., fireworks show, 10 p.m., Sammamish Commons Park, 801 228th Ave. S.E., Sammamish."
+  },
+  {
+    "name": "Carnation 4th of July",
+    "category": "fourth",
+    "quadrant": "east",
+    "date_text": "July 4",
+    "date": "7/4/2018",
+    "url": "https://www.carnation4th.org/",
+    "description": "Kids Parade, 10:30 a.m., Grand Parade, 11 a.m.; music, vendor village, beer garden, strawberry shortcake feast and other food vendors, fireworks display at dusk, Carnation."
+  },
+  {
+    "name": "Tukwila Family 4th at the Fort",
+    "category": "fourth",
+    "quadrant": "south",
+    "date_text": "July 4",
+    "date": "7/4/2018",
+    "url": "http://tukwilawa.gov",
+    "description": "Entertainment stage, food vendors, park opens 9 a.m., activities begin 4 p.m., fireworks display 10 p.m., Fort Dent Park, 6800 Fort Dent Way, Tukwila."
+  },
+  {
+    "name": "Burien Independence Day Parade",
+    "category": "fourth",
+    "quadrant": "south",
+    "date_text": "July 4",
+    "date": "7/4/2018",
+    "url": "http://discoverburien.org",
+    "description": "Marching bands, floats, Seafair pirates, 3 p.m., Southwest 152nd Street, Burien."
+  },
+  {
+    "name": "Fireworks Over Des Moines",
+    "category": "fourth",
+    "quadrant": "south",
+    "date_text": "July 4",
+    "date": "7/4/2018",
+    "url": "http://destinationdesmoines.org/fireworks-over-des-moines",
+    "description": "Food trucks, kids’ carnival, open at noon; beer/wine garden with two bands, 5 p.m., $10/entry includes one drink; fireworks show, 10:20 p.m., Des Moines Beach Park, 22030 Cliff Avenue S., Des Moines."
+  },
+  {
+    "name": "Renton Fabulous Fourth of July",
+    "category": "fourth",
+    "quadrant": "south",
+    "date_text": "July 4",
+    "date": "7/4/2018",
+    "url": "https://rentonwa.gov/cms/one.aspx?pageId=12288788",
+    "description": "Kids’ activity zone, 1-4 p.m.; entertainment, 4-9:30 p.m.; official welcome and national anthem, 7:15 p.m.; fireworks, 10 p.m., Gene Coulon Memorial Beach Park, 1201 Lake Washington Blvd. N., Renton."
+  },
+  {
+    "name": "Family Fourth of July, SeaTac",
+    "category": "fourth",
+    "quadrant": "south",
+    "date_text": "July 4",
+    "date": "7/4/2018",
+    "url": "http://ci.seatac.wa.us/government/city-departments/parks-community-programs-services/special-events/family-fourth-of-july",
+    "description": "Water spray park, 11 a.m.-8 p.m. (swimming beach and dock closed); children’s bouncers, noon-8 p.m., $5/wristband; entertainment, 1-10 p.m.; fireworks show, 10 p.m., Angle Lake Park, 19408 International Blvd., SeaTac."
+  },
+  {
+    "name": "Kent Fourth of July Splash",
+    "category": "fourth",
+    "quadrant": "south",
+    "date_text": "July 4",
+    "date": "7/4/2018",
+    "phone": "253-856-5050",
+    "url": "https://www.kentwa.gov/residents/parks-recreation-and-community-services/events/fourth-of-july-splash",
+    "description": "Stage performances, games, bouncy houses, food vendors, games, pie eating contest, noon, Fireworks Finale 10 p.m., Lake Meridian Park, 14800 S.E. 272nd St., Kent."
+  },
+  {
+    "name": "Auburn Fourth of July Festival",
+    "category": "fourth",
+    "quadrant": "south",
+    "date_text": "July 4",
+    "date": "7/4/2018",
+    "phone": "253-931-3043",
+    "url": "http://auburnwa.gov",
+    "description": "Entertainment, arts and crafts, inflatable rides, rock wall, trampolines, train rides, book sale, mini golf, food vendors, car show, 11 a.m.-4 p.m., bike parade, noon, Les Gove Park, 11th Street and Auburn Way South, Auburn; $5/unlimited rides."
+  },
+  {
+    "name": "Federal Way Red, White and Blues Festival",
+    "category": "fourth",
+    "quadrant": "south",
+    "date_text": "July 4",
+    "date": "7/4/2018",
+    "url": "http://visitfw.org",
+    "description": "Entertainment, games, arts and crafts vendors, fireworks show, 3-11 p.m., Celebration Park, 1095 S. 324th St., Federal Way."
+  },
+  {
+    "name": "Tacoma Freedom Festival",
+    "category": "fourth",
+    "quadrant": "south",
+    "date_text": "July 4",
+    "date": "7/4/2018",
+    "url": "http://www.freedomfair.com/schedule/",
+    "description": "Entertainment, vendors, 10 a.m.-10:30 p.m.; Air Show, 1:30-3:30 p.m.; Camp Patriot honoring the military with Main Stage entertainment, Kids Park attractions, arts, crafts and food vendors, beer garden, car show, 11 a.m.-9 p.m.; fireworks, 10 p.m., Ruston Way waterfront/Dickman Park, Tacoma."
+  },
+  {
+    "name": "An Edmonds Kind of 4th",
+    "category": "fourth",
+    "quadrant": "north",
+    "date_text": "July 4",
+    "date": "7/4/2018",
+    "phone": "425-776-6711",
+    "url": "http://edmondswa.com/events/fourth-of-july.html",
+    "description": "Beat Brackett 5K run ($25-$30, $5/ages 12 and younger) and Baby Brackett 1K all-ages run and walk ($15/family up to four people), 10 a.m., Edmonds City Park; Children’s Parade, 11:30 a.m.; community parade with patriotic costumes, music, floats, classic cars, bands, police, fire and military groups, Star Wars characters, noon; entertainment, food trucks and vendors, 6 p.m.; Brackett’s Beard & Mustache Contest, 9:15 p.m., Civic Field stage; fireworks show, 10 p.m., Civic Playfield, Edmonds."
+  },
+  {
+    "name": "Fourth of July Freedom Festival, Bothell",
+    "category": "fourth",
+    "quadrant": "north",
+    "date_text": "July 4",
+    "date": "7/4/2018",
+    "url": "http://bothellwa.gov/269/Fourth-of-July-Freedom-Festival",
+    "description": "Pancake breakfast, 8:30-10:30 a.m., Downtown Fire Station; children’s parade, no registration required, 11:15 a.m., Grand Parade with “Red, White and Bothell” theme, noon, Main Street from 104th Avenue Northeast, Bothell."
+  },
+  {
+    "name": "Stars and Stripes for Everett",
+    "category": "fourth",
+    "quadrant": "north",
+    "date_text": "July 4",
+    "date": "7/4/2018",
+    "url": "http://everettwa.gov/790/Fourth-of-July",
+    "description": "Colors of Freedom Parade with marching bands, drill teams, giant puppets, clowns, 11 a.m., Colby and Wetmore Avenues between Wall Street and 26th Street, Everett; Colors of Freedom Festival with performance stage, food fair, kids’ activities, beer garden, fireworks, 1-11 p.m., Legion Park, 145 Alverson Blvd., Everett."
+  },
+  {
+    "name": "Arlington 4th of July Parade",
+    "category": "fourth",
+    "quadrant": "north",
+    "date_text": "July 4",
+    "date": "7/4/2018",
+    "url": "http://arlington4th.org",
+    "description": "A local tradition since 1965, marching bands, floats, community groups, 9 a.m., Arlington."
+  },
+  {
+    "name": "Bainbridge Grand Old Fourth of July",
+    "category": "fourth",
+    "quadrant": "west",
+    "date_text": "July 4",
+    "date": "7/4/2018",
+    "url": "http://grandold4th.com/",
+    "description": "Pancake breakfast, Street Fair arts, crafts and food vendors, 9 a.m.-5 p.m., beer and wine garden, 11 a.m.-5 p.m., Waterfront Park; Classic Car Show; Mile-Long Hometown Parade with floats, marching bands, horses, military units, dogs, 1 p.m., downtown Bainbridge."
+  },
+  {
+    "name": "Seattle Pike Place Market",
+    "category": "market",
+    "quadrant": "seattle",
+    "phone": "206-682-7453",
+    "url": "http://www.pikeplacemarket.org/",
+    "description": "Fresh produce, arts and crafts vendors, shops, bakeries, restaurants, 9 a.m.-6 p.m. Mondays-Saturdays, 9 a.m.-5 p.m. Sundays, hours of businesses vary; 1501 Pike Place, Seattle."
+  },
+  {
+    "name": "Pike Place Seasonal Farmers Markets",
+    "category": "market",
+    "quadrant": "seattle",
+    "url": "http://pikeplacemarket.org/farmers-market",
+    "description": "Opening week of May 29, produce, flowers, honey and more from Pike Place Market producers at four locations; new this year, Regrade, 10 a.m.-2 p.m. Tuesdays, Seventh Avenue and Lenora Street; returning locations, City Hall, 10 a.m.-2 p.m. Tuesdays, 600 Fourth Ave.; South Lake Union, 10 a.m.-2 p.m. Thursdays, 410 Terry Ave. N.; First Hill, 10 a.m.-2 p.m. Fridays, Ninth Avenue and University Street, Seattle."
+  },
+  {
+    "name": "Columbia City Farmers Market",
+    "category": "market",
+    "quadrant": "seattle",
+    "url": "http://seattlefarmersmarkets.org",
+    "description": "Local produce, cut flowers, plant starts, eggs, cheese, fish, poultry, meats, 3-7 p.m. Wednesdays, 37th Avenue South and South Edmunds Street, Seattle."
+  },
+  {
+    "name": "Wallingford Farmers Market",
+    "category": "market",
+    "quadrant": "seattle",
+    "url": "http://sfmamarkets.com/visit-wallingford-farmers-market",
+    "description": "Seasonal farm produce from Washington farms, food vendors, 3-7 p.m. Wednesdays, Meridian Park, 4649 Sunnyside Ave. N., Seattle."
+  },
+  {
+    "name": "Lake City Farmers Market",
+    "category": "market",
+    "quadrant": "seattle",
+    "url": "http://seattlefarmersmarkets.org",
+    "description": "Opening June 7, local produce, flowers, plant starts, eggs, cheese, fish, poultry, meats, 3-7 p.m. Thursdays, Northeast 125th Street and 28th Avenue Northeast, Seattle."
+  },
+  {
+    "name": "Madrona Farmers Market",
+    "category": "market",
+    "quadrant": "seattle",
+    "url": "http://sfmamarkets.com/madrona-farmers-market",
+    "description": "Seasonal produce from Washington farmers, fishers and ranchers, variety of foods made from locally grown ingredients, 3-7 p.m. Fridays, Madrona Grocery Outlet parking lot, 1126 Martin Luther King Jr. Way, Seattle."
+  },
+  {
+    "name": "Phinney Farmers Market",
+    "category": "market",
+    "quadrant": "seattle",
+    "url": "http://seattlefarmersmarkets.org",
+    "description": "Opening June 1, local produce, flowers, plant starts, eggs, cheese, fish, poultry, meats, 3:30-7:30 p.m. Fridays, Phinney Neighborhood Center, 6532 Phinney Ave. N, Seattle."
+  },
+  {
+    "name": "University District Farmers Market",
+    "category": "market",
+    "quadrant": "seattle",
+    "url": "http://seattlefarmersmarkets.org",
+    "description": "Fresh produce and farm products, flowers, food vendors, 9 a.m.-2 p.m. Saturdays year around, University Way & N.E. 50th Ave., Seattle."
+  },
+  {
+    "name": "Magnolia Farmers Market",
+    "category": "market",
+    "quadrant": "seattle",
+    "url": "http://seattlefarmersmarkets.org",
+    "description": "Opening June 2, local produce, flowers, plant starts, eggs, cheese, fish, poultry, meats, 10 a.m.-2 p.m. Saturdays, closed Aug. 5, 33rd Avenue West and West McGraw Street, Seattle."
+  },
+  {
+    "name": "Capitol Hill Farmers Market",
+    "category": "market",
+    "quadrant": "seattle",
+    "url": "http://seattlefarmersmarkets.org",
+    "description": "Fresh produce and farm product vendors, flowers, food vendors, 11 a.m.-3 p.m. Sundays year around, Broadway and East Pine Street, Seattle Community College Campus, Seattle."
+  },
+  {
+    "name": "West Seattle Farmers Market",
+    "category": "market",
+    "quadrant": "seattle",
+    "url": "http://seattlefarmersmarkets.org",
+    "description": "Fresh produce, farm products, food vendors, 10 a.m.-2 p.m. Sundays, Southwest Alaska Street and California Avenue Southwest, Seattle."
+  },
+  {
+    "name": "Ballard Farmers Market",
+    "category": "market",
+    "quadrant": "seattle",
+    "url": "http://sfmamarkets.com",
+    "description": "Year-round farmers market, produce from Washington state farmers, 10 a.m.-3 p.m. Sundays, Ballard Avenue Northwest and 22nd Avenue Northwest, Seattle."
+  },
+  {
+    "name": "Mercer Island Farmers Market",
+    "category": "market",
+    "quadrant": "east",
+    "url": "http://mifarmersmarket.org/",
+    "description": "Opening June 3, local produce, meat, baked goods, food vendors, 10 a.m.-3 p.m. Sunday, Mercerdale Park, 77th Avenue Southeast and Southeast 32nd Street, Mercer Island."
+  },
+  {
+    "name": "Bellevue Farmers Market",
+    "category": "market",
+    "quadrant": "east",
+    "url": "http://bellevuefarmersmarket.org",
+    "description": "Seasonal produce, flowers, meats, arts and crafts, food vendors, 3-7 p.m. Thursdays, 1717 Bellevue Way N.E., Bellevue."
+  },
+  {
+    "name": "Crossroads Farmers Market",
+    "category": "market",
+    "quadrant": "east",
+    "url": "https://crossroadsbellevue.com/directory/shop#farmers-market",
+    "description": "Opening June 5, Washington produce, flowers, food, noon-6 p.m. Tuesdays, Crossroads Bellevue east parking lot, 15600 N.E. Eighth St., Bellevue."
+  },
+  {
+    "name": "Kirkland Wednesday Market",
+    "category": "market",
+    "quadrant": "east",
+    "url": "http://kirklandmarket.org/",
+    "description": "Opening June 6, local produce, arts and crafts, food vendors, 2-7 p.m. Wednesdays (no market July 4), Marina Park, 25 Lake Shore Plaza, Kirkland."
+  },
+  {
+    "name": "Redmond Saturday Market",
+    "category": "market",
+    "quadrant": "east",
+    "url": "http://redmondsaturdaymarket.org/",
+    "description": "Local produce and other farm products, plants, flowers, baked goods, fish, arts and crafts, food vendors, 9 a.m.-3 p.m. Saturdays, 7730 Leary Way, Redmond."
+  },
+  {
+    "name": "Sammamish Farmers Market",
+    "category": "market",
+    "quadrant": "east",
+    "url": "http://sammamishfarmersmarket.org",
+    "description": "Fresh produce, food vendors, arts and crafts, 4-8 p.m. Wednesdays, 801 228th Ave. S.E., Sammamish."
+  },
+  {
+    "name": "Woodinville Farmers Market",
+    "category": "market",
+    "quadrant": "east",
+    "url": "http://woodinvillefarmersmarket.com",
+    "description": "Local produce, flowers, arts and crafts, food vendors, 9 a.m.-3 p.m. Saturdays, DeYoung Park, 13680 N.E. 175th St., Woodinville."
+  },
+  {
+    "name": "Issaquah Farmers Market",
+    "category": "market",
+    "quadrant": "east",
+    "url": "http://ci.issaquah.wa.us/market",
+    "description": "Local produce, flowers, baked goods, arts and crafts, food vendors, 9 a.m.-2 p.m. Saturdays, Pickering Barn, 1730 10th Ave. N.W., Issaquah."
+  },
+  {
+    "name": "Carnation Farmers Market",
+    "category": "market",
+    "quadrant": "east",
+    "url": "http://carnationfarmersmarket.org/",
+    "description": "Fresh produce, flowers, plants, food vendors, cooking demonstrations, 3-7 p.m. Tuesdays, Stossel Avenue Northeast and West Bird Street, Carnation."
+  },
+  {
+    "name": "Lake Forest Park Farmers Market",
+    "category": "market",
+    "quadrant": "north",
+    "url": "http://thirdplacecommons.org/farmers-market/",
+    "description": "Local produce, flowers, plants, 10 a.m.-3 p.m. Sundays, Third Place Commons, 17171 Bothell Way N.E., Lake Forest Park."
+  },
+  {
+    "name": "Edmonds Garden Market/Summer Market",
+    "category": "market",
+    "quadrant": "north",
+    "url": "http://historicedmonds.org/summer-market/",
+    "description": "Garden Market, fresh produce, plants, flowers, processed foods, arts and crafts, 9 a.m.-2 p.m. Saturdays through June 9, Fifth Avenue and Bell Street, Edmonds; Summer Market starting June 16, fresh produce, flowers, plants, arts and crafts, food vendors, 9 a.m.-3 p.m. Saturdays (no market Aug. 11), Fifth Avenue and Main Street, Edmonds."
+  },
+  {
+    "name": "Mukilteo Farmers Market",
+    "category": "market",
+    "quadrant": "north",
+    "url": "http://mukilteofarmersmarket.org",
+    "description": "Opening June 6, local produce, flowers, arts and crafts, food vendors, 3-7 p.m. Wednesdays, Mukilteo Lighthouse Park, 609 Front St., Mukilteo."
+  },
+  {
+    "name": "Mill Creek Farmers Market",
+    "category": "market",
+    "quadrant": "north",
+    "url": "http://millcreekfarmersmarket.org",
+    "description": "Opening May 25, First year of new market with local produce, arts and crafts, noon-5 p.m. Fridays, Mill Creek City Hall North, 15720 Main St., Mill Creek."
+  },
+  {
+    "name": "Bothell Farmers Market",
+    "category": "market",
+    "quadrant": "north",
+    "url": "http://countryvillagebothell.com/bothell-farmers-market",
+    "description": "Opening June 1, locally grown produce, flowers, baked goods, arts and crafts by local artists, noon-6 p.m. Fridays, Country Village, 23718 Bothell-Everett Highway, Bothell."
+  },
+  {
+    "name": "Everett Farmers Market",
+    "category": "market",
+    "quadrant": "north",
+    "phone": "425-422-5656",
+    "url": "http://everettfarmersmarket.net/",
+    "description": "Fresh produce, arts and crafts, food vendors, 11 a.m.-4 p.m. Sundays, Port of Everett Boxcar Park, 615 13th St., Everett; also 4-8 p.m. Wednesdays, May 23-Sept. 26, Everett Station Transit Center, 2333 32nd St., Everett."
+  },
+  {
+    "name": "Snohomish Farmers Market",
+    "category": "market",
+    "quadrant": "north",
+    "url": "http://snohomishfarmersmarket.org",
+    "description": "Local produce and farm products, plants, flowers, arts and crafts, food vendors, 3-7 p.m. Thursdays, Cedar Avenue and Pearl Street, Snohomish."
+  },
+  {
+    "name": "Renton Farmers Market at the Piazza",
+    "category": "market",
+    "quadrant": "south",
+    "url": "http://rentonfarmersmarket.com",
+    "description": "Opening June 5, fresh produce, flowers, food vendors, 3-7 p.m. Tuesdays, Piazza Park, South Third Street and Burnett Avenue South, Renton."
+  },
+  {
+    "name": "Burien Farmers Market",
+    "category": "market",
+    "quadrant": "south",
+    "url": "http://discoverburien.org/events/event/burien-farmers-market/",
+    "description": "Farm products, food vendors, handmade goods, baked products, 11 a.m.-6 p.m. Thursdays, Burien Town Square Park, 152nd Street Southwest and Fifth Avenue Southwest, Burien."
+  },
+  {
+    "name": "Kent Farmers Market",
+    "category": "market",
+    "quadrant": "south",
+    "url": "http://kentfarmersmarket.com/",
+    "description": "Opening June 2, fresh produce, food vendors, 9 a.m.-2 p.m. Saturdays (no market July 14), Town Square Plaza Park, Smith Street and Second Avenue, Kent."
+  },
+  {
+    "name": "Auburn Farmers Market",
+    "category": "market",
+    "quadrant": "south",
+    "url": "http://auburnwa.gov/page70.aspx",
+    "description": "Opening June 3, locally grown and farm-based foods, crafts, food vendor, performances, 10 a.m.-3 p.m. Sundays, Les Gove Park, 11th Street and Auburn Way South, Auburn."
+  },
+  {
+    "name": "Maple Valley Farmers Market",
+    "category": "market",
+    "quadrant": "south",
+    "url": "http://maplevalleyfarmersmarket.com",
+    "description": "Opening June 16, fresh produce, arts and crafts, food vendors, 9 a.m.-2 p.m. Saturdays, Rock Creek Elementary School, 25700 Maple Valley-Black Diamond Road, Maple Valley."
+  },
+  {
+    "name": "Federal Way Farmers Market",
+    "category": "market",
+    "quadrant": "south",
+    "url": "http://federalwayfarmersmarket.com",
+    "description": "Local produce, arts, crafts, flowers, plants, 9 a.m.-3 p.m. Saturdays, Commons parking lot, 1701 S. 320th St., Federal Way."
+  },
+  {
+    "name": "Puyallup Farmers Market",
+    "category": "market",
+    "quadrant": "south",
+    "url": "http://puyallupmainstreet.com/events/puyallup-farmers-market/",
+    "description": "Local produce, flowers, plants, arts and crafts, food vendors, 9 a.m.-2 p.m. Saturdays, Pioneer Park Pavilion, 330 S. Meridian St., Puyallup."
+  },
+  {
+    "name": "Vashon Farmers Market",
+    "category": "market",
+    "quadrant": "south",
+    "url": "http://vigavashon.org/farmers-market/",
+    "description": "Fresh produce, food vendors, 10 a.m.-2 p.m. Saturdays, also 3-6 p.m. Wednesdays starting in June, 17519 Vashon Highway S.W., Vashon."
+  },
+  {
+    "name": "Tacoma Farmers Markets",
+    "category": "market",
+    "quadrant": "south",
+    "url": "https://tacomafarmersmarket.com/",
+    "description": "Local produce, food vendors, arts and crafts, 10 a.m.-3 p.m. Thursdays, Broadway between South 9th and South 11th Streets, Tacoma; also 10 a.m.-3 p.m. Sundays starting June 30, 5005 Ruston Way; 3-7 p.m. Tuesdays starting June 5, 3500 McKinley Ave. E., Tacoma."
   }
 ]
