@@ -17,4 +17,10 @@ var padLeft = function(string, length, padder = "0") {
   }
 };
 
-module.exports = { intersects, padLeft };
+// Show items included in a list of categories
+var filterCategories = function(list, cats) {
+  if (!cats || !cats.length) return list;
+  return list.filter(d => intersects(cats, d.categories));
+};
+
+module.exports = { intersects, padLeft, filterCategories };
