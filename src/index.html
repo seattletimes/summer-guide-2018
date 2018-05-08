@@ -67,7 +67,17 @@
           <option value="east">East</option>
           <option value="west">West</option>
         </select>
-        <button class="generate-itinerary">Go</button>
+        <div class="filters">
+          <h2 class="nav-header">I would like to see …</h2>
+          <ul>
+            <% json.categories.forEach(function(item) { %>
+            <li>
+              <input class="planner-category" type="checkbox" value="<%= item.short %>" id="planner-<%= item.short %>">
+              <label for="planner-<%= item.short %>">… <%= item.long %></label>
+            <% }); %>
+          </ul>
+          <button class="generate-itinerary">Go</button>
+        </div>
       </div>
 
       <div class="itinerary-results">

@@ -12,6 +12,14 @@ var resultList = $.one(".itinerary-results ul");
 var today = new Date();
 dateInput.value = `${today.getFullYear()}-${padLeft(today.getMonth() + 1, 2)}-${padLeft(today.getDate(), 2)}`;
 
+var spaceTimeFilters = {};
+var updateFilters = function() {
+  spaceTimeFilters = {
+    quadrant: quadrantSelect.value,
+    date: dateInput.valueAsDate, // TODO: IE 11 support ... ?
+  };
+};
+
 var eventsAndRecs = eventData.concat(recsData);
 
 var filterQuadrant = function(list, quadrant) {
@@ -33,28 +41,39 @@ var drawItem = function(list) {
   return list[(list.length * Math.random()) | 0];
 };
 
-var getItem = function(filters) {
+var getItem = function(filters, cats) {
   var eligible = filterDate(
-    filterQuadrant(eventsAndRecs, filters.quadrant),
+    filterCategories(
+      filterQuadrant(eventsAndRecs, filters.quadrant),
+      cats),
     filters.date);
   var data = drawItem(eligible);
   return {
-    category: "TK",
+    category: cats[0], // TODO: use real words
     data,
   }
 };
 
+var reroll = function() {
+  var cat = this.dataset.cat;
+  var nameNode = this.parentNode.nextElementSibling;
+  var descNode = nameNode.nextElementSibling;
+
+  var newItem = getItem(spaceTimeFilters, [cat]);
+  nameNode.innerHTML = newItem.data.name;
+  descNode.innerHTML = newItem.data.description || "";
+};
+
 var generatePlan = function() {
-  var filters = {
-    quadrant: quadrantSelect.value,
-    date: dateInput.valueAsDate, // TODO: IE 11 support ... ?
-  };
-  var slots = [
-    getItem(filters),
-    getItem(filters),
-    getItem(filters),
-  ];
+  updateFilters();
+  var slots = $(".planner-category:checked").map(c => {
+    var cats = [c.value];
+    return getItem(spaceTimeFilters, cats);
+  });
   resultList.innerHTML = planTemplate(slots);
-}
+  $(".reroll").forEach( btn => {
+    btn.addEventListener("click", reroll);
+  });
+};
 
 goButton.addEventListener("click", generatePlan);

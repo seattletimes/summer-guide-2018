@@ -1,6 +1,14 @@
-<% data.forEach(function(item) { %>
+<% data.forEach(function(item) {%>
 <li>
-  <h4><%= item.category %></h4>
-  <h2><%= item.data.name %></h2>
-  <p><%= item.data.description || "" %></p>
+  <h4>
+    <%= item.category %>
+    <%if (item.data) { %><button class="reroll" data-cat="<%= item.category %>">Reroll</button><% } %>
+  </h4>
+  <% if (item.data) { %>
+    <h2><%= item.data.name %></h2>
+    <p><%= item.data.description || "" %></p>
+  <% } else { %>
+    <h2>??? (TK a nice message)</h2>
+    <p>We couldn't find anything for this time and place.</p>
+  <% } %>
 <% }); %>
