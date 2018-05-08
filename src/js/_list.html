@@ -1,7 +1,7 @@
 <% data.forEach(function(row){ %>
 <tr class="item">
   <th><a href="<%= row.url %>"><%= row.name %></a></th>
-  <td class="dates"><%= row.date_text %></td>
+  <td class="dates"><%= row.date_text || "" %></td>
   <td class="description">
     <%= row.description %>
     <% if (row.phone) { %>
