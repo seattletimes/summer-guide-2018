@@ -1247,7 +1247,8 @@
     "name": "Swingin’ Summer Eve Community Festival",
     "date_text": "July 18",
     "date": "7/15/2018",
-    "description": "Book sale, food vendors, music by Petty Thief (Tom Petty Tribute Band), 5:30 p.m. Cromwell Park, North 179th Street and Meridian Avenue North, Shoreline ([shorelinewa.gov/specialeventsCQ)](http://shorelinewa.gov/specialevents )."
+    "url": "http://shorelinewa.gov/specialevents",
+    "description": "Book sale, food vendors, music by Petty Thief (Tom Petty Tribute Band), 5:30 p.m. Cromwell Park, North 179th Street and Meridian Avenue North, Shoreline "
   },
   {
     "name": "White Center Jubilee Days",
@@ -1264,7 +1265,7 @@
     "end": "7/22/2018",
     "phone": "360-226-3493",
     "url": "http://kingcofair.com",
-    "details": "$10/at the gate, $7/advance, $7/military with ID; ages 4 and younger free .",
+    "details": "$10/at the gate, $7/advance, $7/military with ID; ages 4 and younger free",
     "description": "Carnival rides, vendors, racing pigs, music, food vendors, 4-H displays, 10 a.m.-10 p.m. July 19-21, 10 a.m.-6 p.m. July 22, Enumclaw Expo Center, 45224 284th Ave. S.E., Enumclaw."
   },
   {
@@ -1281,7 +1282,7 @@
     "start": "7/20/2018",
     "end": "7/22/2018",
     "url": "http://unitedindians.org/seafair-pow-wow/",
-    "details": "$5/July 21-22, ages 11 and younger free .",
+    "details": "$5/July 21-22, ages 11 and younger free",
     "description": "Native American and Alaskan Native drummers, dancers in traditional regalia, Native food and art vendors; Family Night, 4-10 p.m. July 20; 10 a.m.-10 p.m. July 21 with Coastal Grand Entry, 11 a.m. and 6 p.m. and Pow Wow Grand Entry noon and 7 p.m.; 10 a.m.-8 p.m. July 22 with Grand Entry at noon, Daybreak Star Cultural Center, 5011 Bernie Whitebear Way, Discovery Park, Seattle; free July 20."
   },
   {
@@ -1290,7 +1291,7 @@
     "start": "7/20/2018",
     "end": "7/22/2018",
     "url": "http://capitolhillblockparty.com",
-    "details": "$65/day .",
+    "details": "$65/day",
     "description": "Local and national talent at indoor and outdoor venues, beer gardens, VIP lounges, 11th Avenue and East Pine Street, Seattle."
   },
   {
@@ -1300,7 +1301,7 @@
     "end": "7/21/2018",
     "phone": "206-795-5510",
     "url": "https://washingtonbeer.com/festivals/bremerton-summer-brewFest.php",
-    "details": "$15-$25, $5/designated driver .",
+    "details": "$15-$25, $5/designated driver",
     "description": "Music, food vendors, 100 craft beers from 36 breweries, ages 21 and older only; 4-9 p.m. July 20, noon-6:30 p.m. July 21, Bremerton Waterfront Boardwalk, Second Street and Washington Avenue, Bremerton."
   },
   {
@@ -1317,7 +1318,7 @@
     "start": "7/20/2018",
     "end": "7/22/2018",
     "url": "http://winthropbluesfestival.org",
-    "details": "$110/weekend pass .",
+    "details": "$110/weekend pass",
     "description": "Los Lonely Boys, California Honeydrops, Lydia Pense, The Blues Ranch, Winthrop."
   },
   {
@@ -1330,657 +1331,911 @@
   },
   {
     "name": "Sequim Lavender Festival",
+    "category": "festivals outdoors",
+    "quadrant": "west",
     "date_text": "July 20-22",
     "start": "7/20/2018",
     "end": "7/22/2018",
     "url": "http://lavenderfestival.com",
-    "description": "Music, vendors festival, farm tours, Sequim."
+    "description": "Music, vendors festival, farm tours",
+    "location": "Sequim"
   },
   {
     "name": "West Seattle Parade",
+    "category": "festivals ",
+    "quadrant": "west",
     "date_text": "July 21",
     "date": "7/21/2018",
     "url": "http://thewestseattleparade.com/home.html",
-    "description": "Hi-Yu royalty, Seafair Pirates, clowns, marching bands, drill teams, floats, 11 a.m., California Avenue Southwest from Southwest Lander Street to Southwest Edmunds Street, Seattle."
+    "description": "Hi-Yu royalty, Seafair Pirates, clowns, marching bands, drill teams, floats, 11 a.m.",
+    "location": "California Avenue Southwest from Southwest Lander Street to Southwest Edmunds Street, Seattle."
   },
   {
     "name": "PNA Summer Beer Taste",
+    "category": "food",
+    "quadrant": "north",
     "date_text": "July 21",
     "date": "7/21/2018",
     "url": "http://phinneycenter.org/summerbeer",
-    "details": "$25-$30, $10/designated driver .",
-    "description": "Ten tastes from 30 local microbreweries and cideries, snacks, 4 p.m. Phinney Center, 6532 Phinney Ave. N., Seattle."
+    "details": "$25-$30, $10/designated driver ",
+    "description": "Ten tastes from 30 local microbreweries and cideries, snacks, 4 p.m.",
+    "location": "Phinney Center, 6532 Phinney Ave. N., Seattle"
   },
   {
     "name": "Olde Burien Block Party",
+    "category": "music food festivals",
+    "quadrant": "south",
     "date_text": "July 21",
     "date": "7/21/2018",
     "url": "http://discoverburien.org",
-    "description": "Street closes to host live music and beer gardens, noon-11 p.m., Southwest 152nd Street, Burien."
+    "description": "Street closes to host live music and beer gardens, noon-11 p.m.",
+    "location": "Southwest 152nd Street, Burien"
   },
   {
     "name": "Flying Heritage Museum SkyFair",
+    "category": "cars arts",
+    "quadrant": "north",
     "date_text": "July 21",
     "date": "7/21/2018",
     "phone": "206-342-4242",
     "url": "http://flyingheritage.com/Visit/Events.aspx",
-    "details": "$15-$25, ages 5 and younger free .",
-    "description": "Air and ground show, vintage aircraft, tanks, 10 a.m.-4 p.m., Flying Heritage & Combat Armor Museum, 3407 109th St. S.W., Paine Field, Everett."
+    "details": "$15-$25, ages 5 and younger free",
+    "description": "Air and ground show, vintage aircraft, tanks, 10 a.m.-4 p.m.",
+    "location": "Flying Heritage & Combat Armor Museum, 3407 109th St. S.W., Paine Field, Everett"
   },
   {
     "name": "All British Field Meet Car Show",
+    "category": "cars",
+    "quadrant": "north east",
     "date_text": "July 21",
     "date": "7/21/2018",
     "url": "http://wwabfm.com/",
-    "details": "$10/cash parking .",
-    "description": "Display of hundreds of British vehicles, food vendors, cars for sale, 10 a.m.-4 p.m., Saint Edward State Park, 14445 Juanita Drive N.E., Kenmore."
+    "details": "$10/cash parking",
+    "description": "Display of hundreds of British vehicles, food vendors, cars for sale, 10 a.m.-4 p.m.",
+    "location": "Saint Edward State Park, 14445 Juanita Drive N.E., Kenmore"
   },
   {
     "name": "Bon Odori",
+    "category": "festivals",
+    "quadrant": "south",
     "date_text": "July 21-22",
     "start": "7/21/2018",
     "end": "7/22/2018",
     "phone": "206-329-0800",
     "url": "http://seattlebetsuin.com",
-    "description": "Japanese Buddhist festival to honor deceased ancestors by performing folk dances; traditional Japanese foods available for purchase; martial arts demonstrations, cultural exhibits, Beer Garden with music, 4-10 p.m. July 21, 3-8 p.m. July 22, Seattle Buddhist Temple, 1427 S. Main St., Seattle."
+    "description": "Japanese Buddhist festival to honor deceased ancestors by performing folk dances; traditional Japanese foods available for purchase; martial arts demonstrations, cultural exhibits, Beer Garden with music, 4-10 p.m. July 21, 3-8 p.m. July 22",
+    "location": "Seattle Buddhist Temple, 1427 S. Main St., Seattle"
   },
   {
     "name": "Des Moines Waterland Festival and Parade",
+    "category": "festivals",
+    "quadrant": "south",
     "date_text": "July 21-22",
     "start": "7/21/2018",
     "end": "7/22/2018",
     "url": "https://www.destinationdesmoines.org/waterland-festival",
-    "description": "Kids’ carnival, July 20-22; Waterland Parade, July 21; Wheels and Keels car and boat show July 22; Waterland Arts Festival, 10 a.m.-6 p.m. July 21, 10 a.m.-4 p.m. July 22, Des Moines Beach Park, 22030 Cliff Avenue S., Des Moines."
+    "description": "Kids’ carnival, July 20-22; Waterland Parade, July 21; Wheels and Keels car and boat show July 22; Waterland Arts Festival, 10 a.m.-6 p.m. July 21, 10 a.m.-4 p.m. July 22",
+    "location": "Des Moines Beach Park, 22030 Cliff Avenue S., Des Moines"
   },
   {
     "name": "Covington Days Festival",
+    "category": "festivals",
+    "quadrant": "south",
     "date_text": "July 21-22",
     "start": "7/21/2018",
     "end": "7/22/2018",
     "url": "http://covingtonwa.gov/covingtondays/",
-    "description": "Parade, 10 a.m. July 21; arts and crafts vendors, carnival games, exhibits, kid and family activities, stage entertainment, inflatable toys, watermelon eating contest, 10 a.m.-7 p.m. July 21, 10 a.m.-5 p.m. July 22, Valley Medical parking lot, 27500 168 Pl. S.E., Covington."
+    "description": "Parade, 10 a.m. July 21; arts and crafts vendors, carnival games, exhibits, kid and family activities, stage entertainment, inflatable toys, watermelon eating contest, 10 a.m.-7 p.m. July 21, 10 a.m.-5 p.m. July 22",
+    "location": "Valley Medical parking lot, 27500 168 Pl. S.E., Covington"
   },
   {
     "name": "Seafair Triathlon",
+    "category": "athletic",
+    "quadrant": "south",
     "date_text": "July 22",
     "date": "7/22/2018",
     "url": "http://seafair.com",
-    "description": "Swimming, cycling and running, 8 a.m. Seward Park, 5902 Lake Washington Blvd. S., Seattle."
+    "description": "Swimming, cycling and running, 8 a.m. ",
+    "location": "Seward Park, 5902 Lake Washington Blvd. S., Seattle"
   },
   {
     "name": "Mustang Round Up and All Ford Picnic",
+    "category": "cars",
+    "quadrant": "east",
     "date_text": "July 22",
     "date": "7/22/2018",
-    "details": "$20 ([motosho.com/event/38th-annual-mustang-roundup-all-ford-picnicCQ).](https://motosho.com/event/38th-annual-mustang-roundup-all-ford-picnic)",
-    "description": "Mustangs Northwest event with People’s Choice Awards, 9 a.m. Bellevue College, 3000 Landerholm Circle S.E., Bellevue."
+    "url": "https://motosho.com/event/38th-annual-mustang-roundup-all-ford-picnic",
+    "details": "$20",
+    "description": "Mustangs Northwest event with People’s Choice Awards, 9 a.m. ",
+    "location": "Bellevue College, 3000 Landerholm Circle S.E., Bellevue"
   },
   {
     "name": "Tacoma Food Truck Fest",
+    "category": "food",
+    "quadrant": "south",
     "date_text": "July 22",
     "date": "7/22/2018",
     "url": "http://metroparkstacoma.org/foodtruckfest",
-    "description": "Assortment of food trucks, live music, beer garden, 10:30 a.m.-6 p.m., Wright Park, 501 S. I St., Tacoma."
+    "description": "Assortment of food trucks, live music, beer garden, 10:30 a.m.-6 p.m.",
+    "location": "Wright Park, 501 S. I St., Tacoma"
   },
   {
     "name": "Greenwood Seafair Parade",
+    "category": "festivals",
+    "quadrant": "north",
     "date_text": "July 25",
     "date": "7/25/2018",
     "url": "http://seafair.com/events/2018/greenwood-seafair-parade",
-    "description": "Very Important Kids (VIK) parade, 6 p.m.; 69th annual grand parade, 6:30 p.m., Greenwood Avenue North from North 95th Street to North 85th Street, Seattle."
+    "description": "Very Important Kids (VIK) parade, 6 p.m.; 69th annual grand parade, 6:30 p.m.",
+    "location": "Greenwood Avenue North from North 95th Street to North 85th Street, Seattle"
   },
   {
     "name": "BAM ArtsFair",
+    "category": "arts markets",
+    "quadrant": "east",
     "date_text": "July 27-29",
     "start": "7/27/2018",
     "end": "7/29/2018",
     "url": "http://bellevuearts.org/artsfair",
-    "description": "Celebrating its 72nd year, arts and crafts marketplace with 300 vendors, Sound and Movement Stage, food trucks, Kidsfair, 9:30 a.m.-9:30 p.m. July 27-28, 10 a.m.-6 p.m. July 29, Bellevue Square; 10 a.m.-6 p.m. , Bellevue Arts Museum, including free museum admission 10 a.m.-8 p.m. July 27-28, 10 a.m.-6 p.m. July 29, Bellevue."
+    "description": "Celebrating its 72nd year, arts and crafts marketplace with 300 vendors, Sound and Movement Stage, food trucks, Kidsfair, 9:30 a.m.-9:30 p.m. July 27-28, 10 a.m.-6 p.m. July 29, Bellevue Square; 10 a.m.-6 p.m., Bellevue Arts Museum, including free museum admission 10 a.m.-8 p.m. July 27-28, 10 a.m.-6 p.m. July 29, Bellevue",
+    "location": "Bellevue Arts Museum and Bellevue Square, Bellevue"
   },
   {
     "name": "Bellevue Festival of the Arts",
+    "category": "arts markets",
+    "quadrant": "east",
     "date_text": "July 27-29",
     "start": "7/27/2018",
     "end": "7/29/2018",
     "url": "http://bellevuefest.org",
-    "description": "Fine arts displays, marketplace, live music, food and drink vendors, children’s activity tent, Bellevue Way and Northeast Eighth Street, Bellevue."
+    "description": "Fine arts displays, marketplace, live music, food and drink vendors, children’s activity tent",
+    "location": "Bellevue Way and Northeast Eighth Street, Bellevue"
   },
   {
     "name": "6th Street Fair",
+    "category": "arts markets",
+    "quadrant": "east",
     "date_text": "July 27-29",
     "start": "7/27/2018",
     "end": "7/29/2018",
     "url": "http://bellevuedowntown.com/events/6th-street-fair",
-    "description": "Open-air artists’ showcase of sculpture, jewelry, home décor, wood, glass, fabrics, 10 a.m.-8 p.m. July 27-28, 10 a.m.-6 p.m. July 29, Northeast Sixth Street and 106th Avenue Northeast, Bellevue."
+    "description": "Open-air artists’ showcase of sculpture, jewelry, home décor, wood, glass, fabrics, 10 a.m.-8 p.m. July 27-28, 10 a.m.-6 p.m. July 29",
+    "location": "Northeast Sixth Street and 106th Avenue Northeast, Bellevue"
   },
   {
     "name": "Renton River Days",
+    "category": "festivals",
+    "quadrant": "south",
     "date_text": "July 27-29",
     "start": "7/27/2018",
     "end": "7/29/2018",
     "url": "http://rentonriverdays.org",
-    "description": "KidZone inflatables and activities, two entertainment stages, Nibble of Renton, Art Market, Art Show, Quilt Show, 11 a.m.-8 p.m. July 27-28, 11 a.m.-6 p.m. July 29, Liberty Park, 1101 Bronson Way N., Renton; parade, 10 a.m. July 28, Third Street, Renton."
+    "description": "KidZone inflatables and activities, two entertainment stages, Nibble of Renton, Art Market, Art Show, Quilt Show, 11 a.m.-8 p.m. July 27-28, 11 a.m.-6 p.m. July 29, Liberty Park, 1101 Bronson Way N., Renton; parade, 10 a.m. July 28, Third Street, Renton.",
+    "location": "Liberty Park, 1101 Bronson Way N., Renton"
   },
   {
     "name": "Auburn Summer Sounds and Cinema",
+    "category": "arts festivals",
+    "quadrant": "south",
     "date_text": "July 27-Aug. 10",
     "start": "7/27/2018",
     "end": "8/10/2018",
     "phone": "253-931-3043",
     "url": "http://auburnwa.gov/events",
-    "description": "Entertainment, food vendors, inflatable rides, art activities, outdoor movies; “Despicable Me,” July 27, Lea Hill Park; “Coco,” Aug. 3, Sunset Park; “Raiders of the Lost Ark,” Aug. 10, Les Gove Park, Auburn."
+    "description": "Entertainment, food vendors, inflatable rides, art activities, outdoor movies; “Despicable Me,” July 27, Lea Hill Park; “Coco,” Aug. 3, Sunset Park; “Raiders of the Lost Ark,” Aug. 10, Les Gove Park, Auburn.",
+    "location": "Various Auburn park locations"
   },
   {
     "name": "Goodguys Northwest Nationals",
+    "category": "cars",
+    "quadrant": "south",
     "date_text": "July 27-29",
     "start": "7/27/2018",
     "end": "7/29/2018",
     "url": "http://good-guys.com/pnwn-2018",
-    "details": "$6-$20 .",
-    "description": "Friday Nite Vintage Drags, Pacific Raceways, Kent; display of pre-1988 hot rods, customs, classics, muscle cars and trucks, swap meet, cars for sale, kids’ activities, Model and Pedal Car Show, vendors, 8 a.m.-5 p.m. July 27, 8 a.m.-8 p.m. July 28, 8 a.m.-3 p.m. July 29; Washington State Fair Events Center, 110 Ninth Ave. S.W., Puyallup."
+    "details": "$6-$20",
+    "description": "Friday Nite Vintage Drags, Pacific Raceways, Kent; display of pre-1988 hot rods, customs, classics, muscle cars and trucks, swap meet, cars for sale, kids’ activities, Model and Pedal Car Show, vendors, 8 a.m.-5 p.m. July 27, 8 a.m.-8 p.m. July 28, 8 a.m.-3 p.m. July 29",
+    "location": "Washington State Fair Events Center, 110 Ninth Ave. S.W., Puyallup"
   },
   {
     "name": "Tour de Terrace",
+    "category": "cars festivals",
+    "quadrant": "north",
     "date_text": "July 27-29",
     "start": "7/27/2018",
     "end": "7/29/2018",
     "url": "http://tourdeterrace.org",
-    "description": "Parade, vendors, car show, Mountlake Terrace, 22400 56th Avenue W., Mountlake Terrace."
+    "description": "Parade, vendors, car show",
+    "location": "Mountlake Terrace, 22400 56th Avenue W., Mountlake Terrace"
   },
   {
     "name": "Lake Stevens Aquafest",
+    "category": "festivals acquatic",
+    "quadrant": "north",
     "date_text": "July 27-29",
     "start": "7/27/2018",
     "end": "7/29/2018",
     "url": "http://aquafest.com",
-    "description": "Entertainment, carnival, food and craft vendors, Lake Stevens."
+    "description": "Entertainment, carnival, food and craft vendors",
+    "location": "Lake Stevens"
   },
   {
     "name": "Seafair Torchlight Parade/Fanfest",
+    "category": "festivals",
+    "quadrant": "central",
     "date_text": "July 28",
     "date": "7/28/2018",
     "url": "http://seafair.com/events/2018/torchlightparade",
-    "details": "$35-$60 .",
-    "description": "See Torchlight Parade floats and entries, entertainment, exhibits, Seafair Treasure Hunt, noon-6 p.m., Seattle Center; parade with more than 100 units march, float and dance in celebration of Seattle, 7 p.m., along Fourth Avenue from Seattle Center; free, reserved bleacher seating available,."
+    "details": "$35-$60",
+    "description": "See Torchlight Parade floats and entries, entertainment, exhibits, Seafair Treasure Hunt, noon-6 p.m., Seattle Center; parade with more than 100 units march, float and dance in celebration of Seattle, 7 p.m., along Fourth Avenue from Seattle Center; free, reserved bleacher seating available.",
+    "location": "Seattle Center, Seattle"
   },
   {
     "name": "Torchlight Run",
+    "category": "athletic",
+    "quadrant": "central",
     "date_text": "July 28",
     "date": "7/28/2018",
     "url": "http://seafair.org",
-    "details": "$39-$49 .",
-    "description": "Run 5K or 8K along the Torchlight Parade route, 6 p.m. Seattle Center, Seattle."
+    "details": "$39-$49 ",
+    "description": "Run 5K or 8K along the Torchlight Parade route, 6 p.m. Seattle Center, Seattle.",
+    "location": "Seattle Center, Seattle"
   },
   {
     "name": "Freeway Park Fountain Festival",
+    "category": "festivals",
+    "quadrant": "central",
     "date_text": "July 28",
     "date": "7/28/2018",
     "url": "http://freewayparkassociation.org/fountain-festival/",
-    "description": "Celebrates the park’s greatest architectural feature with water games, food, music, 11 a.m.-2 p.m., Freeway Park, 700 Seneca St., Seattle."
+    "description": "Celebrates the park’s greatest architectural feature with water games, food, music, 11 a.m.-2 p.m.",
+    "location": "Freeway Park, 700 Seneca St., Seattle"
   },
   {
     "name": "Ballard P-Patch Art in the Garden",
+    "category": "arts outdoors",
+    "quadrant": "north",
     "date_text": "July 28",
     "date": "7/28/2018",
     "url": "http://ballardppatch.org",
-    "description": "Arts and crafts vendors, beer garden, kids’ activities; proceeds support the garden, 10 a.m.-5 p.m., Ballard P-Patch, 25th Avenue Northwest at Northwest 85th Street, Seattle."
+    "description": "Arts and crafts vendors, beer garden, kids’ activities; proceeds support the garden, 10 a.m.-5 p.m. ",
+    "location": "Ballard P-Patch, 25th Avenue Northwest at Northwest 85th Street, Seattle"
   },
   {
     "name": "Show ’n Shine Auto Angels Car Show",
+    "category": "cars",
+    "quadrant": "east",
     "date_text": "July 28",
     "date": "7/28/2018",
     "url": "http://autoangels.org/car-show/",
-    "description": "Car, truck, motorcycle show, kids’ activities, music, food vendors; proceeds benefit Auto Angels vehicle repair for low-income people, 9 a.m.-3 p.m., Bellevue Presbyterian Church, 1717 Bellevue Way, Bellevue; free for spectators."
+    "details": "free for spectators",
+    "description": "Car, truck, motorcycle show, kids’ activities, music, food vendors; proceeds benefit Auto Angels vehicle repair for low-income people, 9 a.m.-3 p.m.",
+    "location": "Bellevue Presbyterian Church, 1717 Bellevue Way, Bellevue"
   },
   {
     "name": "NW SolarFest Sustainable Living Fair",
+    "category": "cars arts",
+    "quadrant": "north",
     "date_text": "July 28",
     "date": "7/28/2018",
     "url": "http://nwsolarfest.org",
-    "description": "Solar and electric vehicles, KidZone, vendors, food, entertainment, 10 a.m.-5 p.m., Shoreline Community College, 16101 Greenwood Ave. N., Shoreline."
+    "description": "Solar and electric vehicles, KidZone, vendors, food, entertainment, 10 a.m.-5 p.m.",
+    "location": "Shoreline Community College, 16101 Greenwood Ave. N., Shoreline"
   },
   {
     "name": "Touch-A-Truck Safety and Emergency Preparedness Fair",
+    "category": "arts",
+    "quadrant": "south",
     "date_text": "July 28",
     "date": "7/28/2018",
     "url": "http://www.tukwilawa.gov/departments/parks-and-recreation/community-events/touch-a-truck-safety-emergency-preparedness-fair/",
-    "description": "Kids can sit in trucks, emergency vehicles, buses, fire truck, 9 a.m.-1 p.m., Westfield Southcenter south parking lot, 633 Southcenter Parkway, Tukwila."
+    "description": "Kids can sit in trucks, emergency vehicles, buses, fire truck, 9 a.m.-1 p.m.",
+    "location": "Westfield Southcenter south parking lot, 633 Southcenter Parkway, Tukwila"
   },
   {
     "name": "Samish Island Arts Festival",
+    "category": "arts festivals",
+    "quadrant": "north",
     "date_text": "July 28",
     "date": "7/28/2018",
     "url": "http://samishisland.net/si_artsfestival.html",
-    "description": "Vendors, live music, beer garden, kids’ craft area, 10 a.m.-4 p.m., Samish Island Community Club, 11292 Blue Heron Road, Bow."
+    "description": "Vendors, live music, beer garden, kids’ craft area, 10 a.m.-4 p.m.",
+    "location": "Samish Island Community Club, 11292 Blue Heron Road, Bow"
   },
   {
     "name": "Alki Art Fair",
+    "category": "arts market",
+    "quadrant": "west",
     "date_text": "July 28-29",
     "start": "7/28/2018",
     "end": "7/29/2018",
     "url": "http://alkiartfair.org",
-    "description": "Art displays and vendors, children’s art activities, live music, silent auction, food vendors, 10 a.m.-6 p.m., music until 9 p.m. July 28; 10 a.m.-6 p.m. July 29, Alki Beach Promenade, Alki Avenue Southwest and 63rd Avenue Southwest, Seattle."
+    "description": "Art displays and vendors, children’s art activities, live music, silent auction, food vendors, 10 a.m.-6 p.m., music until 9 p.m. July 28; 10 a.m.-6 p.m. July 29",
+    "location": "Alki Beach Promenade, Alki Avenue Southwest and 63rd Avenue Southwest, Seattle"
   },
   {
     "name": "Pacific Northwest Highland Games",
+    "category": "festivals",
+    "quadrant": "east",
     "date_text": "July 28-29",
     "start": "7/28/2018",
     "end": "7/29/2018",
     "url": "http://sshga.org",
-    "details": "$15-$20/day, ages 4 and younger free; half price after 4 p.m. .",
-    "description": "Ceilidh party with piping and performances, 6-11 p.m. July 27, free admission; 72nd annual traditional Scottish strength competitions, pubs, Celtic Arts Showcase vendors, Avenue and Glen of the Clans heritage information, Scottish Farm and Kennel animals, Highland dancing and bagpipe and drum competitions and performances, food vendors, 8 a.m.-11 p.m. July 28, 8 a.m.-5:30 p.m. July 29; Massing of the Pipes and Drums, 12:30 and 5:30 p.m. , Enumclaw Expo Center, 45224 284th Ave. S.E., Enumclaw."
+    "details": "$15-$20/day, ages 4 and younger free; half price after 4 p.m. ",
+    "description": "Ceilidh party with piping and performances, 6-11 p.m. July 27, free admission; 72nd annual traditional Scottish strength competitions, pubs, Celtic Arts Showcase vendors, Avenue and Glen of the Clans heritage information, Scottish Farm and Kennel animals, Highland dancing and bagpipe and drum competitions and performances, food vendors, 8 a.m.-11 p.m. July 28, 8 a.m.-5:30 p.m. July 29; Massing of the Pipes and Drums, 12:30 and 5:30 p.m. ",
+    "location": "Enumclaw Expo Center, 45224 284th Ave. S.E., Enumclaw"
   },
   {
     "name": "Camlann Saint James Faire",
+    "category": "festivals",
+    "quadrant": "east",
     "date_text": "July 28-29",
     "start": "7/28/2018",
     "end": "7/29/2018",
     "url": "http://camlann.org/St James_faire.htm",
-    "details": "$7-$10 cash or check; $45/5 p.m. feast by reservation, includes festival .",
-    "description": "Medieval combat, puppetry, music, crafts, archery, minstrels, craft shops, buy or rent medieval attire, noon-5 p.m., Camlann Medieval Village, 10320 Kelly Road N.E., Carnation."
+    "details": "$7-$10 cash or check; $45/5 p.m. feast by reservation, includes festival",
+    "description": "Medieval combat, puppetry, music, crafts, archery, minstrels, craft shops, buy or rent medieval attire, noon-5 p.m.",
+    "location": "Camlann Medieval Village, 10320 Kelly Road N.E., Carnation"
   },
   {
     "name": "Movies at the Mural",
+    "category": "arts",
+    "quadrant": "central",
     "date_text": "July 28-Aug. 25",
     "start": "7/28/2018",
     "end": "8/25/2018",
     "url": "http://seattlecenter.com/moviesatthemural/",
-    "description": "Classic and contemporary movies for all-ages on 40-foot screen, 9 p.m. Saturdays through Aug. 25, Mural Amphitheatre, Seattle Center, Seattle; free."
+    "details": "free",
+    "description": "Classic and contemporary movies for all-ages on 40-foot screen, 9 p.m. Saturdays through Aug. 25",
+    "location": "Mural Amphitheatre, Seattle Center, Seattle"
   },
   {
     "name": "Movies in the Park, Mercer Island",
+    "category": "arts",
+    "quadrant": "east",
     "date_text": "July 28-Aug. 18",
     "start": "7/28/2018",
     "end": "8/18/2018",
     "phone": "206-275-7609",
     "url": "http://www.mercergov.org/Page.asp?NavID=3065",
-    "description": "Bring blankets, lawn chairs, flashlight; activities and crafts an hour before, refreshments available; weather permitting; “Moana,” 9:15 July 28; “A Wrinkle In Time,” 9:15 Aug. 18, Mercerdale Park, 77th Avenue Southeast and Southeast 32nd Street, Mercer Island."
+    "description": "Bring blankets, lawn chairs, flashlight; activities and crafts an hour before, refreshments available; weather permitting; “Moana,” 9:15 July 28; “A Wrinkle In Time,” 9:15 Aug. 18",
+    "location": "Mercerdale Park, 77th Avenue Southeast and Southeast 32nd Street, Mercer Island"
   },
   {
     "name": "Snohomish Garden Club Tour",
+    "category": "outdoors",
+    "quadrant": "east",
     "date_text": "July 29",
     "date": "7/29/2018",
     "url": "http://snohomishgardenclub.com",
-    "details": "$15, ages 12 and younger free .",
-    "description": "Tour of diverse gardens, proceeds benefit community projects, noon-5 p.m., Snohomish Senior Center, 506 Fourth St., Snohomish."
+    "details": "$15, ages 12 and younger free",
+    "description": "Tour of diverse gardens, proceeds benefit community projects, noon-5 p.m.",
+    "location": "Snohomish Senior Center, 506 Fourth St., Snohomish"
   },
   {
     "name": "Crossroads Movies in the Park",
+    "category": "arts",
+    "quadrant": "east",
     "date_text": "Aug. 2-23",
     "start": "8/2/2018",
     "end": "8/23/2018",
     "phone": "425-452-4240",
     "url": "http://bellevueoutdoormovies.com",
-    "description": "Activities for all ages, movie at dusk, 7:30 p.m. Thursdays through Aug. 23, Crossroads Park, 16000 N.E. 10th St., Bellevue."
+    "description": "Activities for all ages, movie at dusk, 7:30 p.m. Thursdays through Aug. 23",
+    "location": "Crossroads Park, 16000 N.E. 10th St., Bellevue"
   },
   {
     "name": "Seafair Weekend Festival",
+    "category": "festivals ",
+    "quadrant": "south",
     "date_text": "Aug. 3-5",
     "start": "8/3/2018",
     "end": "8/5/2018",
     "phone": "206-728-0123",
     "url": "http://seafair.com",
     "details": "$10-$40/day, $30-$150/day grandstand/Captains Club seating .",
-    "description": "A Northwest tradition since 1950, hydroplane racing on the water, Air Show featuring the U.S. Navy Blue Angels, wakeboarding shows, music and entertainment stage, food vendors, beer gardens, 9 a.m.-5 p.m., Genesee Park and Playfield, 4316 S. Genesee St., Seattle."
+    "description": "A Northwest tradition since 1950, hydroplane racing on the water, Air Show featuring the U.S. Navy Blue Angels, wakeboarding shows, music and entertainment stage, food vendors, beer gardens, 9 a.m.-5 p.m.",
+    "location": "Genesee Park and Playfield, 4316 S. Genesee St., Seattle"
   },
   {
     "name": "Jet Blast Bash",
+    "category": "festivals cars",
+    "quadrant": "south",
     "date_text": "Aug. 3-5",
     "start": "8/3/2018",
     "end": "8/5/2018",
-    "details": "$14-$24, ages 4 and younger free (206-764-5700 or [museumofflight.orgCQ).](http://www.museumofflight.org/)",
-    "description": "The U.S. Navy Blue Angels are based at the museum while they’re in town, taking off and landing from Boeing Field; plane and classic car display, food vendors, trampolines for kids, music in the beer garden, 9 a.m.-4 p.m., Museum of Flight, 9404 E. Marginal Way S., Seattle."
+    "phone": "206-764-5700",
+    "url": "http://www.museumofflight.org",
+    "details": "$14-$24, ages 4 and younger free",
+    "description": "The U.S. Navy Blue Angels are based at the museum while they’re in town, taking off and landing from Boeing Field; plane and classic car display, food vendors, trampolines for kids, music in the beer garden, 9 a.m.-4 p.m.",
+    "location": "Museum of Flight, 9404 E. Marginal Way S., Seattle"
   },
   {
     "name": "Umoja Fest Africatown Heritage Festival & Parade",
+    "category": "festivals",
+    "quadrant": "south",
     "date_text": "Aug. 3-5",
     "start": "8/3/2018",
     "end": "8/5/2018",
     "url": "http://umojafamilyfest.com/",
-    "description": "Africatown Heritage Parade featuring dance troops and drill teams, Children’s Day & Family Fun Village, Afrobeat & Roots Stage, fashion show, Heal The Hood Basketball Tournament & Hip Hop 4 Peace stage, food vendors and food trucks, vendor marketplace, community resource fair, Judkins Park & Playfield, 2150 S. Norman St., Seattle."
+    "description": "Africatown Heritage Parade featuring dance troops and drill teams, Children’s Day & Family Fun Village, Afrobeat & Roots Stage, fashion show, Heal The Hood Basketball Tournament & Hip Hop 4 Peace stage, food vendors and food trucks, vendor marketplace, community resource fair",
+    "location": "Judkins Park & Playfield, 2150 S. Norman St., Seattle"
   },
   {
     "name": "Magnolia SummerFest",
+    "category": "festivals",
+    "quadrant": "north",
     "date_text": "Aug. 3-5",
     "start": "8/3/2018",
     "end": "8/5/2018",
     "url": "http://magnoliasummerfest.org",
-    "description": "Music, food, arts and crafts vendors, bounce rides, kids’ activities, pet parade, talent show, outdoor movie, parade, West Smith Street and 33rd Avenue West, Seattle."
+    "description": "Music, food, arts and crafts vendors, bounce rides, kids’ activities, pet parade, talent show, outdoor movie, parade",
+    "location": "West Smith Street and 33rd Avenue West, Seattle"
   },
   {
     "name": "Gumshoe 5K Walk",
+    "category": "athletic outdoors",
+    "quadrant": "north",
     "date_text": "Aug. 3-19",
     "start": "8/3/2018",
     "end": "8/19/2018",
     "url": "http://dothegumshoe.org",
-    "details": "$15-$20 .",
-    "description": "Pick up list of clues to solve on 3.1 mile walk through the neighborhood anytime for prize drawings; all proceeds benefit Greenwood Senior Center, Greenwood Elementary School PTA and Phinney Ridge Lutheran Church Food Bank; Phinney Neighborhood Center, 6532 Phinney Ave. N, Seattle."
+    "details": "$15-$20",
+    "description": "Pick up list of clues to solve on 3.1 mile walk through the neighborhood anytime for prize drawings; all proceeds benefit Greenwood Senior Center, Greenwood Elementary School PTA and Phinney Ridge Lutheran Church Food Bank",
+    "location": "Phinney Neighborhood Center, 6532 Phinney Ave. N, Seattle"
   },
   {
     "name": "Lake City Summer Festival and Parade",
+    "category": "festivals",
+    "quadrant": "north",
     "date_text": "Aug. 4",
     "date": "8/4/2018",
     "url": "http://lakecitysummerfest.com",
-    "description": "Classic Seattle Salmon Bake, vintage car show, Big Truck Explorer Zone for kids, teen-focused Hip-Hop/Skate Park mash-up with music and skating, food trucks, 10:30 a.m.-9 p.m.; Kids Parade, 6 p.m., Dog Parade, 6:30 p.m., Seafair Grand Parade 7 p.m., Northeast 125th Street from Lake City Way Northeast to 26th Avenue Northeast and surrounding area, Seattle."
+    "description": "Classic Seattle Salmon Bake, vintage car show, Big Truck Explorer Zone for kids, teen-focused Hip-Hop/Skate Park mash-up with music and skating, food trucks, 10:30 a.m.-9 p.m.; Kids Parade, 6 p.m., Dog Parade, 6:30 p.m., Seafair Grand Parade 7 p.m",
+    "location": "Northeast 125th Street from Lake City Way Northeast to 26th Avenue Northeast and surrounding area, Seattle"
   },
   {
     "name": "Mill Creek Town Center Kid Fest and Dachshund Racing",
+    "category": "festivals",
+    "quadrant": "north",
     "date_text": "Aug. 4",
     "date": "8/4/2018",
     "url": "http://millcreektowncenter.biz/events/",
-    "description": "Activities for kids and parents, and new this year, dachshund races, 1-4 p.m., Mill Creek Town Center, 153rd Street Southwest and Main Street, Mill Creek."
+    "description": "Activities for kids and parents, and new this year, dachshund races, 1-4 p.m.",
+    "location": "Mill Creek Town Center, 153rd Street Southwest and Main Street, Mill Creek"
   },
   {
     "name": "Art in the Garden",
+    "category": "arts festivals",
+    "quadrant": "east",
     "date_text": "Aug. 4-5",
     "start": "8/4/2018",
     "end": "8/5/2018",
     "phone": "360-367-1343",
     "url": "http://plateauartsalive.org",
-    "description": "Festival with 30 local artists, 9 a.m.-5 p.m. Aug. 4, 10 a.m.-4 p.m. Aug. 5, Matson Family Farms, 46620 228th Ave. S.E., Enumclaw."
+    "description": "Festival with 30 local artists, 9 a.m.-5 p.m. Aug. 4, 10 a.m.-4 p.m. Aug. 5",
+    "location": "Matson Family Farms, 46620 228th Ave. S.E., Enumclaw"
   },
   {
     "name": "From Hiroshima to Hope",
+    "category": "arts festivals",
+    "quadrant": "north",
     "date_text": "Aug. 6",
     "date": "8/6/2018",
     "url": "http://fromhiroshimatohope.org",
-    "description": "The 73rd anniversary of the atomic bombings of Hiroshima and Nagasaki, program with music and speakers concludes with the floating of candlelit lanterns at dusk, 6 p.m. Green Lake Park near Seattle Public Theater at the Bathhouse, 7201 E. Green Lake Drive N., Seattle."
+    "description": "The 73rd anniversary of the atomic bombings of Hiroshima and Nagasaki, program with music and speakers concludes with the floating of candlelit lanterns at dusk, 6 p.m. ",
+    "location": "Green Lake Park near Seattle Public Theater at the Bathhouse, 7201 E. Green Lake Drive N., Seattle"
   },
   {
     "name": "Skagit County Fair",
+    "category": "festivals",
+    "quadrant": "north",
     "date_text": "Aug. 8-11",
     "start": "8/8/2018",
     "end": "8/11/2018",
-    "details": "$5-$10 (360-416-1350 or [skagitcounty.net/fairCQ)](http://skagitcounty.net/fair ).",
-    "description": "Carnival, music and magic performances, farm animals, food vendors, eating contests, 10 a.m.-10 p.m., Skagit County Fairgrounds, 1410 Virginia St., Mount Vernon."
+    "phone": "360-416-1350",
+    "url": "http://skagitcounty.net/fair",
+    "details": "$5-$10",
+    "description": "Carnival, music and magic performances, farm animals, food vendors, eating contests, 10 a.m.-10 p.m.",
+    "location": "Skagit County Fairgrounds, 1410 Virginia St., Mount Vernon"
   },
   {
     "name": "Pierce County Fair",
+    "category": "festivals",
+    "quadrant": "south",
     "date_text": "Aug. 9-12",
     "start": "8/9/2018",
     "end": "8/12/2018",
     "phone": "253-847-4754",
     "url": "http://piercecountyfair.com",
-    "details": "$1-$5 .",
-    "description": "Carnival rides, entertainment, food vendors, agriculture displays, animals, 10 a.m.-10 p.m. Aug. 9-11, 10 a.m.-6 p.m. Aug. 12, Pierce County Fairgrounds, 21606 Meridian Ave. E., Graham."
+    "details": "$1-$5",
+    "description": "Carnival rides, entertainment, food vendors, agriculture displays, animals, 10 a.m.-10 p.m. Aug. 9-11, 10 a.m.-6 p.m. Aug. 12",
+    "location": "Pierce County Fairgrounds, 21606 Meridian Ave. E., Graham"
   },
   {
     "name": "South Lake Union Block Party",
+    "category": "festivals music food",
+    "quadrant": "central",
     "date_text": "Aug. 10",
     "date": "8/10/2018",
     "url": "http://slublockparty.com",
-    "description": "Music, beer garden, food trucks, letterpress demonstrations, benefits Plymouth Housing Group to eliminate homelessness; noon-11 p.m., Denny Way and Westlake Avenue North, Seattle."
+    "description": "Music, beer garden, food trucks, letterpress demonstrations, benefits Plymouth Housing Group to eliminate homelessness; noon-11 p.m.",
+    "location": "Denny Way and Westlake Avenue North, Seattle"
   },
   {
     "name": "Taste Edmonds",
+    "category": "food festivals ",
+    "quadrant": "north",
     "date_text": "Aug. 10-12",
     "start": "8/10/2018",
     "end": "8/12/2018",
     "url": "http://tasteedmonds.com",
-    "description": "New festival layout, entertainment, beer and wine garden, vendors, rides, 11 a.m.-10 p.m. Aug. 10-11, 11 a.m.-7 p.m. Aug. 12, Edmonds Civic Center Playfield, 300 Sixth Ave. N., Edmonds."
+    "description": "New festival layout, entertainment, beer and wine garden, vendors, rides, 11 a.m.-10 p.m. Aug. 10-11, 11 a.m.-7 p.m. Aug. 12",
+    "location": "Edmonds Civic Center Playfield, 300 Sixth Ave. N., Edmonds"
   },
   {
     "name": "Kirkland Summerfest",
+    "category": "festivals",
+    "quadrant": "east",
     "date_text": "Aug. 10-12",
     "start": "8/10/2018",
     "end": "8/12/2018",
     "url": "http://kirklandsummerfest.org",
-    "description": "Music Main Stage, beer garden, arts festival, free in streets of downtown Kirkland and the waterfront, with ticketed entertainment events, ; KidZone rides Aug. 11-12."
+    "description": "Music Main Stage, beer garden, arts festival, free in streets of downtown Kirkland and the waterfront, with ticketed entertainment events; KidZone rides Aug. 11-12.",
+    "location": "Kirkland waterfront"
   },
   {
     "name": "Festival at Mt. Si",
+    "category": "festivals",
+    "quadrant": "east",
     "date_text": "Aug. 10-12",
     "start": "8/10/2018",
     "end": "8/12/2018",
     "url": "http://festivalatmtsi.org",
-    "description": "Arts and crafts vendors, beer and wine garden, jazz, blues, rock and country music performances on two stages, chili cook-off, parade, kids’ Fun Zone, fireworks show, 6-10 p.m. Aug. 10, 10 a.m.-10 p.m. Aug. 11, 10 a.m.-4 p.m. Aug. 12, Si View Community Center and Park, 400 S.E. Orchard Dr., North Bend."
+    "description": "Arts and crafts vendors, beer and wine garden, jazz, blues, rock and country music performances on two stages, chili cook-off, parade, kids’ Fun Zone, fireworks show, 6-10 p.m. Aug. 10, 10 a.m.-10 p.m. Aug. 11, 10 a.m.-4 p.m. Aug. 12",
+    "location": "Si View Community Center and Park, 400 S.E. Orchard Dr., North Bend"
   },
   {
     "name": "Iranian Festival",
+    "category": "festivals",
+    "quadrant": "central",
     "date_text": "Aug. 11",
     "date": "8/11/2018",
     "phone": "206-684-7200",
     "url": "http://seattlecenter.com",
-    "description": "Entertainment, food, displays illustrating Iranian culture, Seattle Center, Seattle."
+    "description": "Entertainment, food, displays illustrating Iranian culture",
+    "location": "Seattle Center, Seattle"
   },
   {
     "name": "AuburnFest/Auburn Days Parade",
+    "category": "festivals",
+    "quadrant": "south",
     "date_text": "Aug. 11",
     "date": "8/11/2018",
     "url": "http://auburnwa.gov",
-    "details": "$10/wristband for inflatables and other kids’ activities .",
-    "description": "Parade with marching bands, drill teams, cars, 11 a.m., Main Street, Auburn; festival with two entertainment stages, food and craft vendors, literary showcase, art activities, car show, playgrounds, inflatables, 11 a.m.-7 p.m., Les Gove Park, 11th Street and Auburn Way South, Auburn."
+    "details": "$10/wristband for inflatables and other kids’ activities",
+    "description": "Parade with marching bands, drill teams, cars, 11 a.m., Main Street, Auburn; festival with two entertainment stages, food and craft vendors, literary showcase, art activities, car show, playgrounds, inflatables, 11 a.m.-7 p.m.",
+    "location": "Les Gove Park, 11th Street and Auburn Way South, Auburn"
   },
   {
     "name": "Kitsap Wine Festival",
+    "category": "food",
+    "quadrant": "west",
     "date_text": "Aug. 11",
     "date": "8/11/2018",
     "url": "http://kitsapwinefestival.com",
-    "description": "Wine sampling, food vendors, music; hours and prices TBA, Bremerton Marina, 100 Washington Beach Blvd., Bremerton."
+    "details": "hours and prices TBA",
+    "description": "Wine sampling, food vendors, music",
+    "location": "Bremerton Marina, 100 Washington Beach Blvd., Bremerton"
   },
   {
     "name": "Stillaguamish Festival of the River & Pow Wow",
+    "category": "festivals athletic",
+    "quadrant": "north",
     "date_text": "Aug. 11-12",
     "start": "8/11/2018",
     "end": "8/12/2018",
     "url": "http://festivaloftheriver.com",
-    "details": "$10-$20 .",
-    "description": "Music and entertainment on two stages, 5K fun run, Fun Zone rides including zip line, petting zoo, environmental and wellness exhibits, salmon bake, craft and food vendors, Stillaguamish Tribe Pow Wow singing and dancing, 10 a.m. River Meadows County Park, 20416 Jordan Rd., Arlington; free admission, parking."
+    "details": "$10-$20",
+    "description": "Music and entertainment on two stages, 5K fun run, Fun Zone rides including zip line, petting zoo, environmental and wellness exhibits, salmon bake, craft and food vendors, Stillaguamish Tribe Pow Wow singing and dancing, 10 a.m.; free admission, parking.",
+    "location": "River Meadows County Park, 20416 Jordan Rd., Arlington"
   },
   {
     "name": "Lake Union 10K",
+    "category": "athletic outdoors",
+    "quadrant": "central",
     "date_text": "Aug. 12",
     "date": "8/12/2018",
     "url": "http://lakeunion10k.com",
-    "details": "$30-$60 .",
-    "description": "Scenic run around Lake Union followed by breakfast; benefits Girls on the Run of Puget Sound, 7:30 a.m. Lake Union Park, 860 Terry Ave. N., Seattle."
+    "details": "$30-$60",
+    "description": "Scenic run around Lake Union followed by breakfast; benefits Girls on the Run of Puget Sound, 7:30 a.m.",
+    "location": "Lake Union Park, 860 Terry Ave. N., Seattle"
   },
   {
     "name": "Northwest Washington Fair",
+    "category": "festivals",
+    "quadrant": "north",
     "date_text": "Aug. 13-18",
     "start": "8/13/2018",
     "end": "8/18/2018",
     "phone": "360-354-4111",
     "url": "http://nwwafair.com",
-    "details": "$8-$13, ages 5 and younger free .",
-    "description": "Carnival, farm animals, vendors, 9 a.m.-10 p.m., Northwest Washington Fairgrounds, 1775 Front St., Lynden."
+    "details": "$8-$13, ages 5 and younger free",
+    "description": "Carnival, farm animals, vendors, 9 a.m.-10 p.m.",
+    "location": "Northwest Washington Fairgrounds, 1775 Front St., Lynden"
   },
   {
     "name": "Seattle Tattoo Expo",
+    "category": "festivals arts",
+    "quadrant": "central",
     "date_text": "Aug. 17-19",
     "start": "8/17/2018",
     "end": "8/19/2018",
     "url": "http://seattletattooexpo.com",
-    "description": "Tattoo contests and artists, music, vendor village, concessions, beer garden, cigar lounge, 2-10 p.m. Aug. 17, noon-10 p.m. Aug. 18, noon-8 p.m. Aug. 19, Seattle Center Exhibition Hall, 299 Mercer St., Seattle; entrance fee TBA."
+    "details": "entrance fee TBA",
+    "description": "Tattoo contests and artists, music, vendor village, concessions, beer garden, cigar lounge, 2-10 p.m. Aug. 17, noon-10 p.m. Aug. 18, noon-8 p.m. Aug. 19",
+    "location": "Seattle Center Exhibition Hall, 299 Mercer St., Seattle"
   },
   {
     "name": "Snoqualmie Railroad Days",
+    "category": "festivals ",
+    "quadrant": "east",
     "date_text": "Aug. 17-19",
     "start": "8/17/2018",
     "end": "8/19/2018",
     "phone": "425-888-3030",
     "url": "http://www.railroaddays.com/",
-    "description": "80th annual festival showcases Snoqualmie’s “Trains, Timber, Traditions,” with train excursions to the top of Snoqualmie Falls, music, arts, wine and beer gardens , family activities Aug. 18-19, Northwest Railway Museum, 38625 S.E. King St., Snoqualmie"
+    "description": "80th annual festival showcases Snoqualmie’s “Trains, Timber, Traditions,” with train excursions to the top of Snoqualmie Falls, music, arts, wine and beer gardens , family activities Aug. 18-1",
+    "location": "Northwest Railway Museum, 38625 S.E. King St., Snoqualmie"
   },
   {
     "name": "Movies in the Park, Bainbridge",
+    "category": "arts",
+    "quadrant": "west",
     "date_text": "Aug. 17-Sept. 7",
     "start": "8/17/2018",
     "end": "9/7/2018",
     "phone": "206-842-2306",
     "url": "http://biparks.org",
-    "description": "Concessions available, seating at 8 p.m., movie at dusk; “Coco” Aug. 17; “Wonder” Aug. 24; “Pele” Aug. 25; “Leap” Aug. 31; “Star Wars: The Last Jedi,” Sept. 7, Battle Point Park, 11299 Arrow Point Drive N.E., Bainbridge Island."
+    "description": "Concessions available, seating at 8 p.m., movie at dusk; “Coco” Aug. 17; “Wonder” Aug. 24; “Pele” Aug. 25; “Leap” Aug. 31; “Star Wars: The Last Jedi,” Sept. 7",
+    "location": "Battle Point Park, 11299 Arrow Point Drive N.E., Bainbridge Island"
   },
   {
     "name": "Celebrate Shoreline Festival",
+    "category": "festivals",
+    "quadrant": "north",
     "date_text": "Aug. 18",
     "date": "8/18/2018",
     "url": "http://shorelinewa.gov/celebrateshoreline ",
-    "description": "Two stages with music and shows, beer garden, pony rides, petting zoo, children’s theater, food, inflatables, food vendors, beer garden, noon-9 p.m. , Cromwell Park, North 179th Street and Meridian Avenue North, Shoreline."
+    "description": "Two stages with music and shows, beer garden, pony rides, petting zoo, children’s theater, food, inflatables, food vendors, beer garden, noon-9 p.m. ",
+    "location": "Cromwell Park, North 179th Street and Meridian Avenue North, Shoreline"
   },
   {
     "name": "Celebrate Woodinville",
+    "category": "festivals",
+    "quadrant": "east",
     "date_text": "Aug. 18",
     "date": "8/18/2018",
     "url": "http://celebratewoodinville.com",
-    "description": "Community pancake breakfast, 8-10:30 a.m., Fire Station 31; 40th annual parade, 11 a.m., 175th Street; festival and fair with music, beer and wine garden, arts, crafts and food vendors, exhibits, family activities, noon-5 p.m. Wilmot Gateway Park; Basset Bash, 1-4 p.m., Woodin Creek Park, Woodinville."
+    "description": "Community pancake breakfast, 8-10:30 a.m., Fire Station 31; 40th annual parade, 11 a.m., 175th Street; festival and fair with music, beer and wine garden, arts, crafts and food vendors, exhibits, family activities, noon-5 p.m, Wilmot Gateway Park; Basset Bash, 1-4 p.m., Woodin Creek Park",
+    "location": "Woodin Creek Park, Woodinville"
   },
   {
     "name": "Hounds on the Hill Dog Walk and Street Fair",
+    "category": "festivals athletic ",
+    "quadrant": "south",
     "date_text": "Aug. 18",
     "date": "8/18/2018",
     "url": "http://southhillrotary.org",
-    "details": "$25; dog activities, vendors, 9 a.m.-3 p.m., Bradley Lake Park, 531 31st Ave. S.E., Puyallup .",
-    "description": "Two-mile walk,."
+    "details": "$25",
+    "description": "Two-mile walk, dog activities, vendors, 9 a.m.-3 p.m.",
+    "location": "Bradley Lake Park, 531 31st Ave. S.E., Puyallup"
   },
   {
     "name": "All Things Japanese Sale",
+    "category": "festivals market",
+    "quadrant": "south",
     "date_text": "Aug. 18-19",
     "start": "8/18/2018",
     "end": "8/19/2018",
     "url": "http://jcccw.org",
-    "description": "Japanese antiques, dolls, furniture, traditional clothing, books, 10 a.m.-4 p.m. Aug. 18, 11 a.m.-2 p.m. Aug. 19, Japanese Cultural and Community Center of Washington, 1414 S. Weller St., Seattle."
+    "description": "Japanese antiques, dolls, furniture, traditional clothing, books, 10 a.m.-4 p.m. Aug. 18, 11 a.m.-2 p.m. Aug. 19",
+    "location": "Japanese Cultural and Community Center of Washington, 1414 S. Weller St., Seattle"
   },
   {
     "name": "Fresh Paint: Festival of Artists at Work",
+    "category": "arts festivals market",
+    "quadrant": "north east",
     "date_text": "Aug. 18-19",
     "start": "8/18/2018",
     "end": "8/19/2018",
     "phone": "425-259-5050",
     "url": "http://schack.org/events/fresh-paint/",
-    "description": "Artists at work, art for sale, live music, glassblowing, food vendors, 10 a.m.-5 p.m., Port of Everett Marina, 1700 W. Marine View Dr., Everett."
+    "description": "Artists at work, art for sale, live music, glassblowing, food vendors, 10 a.m.-5 p.m.",
+    "location": "Port of Everett Marina, 1700 W. Marine View Dr., Everett"
   },
   {
     "name": "BrasilFest",
+    "category": "festivals",
+    "quadrant": "central",
     "date_text": "Aug. 19",
     "date": "8/19/2018",
     "phone": "206-684-7200",
     "url": "http://brasilfest.org",
-    "description": "Brazil’s African, Portuguese and indigenous roots in music, dance, capoeira martial arts, authentic food, 11 a.m.-7 p.m., Seattle Center, Seattle."
+    "description": "Brazil’s African, Portuguese and indigenous roots in music, dance, capoeira martial arts, authentic food, 11 a.m.-7 p.m.",
+    "location": "Seattle Center, Seattle"
   },
   {
     "name": "Snoqualmie Motor Bus Excursion",
+    "category": "cars festivals",
+    "quadrant": "east",
     "date_text": "Aug. 19",
     "date": "8/19/2018",
     "phone": "206-477-0460",
     "url": "http://mehva.org",
-    "details": "$5, no ORCA or Metro tickets, passes or transfers accepted; ages 5 and younger free .",
-    "description": "Ride restored, vintage Seattle buses to Snoqualmie for Railroad Days festival; no food or beverages allowed on historic buses, 11 a.m., Second Avenue South and South Main Street, Seattle."
+    "details": "$5, no ORCA or Metro tickets, passes or transfers accepted; ages 5 and younger free",
+    "description": "Ride restored, vintage Seattle buses to Snoqualmie for Railroad Days festival; no food or beverages allowed on historic buses, 11 a.m.",
+    "location": "Second Avenue South and South Main Street, Seattle"
   },
   {
     "name": "Rainier Beach Arts and Music (BAAM) Fest",
+    "category": "arts festivals music",
+    "quadrant": "south",
     "date_text": "Aug. 19",
     "date": "8/19/2018",
     "url": "https://www.facebook.com/BAAMFest/",
-    "description": "Culturally inclusive spoken word, storytelling, visual art, dance, music, for all ages, 11 a.m.-7 p.m., Rainier Beach Community Center Plaza, 8825 Rainier Ave. S., Seattle"
+    "description": "Culturally inclusive spoken word, storytelling, visual art, dance, music, for all ages, 11 a.m.-7 p.m.",
+    "location": "Rainier Beach Community Center Plaza, 8825 Rainier Ave. S., Seattle"
   },
   {
     "name": "Tri5 Chevy Show",
+    "category": "cars",
+    "quadrant": "east",
     "date_text": "Aug. 19",
     "date": "8/19/2018",
     "url": "http://nwccc.net",
-    "description": "Car show, 1955, ’56, ’57 Chevrolets only, 8 a.m.-3 p.m., Triple XXX Root Beer Drive-In, 98 N.E. Gilman Blvd., Issaquah."
+    "description": "Car show, 1955, ’56, ’57 Chevrolets only, 8 a.m.-3 p.m.",
+    "location": "Triple XXX Root Beer Drive-In, 98 N.E. Gilman Blvd., Issaquah"
   },
   {
     "name": "Bicycle Sunday",
+    "category": "athletic outdoors",
+    "quadrant": "south",
     "date_text": "Aug. 19, 26",
     "start": "8/19/2018",
     "end": "8/26/2018",
     "url": "http://parkways.seattle.gov/2017/12/21/mark-calendar-2018-bicycle-sundays/",
-    "description": "Lake Washington Boulevard closed to motorized vehicles, inviting the community to bike, stroll or jog, 10 a.m.-6 p.m. and 26, and Sept. 2, 9, 16, Lake Washington Boulevard from Mount Baker Beach to Seward Park, Seattle."
+    "description": "Lake Washington Boulevard closed to motorized vehicles, inviting the community to bike, stroll or jog, 10 a.m.-6 p.m. and 26, and Sept. 2, 9, 16",
+    "location": "Lake Washington Boulevard from Mount Baker Beach to Seward Park, Seattle"
   },
   {
     "name": "The Evergreen State Fair",
+    "category": "festivals",
+    "quadrant": "north east",
     "date_text": "Aug. 23-Sept. 3",
     "start": "8/23/2018",
     "end": "9/3/2018",
     "phone": "360-805-6700",
     "url": "http://evergreenfair.org",
-    "details": "$10-$14, ages 5 and younger and 90 and older free; Monroe Fair Days Parade, 11 a.m. Aug. 25, Main Street, Monroe .",
-    "description": "Carnival, concerts, contests, draft horses, Equestrian Arena, fireworks, lumberjack show, petting zoo, pony rides, rodeo, displays, Speedway events, , Evergreen State Fairgrounds, 14405 179th Ave. S.E., Monroe."
+    "details": "$10-$14, ages 5 and younger and 90 and older free",
+    "description": "Carnival, concerts, contests, draft horses, Equestrian Arena, fireworks, lumberjack show, petting zoo, pony rides, rodeo, displays, Speedway events; Monroe Fair Days Parade, 11 a.m. Aug. 25, Main Street, Monroe",
+    "location": "Evergreen State Fairgrounds, 14405 179th Ave. S.E., Monroe"
   },
   {
     "name": "Fly-In, Drive-In Movie Night",
+    "category": "arts outdoors",
+    "quadrant": "south",
     "date_text": "Aug. 25",
     "date": "8/25/2018",
     "phone": "253-851-3456",
     "url": "http://gigharborfilm.org",
-    "details": "$5 .",
-    "description": "Display of vintage airplanes and vehicles, aviation-themed outdoor movie, 6:30 p.m., Tacoma Narrows Airport, Gig Harbor."
+    "details": "$5",
+    "description": "Display of vintage airplanes and vehicles, aviation-themed outdoor movie, 6:30 p.m.",
+    "location": "Tacoma Narrows Airport, Gig Harbor"
   },
   {
     "name": "Tibet Fest",
+    "category": "festivals",
+    "quadrant": "central",
     "date_text": "Aug. 25-26",
     "start": "8/25/2018",
     "end": "8/26/2018",
-    "description": "Performances, visual arts, activities, foods, games, marketplace, Tibet’s ancient and modern history, Seattle Center, Seattle (206-684-7200 or [seattlecenter.com/festal/CQ).](http://www.seattlecenter.com/festal/detail.aspx?id=13)"
+    "phone": "206-684-7200",
+    "url": "http://www.seattlecenter.com/festal/detail.aspx?id=13",
+    "description": "Performances, visual arts, activities, foods, games, marketplace, Tibet’s ancient and modern history",
+    "location": "Seattle Center, Seattle"
   },
   {
     "name": "Arts in Nature Festival",
+    "category": "arts outdoors festivals",
+    "quadrant": "west",
     "date_text": "Aug. 25-26",
     "start": "8/25/2018",
     "end": "8/26/2018",
     "url": "http://fest.naturec.org",
-    "details": "$5-$12, ages 9 and younger free .",
-    "description": "Art installations, dance, music, arts and crafts, writers’ stage, 11 a.m.-7 p.m. Aug. 25, 11 a.m.-6 p.m. Aug. 26, Camp Long, 5200 35th Ave. S.W., Seattle."
+    "details": "$5-$12, ages 9 and younger free",
+    "description": "Art installations, dance, music, arts and crafts, writers’ stage, 11 a.m.-7 p.m. Aug. 25, 11 a.m.-6 p.m. Aug. 26",
+    "location": "Camp Long, 5200 35th Ave. S.W., Seattle"
   },
   {
     "name": "Arts in the Garden",
+    "category": "arts music food festivals",
+    "quadrant": "east",
     "date_text": "Aug. 25-26",
     "start": "8/25/2018",
     "end": "8/26/2018",
     "url": "http://artsinthegardenbellevue.org",
-    "description": "Garden art sale, music, food, 10 a.m.-5 p.m., Bellevue Botanical Garden, 12001 Main St., Bellevue."
+    "description": "Garden art sale, music, food, 10 a.m.-5 p.m.",
+    "location": "Bellevue Botanical Garden, 12001 Main St., Bellevue"
   },
   {
     "name": "Camlann Harvest Festival",
+    "category": "festivals ",
+    "quadrant": "east",
     "date_text": "Aug. 25-26",
     "start": "8/25/2018",
     "end": "8/26/2018",
     "url": "http://camlann.org/harvest festival.htm",
-    "details": "$7-$10 cash or check .",
-    "description": "Medieval knights in combat, puppetry, crafts, archery, minstrels, craft shops and demonstrations, medieval clothing to buy or rent, noon-5 p.m., Camlann Medieval Village, 10320 Kelly Road N.E., Carnation."
+    "details": "$7-$10 cash or check",
+    "description": "Medieval knights in combat, puppetry, crafts, archery, minstrels, craft shops and demonstrations, medieval clothing to buy or rent, noon-5 p.m.",
+    "location": "Camlann Medieval Village, 10320 Kelly Road N.E., Carnation"
   },
   {
     "name": "Kawabe SummerFest",
+    "category": "festivals",
+    "quadrant": "south",
     "date_text": "Aug. 26",
     "date": "8/26/2018",
     "phone": "206-322-4550",
     "url": "http://facebook.com/events/921967144630618/",
-    "description": "Japanese street fair/Matsuri, 11 a.m.-4 p.m., 221 18th Ave. S., Seattle."
+    "description": "Japanese street fair/Matsuri, 11 a.m.-4 p.m.",
+    "location": "221 18th Ave. S., Seattle"
   },
   {
     "name": "Bumbershoot",
+    "category": "music festivals",
+    "quadrant": "central",
     "date_text": "Aug. 29-Sept. 2",
     "start": "8/29/2018",
     "end": "9/2/2018",
     "url": "http://bumbershoot.com",
-    "details": "$220 and up/three-day pass .",
-    "description": "Music and arts festival performances, Seattle Center, Seattle."
+    "details": "$220 and up/three-day pass.",
+    "description": "Music and arts festival performances.",
+    "location": "Seattle Center"
   },
   {
     "name": "Washington State Fair",
+    "category": "festivals",
+    "quadrant": "south",
     "date_text": "Aug. 31-Sept. 23",
     "start": "8/31/2018",
     "end": "9/23/2018",
     "phone": "253-841-5045",
     "url": "http://thefair.com/state-fair",
-    "details": "$11-$14, ages 5 and younger free .",
-    "description": "Carnival rides, concerts, 4H animals and displays, vendors, food, Aug. 31-Sept. 3, Sept. 6-10, 11-17, 19-23, Washington State Fair Events Center, 110 Ninth Ave. S.W., Puyallup."
+    "details": "$11-$14, ages 5 and younger free",
+    "description": "Carnival rides, concerts, 4H animals and displays, vendors, food, Aug. 31-Sept. 3, Sept. 6-10, 11-17, 19-23",
+    "location": "Washington State Fair Events Center, 110 Ninth Ave. S.W., Puyallup"
   },
   {
     "name": "Olympia Harbor Days Tugboat Races and Festival",
+    "category": "festivals",
+    "quadrant": "south",
     "date_text": "Aug. 31-Sept. 2",
     "start": "8/31/2018",
     "end": "9/2/2018",
     "url": "http://harbordays.com",
-    "description": "Arts, crafts and food vendors, tugboat tours and races, harbor tours, music, kids’ activities, 5-8 p.m. Aug. 31, 10 a.m.-7 p.m. Sept. 1, 10 a.m.-6 p.m. Sept. 2, Percival Landing Park, 217 Thurston Ave. N.W., Olympia."
+    "description": "Arts, crafts and food vendors, tugboat tours and races, harbor tours, music, kids’ activities, 5-8 p.m. Aug. 31, 10 a.m.-7 p.m. Sept. 1, 10 a.m.-6 p.m. Sept. 2 ",
+    "location": "Percival Landing Park, 217 Thurston Ave. N.W., Olympia"
   },
   {
     "name": "Bremerton Blackberry Festival",
+    "category": "festivals food",
+    "quadrant": "west",
     "date_text": "Sept. 1-3",
     "start": "9/1/2018",
     "end": "9/3/2018",
     "url": "http://blackberryfestival.org/festival-information",
-    "description": "Entertainment, blackberry treats and wine, vendors, 10 a.m.-7 p.m. Sept. 1, 10 a.m.-6 p.m. Sept. 2, 10 a.m.-5 p.m. Sept. 3, Bremerton Marina, 100 Washington Beach Blvd., Bremerton."
+    "description": "Entertainment, blackberry treats and wine, vendors, 10 a.m.-7 p.m. Sept. 1, 10 a.m.-6 p.m. Sept. 2, 10 a.m.-5 p.m. Sept. 3",
+    "location": "Bremerton Marina, 100 Washington Beach Blvd., Bremerton"
   }
 ]

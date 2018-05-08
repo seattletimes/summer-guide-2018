@@ -2,78 +2,111 @@
   {
     "name": "The Fat Hen",
     "category": "food",
-    "quadrant": "North"
+    "quadrant": "North",
+    "description": "Hearty breakfast options including egg bakes and a variety of benedicts.",
+    "url": "http://thefathenseattle.com/",
+    "date_text": "Ongoing"
   },
   {
     "name": "Portage Bay Cafe",
     "category": "food",
-    "quadrant": "North"
+    "quadrant": "North",
+    "description": "Hearty breakfast options including migas and Swedish pancakes. Go ahead and splurge on the Rancher’s Breakfast with a short stack on the side.",
+    "url": "http://www.portagebaycafe.com/",
+    "date_text": "Ongoing"
   },
   {
     "name": "Golden Gardens Park",
     "category": "outdoors",
-    "quadrant": "North"
+    "quadrant": "North",
+    "description": "Take one of the scenic trails at Golden Gardens Park to the end of the beach for some stunning views of Puget Sound.",
+    "url": "https://www.seattle.gov/parks/find/parks/golden-gardens-park",
+    "date_text": "Ongoing"
   },
   {
     "name": "Burke Gilman Trail",
     "category": "outdoors",
-    "quadrant": "North"
+    "quadrant": "North",
+    "description": "Grab a LimeBike or take a leisurely stroll along this popular cyclist's paradise that stretches all the way from Kenmore to Golden Gardens (with the exception of that pesky missing link).",
+    "url": "https://www.seattle.gov/parks/find/parks/burke-gilman-trail",
+    "date_text": "Ongoing"
   },
   {
     "name": "Ballard Locks",
     "category": "outdoors",
-    "quadrant": "North"
+    "quadrant": "North",
+    "description": "At the Ballard Locks, where the Ship Canal hits Salmon Bay, take a peek at your local Chums and Coho as they migrate from mid-June through October via an underwater fish ladder. Get even better acquainted with the fish by taking a free naturalist-guided tour.",
+    "url": "http://www.nws.usace.army.mil/Missions/Civil-Works/Locks-and-Dams/Chittenden-Locks/"
   },
   {
     "name": "Un Bien",
     "category": "food",
-    "quadrant": "North"
+    "quadrant": "North",
+    "description": " Is Un Bien actually better than Seattle’s famous Paseo? Better try their big, messy Caribbean roast sandwich just to make sure.",
+    "url": "http://unbienseattle.com/"
   },
   {
     "name": "Magnuson Park",
     "category": "outdoors",
-    "quadrant": "North"
+    "quadrant": "North",
+    "description": "At Sand Point at Magnuson Park, enjoy the view of Lake Washington. The park also offers four miles of lakeside walking trails, a community garden, and public art.",
+    "url": "https://www.seattle.gov/parks/find/parks/magnuson-park"
   },
   {
     "name": "Agua Verde Paddle Club",
-    "category": "aquatic activities",
-    "quadrant": "North"
+    "category": "outdoors food aquatic",
+    "quadrant": "North",
+    "description": "At Agua Verde Paddle Club, you can rent a kayak by the hour. Check out the houseboat community in Portage Bay, head west to see Gas Works Park from a different viewpoint, or travel east through the Montlake Cut to hang with the wildlife near the Washington Park Arboretum. After you’ve paddled with the fishes, return to the mainland to drink like one. Back at the Agua Verde Cafe, trade in your kayak for a margarita and a seat with a view of Portage Bay.",
+    "url": "http://aguaverde.com/"
   },
   {
     "name": "Center for Wooden Boats",
     "category": "aquatic activities",
-    "quadrant": "North"
+    "quadrant": "North",
+    "description": "Check out the Center for Wooden Boats for a more accessible option for getting on the water, including classes, boat rentals, and Steamship Saturday cruises aboard a historic 125-foot steamboat.\n",
+    "url": "http://cwb.org/"
   },
   {
     "name": "JuneBaby",
     "category": "food",
-    "quadrant": "North"
+    "quadrant": "North",
+    "description": "Treat yourself to a big, beautiful Southern supper at the award-winning JuneBaby.",
+    "url": "https://www.junebabyseattle.com/"
   },
   {
     "name": "Add-a-Ball",
-    "quadrant": "North"
+    "quadrant": "North",
+    "description": "Stuff your pockets full of quarters and saunter over to Add-a-Ball, where “the largest collection of coin-operated arcade machines in the city” ought to keep your inner child happy for a few hours (you still have to be over 21, though).",
+    "url": "http://add-a-ball.com/"
   },
   {
     "name": "Cafe Avole",
     "category": "food",
     "quadrant": "South",
-    "description": "Pronounced \"ah-bole,\" which translates to the first strong cup of coffee in the three-cup jebena ceremony, Cafe Avole serves up complete Jebena Buna (a traditional coffee ceremony practiced in Ethiopia and Eritrea) table service and a small menu.",
+    "description": "Enjoy complete Jebena Buna (a traditional coffee ceremony practiced in Ethiopia and Eritrea) table service at Cafe Avole (pronounced ah-bole, it translates to the first strong cup of coffee in the three-cup ceremony). The coffee experience is the cafe’s focus, but there’s a small menu, too.",
     "url": "https://www.facebook.com/Cafe-Avole-659103624188066/"
   },
   {
     "name": "Wing Luke Museum",
     "category": "arts",
-    "quadrant": "South"
+    "quadrant": "South",
+    "description": "Gain a deeper appreciation for how our favorite drinks get to our cups at the “What’s in your cup? Community-Brewed Culture” exhibit at the Wing Luke Museum of the Asian American Experience (on view until Sept. 16). The exhibit promises to examine how some of the Asian and “so called Asian-inspired” beverages we drink — and the places they come from — influence whole communities and cultures.",
+    "url": "http://www.wingluke.org/"
   },
   {
     "name": "Jefferson Park",
     "category": "outdoors",
-    "quadrant": "South"
+    "quadrant": "South",
+    "description": "Tee off at Jefferson Park’s golf course, test out a new board at the skatepark, tire out the kids on the zip lines at the spray park, or just take in the views of the Duwamish River and the Olympics. And if none of that is to your liking, there’s always lawn bowling.",
+    "url": "https://www.seattle.gov/parks/find/parks/jefferson-park",
+    "date_text": "Ongoing"
   },
   {
     "name": "Sisters and Brothers",
     "category": "food",
-    "quadrant": "South"
+    "quadrant": "South",
+    "description": "For one of Seattle’s really, truly super-spicy-hot eating experiences, head to Georgetown’s Sisters and Brothers and order your Nashville hot chicken “insane”-style. For the spice-averse, “naked” is available, and also great. And there’s plenty of cold beer, too.",
+    "url": "http://www.sistersandbrothersbar.com/"
   },
   {
     "name": "Fantagraphics Bookstore and Gallery",
