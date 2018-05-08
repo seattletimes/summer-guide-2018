@@ -5,7 +5,7 @@ var $ = require("./lib/qsa");
 // * add a months array based on the dates specified
 // * split category field into an array
 // * create a timestamps object for scheduling
-window.eventData.forEach(function(row) {
+var preprocessData = function(row) {
   row.timestamps = {};
   if (row.date) {
     var [m, d, y] = row.date.split("/").map(Number);
@@ -26,12 +26,16 @@ window.eventData.forEach(function(row) {
     for (var i = startMonth; i <= endMonth; i++) row.months.push(i);
     row.timestamps = {
       start: new Date(start[2], start[0] - 1, start[1], 0),
-      end: new Date(end[2], end[0] - 1, end[1], 24) 
+      end: new Date(end[2], end[0] - 1, end[1], 24)
     }
   }
 
   row.categories = row.category ? row.category.split(" ") : [];
-});
+
+  row.quadrant = row.quadrant ? row.quadrant.toLowerCase() : "north"; // TODO: remove 'north' - just for testing current blanks
+};
+eventData.forEach(preprocessData);
+recsData.forEach(preprocessData);
 
 require("./list")();
 require("./planner");

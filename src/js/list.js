@@ -1,7 +1,7 @@
 // code for the interactive listings
 var $ = require("./lib/qsa");
 var dot = require("./lib/dot");
-var { intersects } = require("./util");
+var { intersects, filterCategories } = require("./util");
 
 var listTemplate = dot.compile(require("./_list.html"));
 var listContainer = $.one(".event-listings");
@@ -11,12 +11,6 @@ var filterMonths = function(list, months) {
   if (!months || !months.length) return list;
   return list.filter(d => intersects(d.months, months));
 };
-
-// Show items included in a list of categories
-var filterCategories = function(list, cats) {
-  if (!cats || !cats.length) return list;
-  return list.filter(d => intersects(cats, d.categories));
-}
 
 // Apply all filters to the full list
 var applyFilters = function() {

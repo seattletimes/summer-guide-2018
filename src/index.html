@@ -64,6 +64,8 @@
         <select name="quadrant">
           <option value="north">North</option>
           <option value="south">South</option>
+          <option value="east">East</option>
+          <option value="west">West</option>
         </select>
         <button class="generate-itinerary">Go</button>
       </div>
@@ -75,6 +77,7 @@
 
     <script>
 window.eventData = <%= JSON.stringify(json.events) %>;
+window.recsData = <%= JSON.stringify(json.recs) %>;
     </script>
 
     <script src="app.js" async></script>

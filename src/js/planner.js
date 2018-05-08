@@ -1,15 +1,18 @@
 var $ = require("./lib/qsa");
 var dot = require("./lib/dot");
-var { intersects, padLeft } = require("./util");
+var { intersects, padLeft, filterCategories } = require("./util");
 
 var planTemplate = dot.compile(require("./_itinerary.html"));
 
 var goButton = $.one(".generate-itinerary");
+var quadrantSelect = $.one(`[name="quadrant"]`);
 var dateInput = $.one(`[name="date"]`);
 var resultList = $.one(".itinerary-results ul");
 
 var today = new Date();
 dateInput.value = `${today.getFullYear()}-${padLeft(today.getMonth() + 1, 2)}-${padLeft(today.getDate(), 2)}`;
+
+var eventsAndRecs = eventData.concat(recsData);
 
 var filterQuadrant = function(list, quadrant) {
   var filtered = list.filter(e => e.quadrant == quadrant);
@@ -30,51 +33,26 @@ var drawItem = function(list) {
   return list[(list.length * Math.random()) | 0];
 };
 
-var getFood = function(filters) {
+var getItem = function(filters) {
+  var eligible = filterDate(
+    filterQuadrant(eventsAndRecs, filters.quadrant),
+    filters.date);
+  var data = drawItem(eligible);
   return {
-    category: "Grab some eats",
-    data: {
-      name: "This space intentionally left blank.",
-      description: "This is a placeholder for the description text assigned to a given item."
-    }
+    category: "TK",
+    data,
   }
 };
-
-var getHike = function(filters) {
-  return {
-    category: "See the outdoors",
-    data: {
-      name: "This space intentionally left blank.",
-      description: "This is a placeholder for the description text assigned to a given item."
-    }
-  }
-};
-
-var getEvent = function(filters) {
-  return {
-    category: "The main event",
-    data: {
-      name: "This space intentionally left blank.",
-      description: "This is a placeholder for the description text assigned to a given item."
-    }
-  }
-};
-
-var getDummy = function(filters) {
-  return {
-    category: "This space intentionally left blank",
-    data: drawItem(window.eventData)
-  };
-}
 
 var generatePlan = function() {
   var filters = {
-    quadrant: "south" // obviously, should be dynamic
+    quadrant: quadrantSelect.value,
+    date: dateInput.valueAsDate, // TODO: IE 11 support ... ?
   };
   var slots = [
-    getDummy(),
-    getDummy(),
-    getDummy()
+    getItem(filters),
+    getItem(filters),
+    getItem(filters),
   ];
   resultList.innerHTML = planTemplate(slots);
 }
