@@ -35,6 +35,7 @@ var preprocessData = function(row) {
   row.quadrants = row.quadrant ? row.quadrant.toLowerCase().split(" ") : [];
 };
 eventData.forEach(preprocessData);
+eventData.sort((e1, e2) => e1.timestamps.key - e2.timestamps.key);
 recsData.forEach(preprocessData);
 
 require("./list")();

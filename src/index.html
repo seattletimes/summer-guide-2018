@@ -85,15 +85,6 @@
     <script>
 window.eventData = <%= JSON.stringify(json.events) %>;
 window.recsData = <%= JSON.stringify(json.recs) %>;
-<% var metacats = json.meta; // Add array of cats to metacat lookup object
-  Object.keys(metacats).forEach((name) => {
-    metacats[name].cats = [];
-  })
-  json.categories.forEach((row) => {
-    metacats[row.meta].cats.push(row.short);
-  })
-%>
-window.metacats = <%= JSON.stringify(metacats) %>;
     </script>
 
     <script src="app.js" async></script>
