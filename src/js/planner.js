@@ -25,7 +25,7 @@ var updateFilters = function() {
 var eventsAndRecs = eventData.concat(recsData);
 
 var filterQuadrant = function(list, { quadrant }) {
-  var filtered = list.filter(e => e.quadrant == quadrant);
+  var filtered = list.filter(e => e.quadrants.includes(quadrant));
   // get and concat food, attractions, etc.
   return filtered;
 };

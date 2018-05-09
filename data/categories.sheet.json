@@ -1,39 +1,32 @@
 [
   {
     "short": "arts",
-    "long": "Arts, Exhibits, & Expos",
-    "meta": "artistic"
+    "long": "Arts, Exhibits, & Expos"
   },
   {
     "short": "festivals",
-    "long": "Festivals & Parades",
-    "meta": "other"
+    "long": "Festivals & Parades"
   },
   {
     "short": "food",
-    "long": "Food & Drink",
-    "meta": "eat"
+    "long": "Food & Drink"
   },
   {
     "short": "market",
-    "long": "Markets",
-    "meta": "other"
+    "long": "Markets"
   },
   {
     "short": "music",
-    "long": "Music",
-    "meta": "artistic"
+    "long": "Music"
   },
   {
     "short": "athletic",
     "long": "Athletic & Aquatic Activities",
-    "meta": "active",
     "notes": "(races, 5Ks, etc.)"
   },
   {
     "short": "outdoors",
     "long": "Outdoors",
-    "meta": "active",
     "notes": "(hikes, nature walks, etc.)"
   }
 ]

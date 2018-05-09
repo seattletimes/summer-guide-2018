@@ -13,219 +13,270 @@
   {
     "name": "Seattle Great Wheel",
     "category": "outdoors",
+    "quadrant": "Central",
     "date_text": "Ongoing",
+    "phone": "206-623-8607",
     "url": "http://seattlegreatwheel.com",
     "details": "$9-$14, Pier 57, 1301 Alaskan Way, Seattle.",
-    "description": "Gondola ride for all ages, 11 a.m.-10 p.m. Mondays-Thursdays, 11 a.m.-midnight Fridays, 10 a.m.-midnight Saturdays, 10 a.m.-10 p.m. Sundays; starting July, 10 a.m.-midnight Fridays-Saturdays, 10 a.m.-11 p.m. Sundays-Thursdays. Pier 57, 1301 Alaskan Way, Seattle."
+    "description": "Gondola ride for all ages, 11 a.m.-10 p.m. Mondays-Thursdays, 11 a.m.-midnight Fridays, 10 a.m.-midnight Saturdays, 10 a.m.-10 p.m. Sundays; starting July, 10 a.m.-midnight Fridays-Saturdays, 10 a.m.-11 p.m. Sundays-Thursdays",
+    "location": "Pier 57, 1301 Alaskan Way, Seattle"
   },
   {
     "name": "Wings Over Washington",
     "category": "outdoors",
+    "quadrant": "Central",
     "date_text": "June 25",
     "start": "6/25/2018",
+    "phone": "206-602-1808",
     "url": "http://www.wingsoverwa.com",
     "details": "$13-$17",
-    "description": "Pier 57, 1301 Alaskan Way, Seattle."
+    "description": "Wings Over Washington aerial adventure flying theater, 11 a.m.-10 p.m. Mondays-Thursdays, 11 a.m.-midnight Fridays, 10 a.m.-midnight Saturdays, 10 a.m.-10 p.m. Sundays; starting July, 10 a.m.-midnight Fridays-Saturdays, 10 a.m.-11 p.m. Sundays-Thursdays",
+    "location": "Pier 57, 1301 Alaskan Way, Seattle."
   },
   {
     "name": "Argosy Cruises",
     "category": "outdoors",
+    "quadrant": "Central",
     "date_text": "Ongoing",
     "phone": "206-623-1445",
     "url": "http://argosycruises.com",
     "details": "$16.50-$91.50 ",
-    "description": "Public sightseeing cruises including Harbor Cruise, Locks Cruise, Lake Washington Cruise, Historical Cruise on Lake Union, Wine Tasting and Tillicum Excursion, schedules vary, Pier 55 and 56, 1101 Alaskan Way, Seattle."
+    "description": "Public sightseeing cruises including Harbor Cruise, Locks Cruise, Lake Washington Cruise, Historical Cruise on Lake Union, Wine Tasting and Tillicum Excursion, schedules vary",
+    "location": "Pier 55 and 56, 1101 Alaskan Way, Seattle"
   },
   {
     "name": "Discover Olympic Sculpture Park",
     "category": "outdoors",
+    "quadrant": "Central",
     "date_text": "Ongoing",
     "url": "http://seattleartmuseum.org",
-    "description": "One-hour walking tours exploring the park’s landscape design, native plants and art, 1 p.m. Saturdays-Sundays, PACCAR Pavilion; park open daily during daylight hours, Broad Street and Elliott Avenue, Seattle."
+    "description": "One-hour walking tours exploring the park’s landscape design, native plants and art, 1 p.m. Saturdays-Sundays, PACCAR Pavilion; park open daily during daylight hours",
+    "location": "Broad Street and Elliott Avenue, Seattle"
   },
   {
     "name": "Space Needle Observation Deck",
     "category": "arts",
+    "quadrant": "Central",
     "date_text": "Ongoing",
     "url": "http://spaceneedle.com/home/",
     "details": "$17-$29 ",
-    "description": "Observation Deck open with some sections closed during renovation; open 9 a.m.-10 p.m. Fridays-Saturdays, 10 a.m.-8 p.m. Sundays, 10 a.m.-9 p.m. Mondays-Thursdays, 305 Harrison St., Seattle."
+    "description": "Observation Deck open with some sections closed during renovation; open 9 a.m.-10 p.m. Fridays-Saturdays, 10 a.m.-8 p.m. Sundays, 10 a.m.-9 p.m. Mondays-Thursdays",
+    "location": "305 Harrison St., Seattle"
   },
   {
     "name": "“Marvel: Universe of Super Heroes”",
     "category": "arts",
+    "quadrant": "Central",
     "date_text": "Ongoing",
     "phone": "206-770-2700",
     "url": "http://mopop.org",
     "details": "$17-$36 ",
-    "description": "Display of 300 pieces of art, costumes and props telling the Marvel story, including Spider-Man, Thor, Black Panther, Ms. Marvel, Hulk, Iron Man; other exhibits include “Nirvana: Taking It To The Masses,” “Star Trek: Exploring New Worlds,” “Infinite Worlds of Science Fiction,” “Fantasy: Worlds of Myth and Magic,” and “Scared to Death: The Thrill of Horror Film;” 10 a.m.-5 p.m. daily through May 24; 10 a.m.-7 p.m. May 25-Sept. 3, Museum of Pop Culture (MoPOP), 325 Fifth Ave. N., Seattle."
+    "description": "Display of 300 pieces of art, costumes and props telling the Marvel story, including Spider-Man, Thor, Black Panther, Ms. Marvel, Hulk, Iron Man; other exhibits include “Nirvana: Taking It To The Masses,” “Star Trek: Exploring New Worlds,” “Infinite Worlds of Science Fiction,” “Fantasy: Worlds of Myth and Magic,” and “Scared to Death: The Thrill of Horror Film;” 10 a.m.-5 p.m. daily through May 24; 10 a.m.-7 p.m. May 25-Sept. 3",
+    "location": "Museum of Pop Culture (MoPOP), 325 Fifth Ave. N., Seattle"
   },
   {
     "name": "Pacific Science Center",
     "category": "arts",
+    "quadrant": "Central",
     "date_text": "Ongoing",
     "phone": "206-443-2001",
     "url": "https://www.pacificsciencecenter.org/",
     "details": "$13.95-$23.95, ages 2 and younger free, additional charge for Laser and IMAX shows ",
-    "description": "Tropical Butterfly House, planetarium, BodyWorks, Science Playground, VR Microtheater, Laser Dome shows, IMAX theater; 10 a.m.-5 p.m. Mondays-Fridays, 10 a.m.-6 p.m. Saturdays-Sundays; 10 a.m.-6 p.m. daily June 18-Sept. 3, Pacific Science Center, 200 Second Ave. N., Seattle."
+    "description": "Tropical Butterfly House, planetarium, BodyWorks, Science Playground, VR Microtheater, Laser Dome shows, IMAX theater; 10 a.m.-5 p.m. Mondays-Fridays, 10 a.m.-6 p.m. Saturdays-Sundays; 10 a.m.-6 p.m. daily June 18-Sept. 3",
+    "location": "Pacific Science Center, 200 Second Ave. N., Seattle"
   },
   {
     "name": "Chihuly Garden and Glass",
     "category": "arts",
+    "quadrant": "Central",
     "date_text": "Ongoing",
     "phone": "206-753-4940",
     "url": "https://www.chihulygardenandglass.com/",
     "details": "$14-$24, ages 4 and younger free ",
-    "description": "Dale Chihuly’s glass art, garden with plants and art, 10 a.m.-8 p.m. Fridays-Saturdays, 10 a.m.-7 p.m. Sundays-Thursdays, Glasshouse occasionally closed for special events; 305 Harrison St., Seattle."
+    "description": "Dale Chihuly’s glass art, garden with plants and art, 10 a.m.-8 p.m. Fridays-Saturdays, 10 a.m.-7 p.m. Sundays-Thursdays, Glasshouse occasionally closed for special events",
+    "location": "305 Harrison St., Seattle"
   },
   {
     "name": "MOHAI",
     "category": "arts",
+    "quadrant": "Central",
     "date_text": "Ongoing",
     "phone": "206-324-1126",
     "url": "http://mohai.org/",
     "details": "$15.95-$19.95, ages 14 and younger free; free for all First Thursdays ",
-    "description": "“Seattle on the Spot: The Photographs of Al Smith,” through June 17; permanent exhibits “True Northwest: The Seattle Journey,” Bezos Center for Innovation, “Maritime Seattle,” museum open 10 a.m.-5 p.m. daily, until 8 p.m. first Thursdays and every Thursday from July 5-Sept. 6, Museum of History & Industry (MOHAI), 860 Terry Ave. N., Seattle."
+    "description": "“Seattle on the Spot: The Photographs of Al Smith,” through June 17; permanent exhibits “True Northwest: The Seattle Journey,” Bezos Center for Innovation, “Maritime Seattle,” museum open 10 a.m.-5 p.m. daily, until 8 p.m. first Thursdays and every Thursday from July 5-Sept. 6",
+    "location": "Museum of History & Industry (MOHAI), 860 Terry Ave. N., Seattle"
   },
   {
     "name": "Seattle Ferry Service",
     "category": "outdoors",
+    "quadrant": "Central",
     "date_text": "Ongoing",
     "phone": "206-713-8446",
     "url": "http://seattleferryservice.com",
     "details": "$3-$12 cash on boarding ",
-    "description": "Cruise on historic mini-ferry, 45-50 minute tour of the Lake Union floating homes, on hour 11 a.m.-4 p.m. Sundays, weather permitting, South Lake Union, 901 Fairview Ave. N., Seattle."
+    "description": "Cruise on historic mini-ferry, 45-50 minute tour of the Lake Union floating homes, on hour 11 a.m.-4 p.m. Sundays, weather permitting",
+    "location": "South Lake Union, 901 Fairview Ave. N., Seattle"
   },
   {
     "name": "Burke Museum of Natural History and Culture",
     "category": "arts",
+    "quadrant": "North",
     "date_text": "Ongoing",
     "phone": "206-616-3962",
     "url": "http://www.burkemuseum.org/",
     "details": "$7.50-$10, free for ages 4 and younger and UW students, faculty and staff ",
-    "description": "“Pacific Voices,” “Life and Times of Washington State,” “Washington’s First Dinosaur,” Ethnobotanic Garden, 10 a.m.-5 p.m. daily, until 8 p.m. first Thursdays; 17th Avenue Northeast and Northeast 45th Street, UW Campus, Seattle."
+    "description": "“Pacific Voices,” “Life and Times of Washington State,” “Washington’s First Dinosaur,” Ethnobotanic Garden, 10 a.m.-5 p.m. daily, until 8 p.m. first Thursdays",
+    "location": "17th Avenue Northeast and Northeast 45th Street, UW Campus, Seattle"
   },
   {
     "name": "Woodland Park Zoo",
     "category": "outdoors",
+    "quadrant": "North",
     "date_text": "Ongoing",
     "phone": "206-548-2500",
     "url": "https://www.zoo.org/",
     "details": "$12.95-$20.95, ages 2 and younger free ",
-    "description": "Assam Rhino Reserve exhibit; baby gorilla Yola on view, 12:30 p.m.-closing daily; snow leopard cub and mother on view on even-numbered days of the month; Butterfly Garden tent structure, 500 free-flying butterflies, opening for the season May 25; open 9:30 a.m.-6 p.m. daily, closing 3 p.m. July 13 and 2 p.m. July 20 for special events."
+    "description": "Assam Rhino Reserve exhibit; baby gorilla Yola on view, 12:30 p.m.-closing daily; snow leopard cub and mother on view on even-numbered days of the month; Butterfly Garden tent structure, 500 free-flying butterflies, opening for the season May 25; open 9:30 a.m.-6 p.m. daily, closing 3 p.m. July 13 and 2 p.m. July 20 for special events.",
+    "location": "5500 Phinney Ave. N, Seattle"
   },
   {
     "name": "Nordic Museum",
     "category": "arts",
+    "quadrant": "North",
     "date_text": "Ongoing",
     "phone": "206-789-5707",
     "url": "http://nordicmuseum.org",
     "details": "$15, $12/seniors, $10/ages K-12 and students with ID ",
-    "description": "Recently opened museum features core exhibition “Nordic Journeys,” 12,000 years of Nordic history and the story of Nordic immigration to the U.S. and Pacific Northwest; “Northern Exposure; Contemporary Nordic Arts Revealed,” 10 a.m.-5 p.m. Tuesdays through Sundays, until 8 p.m. Thursdays, 2655 N.W. Market St., Seattle."
+    "description": "Recently opened museum features core exhibition “Nordic Journeys,” 12,000 years of Nordic history and the story of Nordic immigration to the U.S. and Pacific Northwest; “Northern Exposure; Contemporary Nordic Arts Revealed,” 10 a.m.-5 p.m. Tuesdays through Sundays, until 8 p.m. Thursdays",
+    "location": "2655 N.W. Market St., Seattle"
   },
   {
     "name": "Hiram M. Chittenden Locks",
     "category": "outdoors",
+    "quadrant": "North",
     "date_text": "Ongoing",
     "phone": "206-783-7059",
     "url": "http://www.ballardlocks.org/",
-    "description": "One of Seattle’s top tourist attractions; the Locks, Fish Ladder, gardens, open daylight hours daily; Visitors Center open 10 a.m.-6:30 p.m. daily; guided one-hour walking tours, 1 and 3 p.m. Mondays-Fridays, 11 a.m., 1 and 3 p.m. Saturdays-Sundays, no reservations needed; outdoor concerts on summer weekends; 3015 N.W. 54th St., Seattle."
+    "description": "One of Seattle’s top tourist attractions; the Locks, Fish Ladder, gardens, open daylight hours daily; Visitors Center open 10 a.m.-6:30 p.m. daily; guided one-hour walking tours, 1 and 3 p.m. Mondays-Fridays, 11 a.m., 1 and 3 p.m. Saturdays-Sundays, no reservations needed; outdoor concerts on summer weekends",
+    "location": "3015 N.W. 54th St., Seattle"
   },
   {
     "name": "Wing Luke Museum of the Asian Pacific American Experience",
     "category": "arts",
+    "quadrant": "Central",
     "date_text": "Ongoing",
     "phone": "206-623-5124",
     "url": "http://wingluke.org",
     "details": "$30-$45; “Grilled Things and Chicken Wings” season food tours, 4:30-7 p.m. selected Fridays July-Sept., $30-$45; Wing Luke Museum of the Asian Pacific American Experience, 719 S. King St., Seattle; $10-$17 ",
-    "description": "“Wham! Bam! Pow! Cartoons, Turbans & Confronting Hate” art exhibit to raise awareness about discrimination and challenge stereotypes, 10 a.m.-5 p.m. Tuesdays-Sundays, until 8 p.m. first Thursdays; guided Historic Hotel, Touch of Chinatown and other tours available daily; “The Rice Stuff” seasonal food tours, 4:30-7 p.m. select Fridays April-June,."
+    "description": "“Wham! Bam! Pow! Cartoons, Turbans & Confronting Hate” art exhibit to raise awareness about discrimination and challenge stereotypes, 10 a.m.-5 p.m. Tuesdays-Sundays, until 8 p.m. first Thursdays; guided Historic Hotel, Touch of Chinatown and other tours available daily; “The Rice Stuff” seasonal food tours, 4:30-7 p.m. select Fridays April-June,.",
+    "location": "719 S. King St., Seattle"
   },
   {
     "name": "Museum of Flight",
     "category": "arts",
+    "quadrant": "South",
     "date_text": "Ongoing",
     "phone": "206-764-5700",
     "url": "http://www.museumofflight.org/",
     "details": "$14-$24, ages 4 and younger free; free admission 5-8 p.m. first Thursdays ",
-    "description": "The largest independent nonprofit air and space museum in the world, aircraft, spacecraft, artifacts, galleries, exhibits, Flight Simulators, 3D Movie Theater, Kids’ Flight Zone, Personal Courage Wing history of World War I and World War II, The William E. Boeing Red Barn, 10 a.m.-5 p.m. daily, 9404 E. Marginal Way S., Seattle."
+    "description": "The largest independent nonprofit air and space museum in the world, aircraft, spacecraft, artifacts, galleries, exhibits, Flight Simulators, 3D Movie Theater, Kids’ Flight Zone, Personal Courage Wing history of World War I and World War II, The William E. Boeing Red Barn, 10 a.m.-5 p.m. daily",
+    "location": "9404 E. Marginal Way S., Seattle"
   },
   {
     "name": "Northwest Railway Museum Train Rides",
     "category": "outdoors",
+    "quadrant": "East",
     "date_text": "Ongoing",
     "phone": "425-888-3030",
     "url": "http://trainmuseum.org",
     "details": "$10-$20 ",
-    "description": "Two-hour round-trip excursions on historic train on scenic rides through the Cascade Foothills to the top of Snoqualmie Falls, Victorian-era depot, 11 a.m. Saturdays-Sundays, Northwest Railway Museum, 38625 S.E. King St., Snoqualmie."
+    "description": "Two-hour round-trip excursions on historic train on scenic rides through the Cascade Foothills to the top of Snoqualmie Falls, Victorian-era depot, 11 a.m. Saturdays-Sundays",
+    "location": "Northwest Railway Museum, 38625 S.E. King St., Snoqualmie"
   },
   {
     "name": "CityPass",
     "category": "arts",
+    "quadrant": "Central North",
     "date_text": "Ongoing",
     "url": "https://www.citypass.com/seattle",
     "details": "$89/adult or $69/ages 5-12 ",
-    "description": "For visitors or a staycation, valid for nine consecutive days at five attractions, the Space Needle; Seattle Aquarium; Argosy Cruises Harbor Tour; Museum of Pop Culture (MoPOP) or Woodland Park Zoo; Chihuly Garden and Glass or Pacific Science Center,."
+    "description": "For visitors or a staycation, valid for nine consecutive days at five attractions, the Space Needle; Seattle Aquarium; Argosy Cruises Harbor Tour; Museum of Pop Culture (MoPOP) or Woodland Park Zoo; Chihuly Garden and Glass or Pacific Science Center",
+    "location": "Seattle"
   },
   {
     "name": "Mount Rainier National Park",
     "category": "outdoors",
+    "quadrant": "South",
     "date_text": "Ongoing",
     "phone": "360-569-2211",
     "url": "https://www.nps.gov/mora/index.htm",
     "details": "$25/per vehicle for seven days or $10/person walk up or bicycle ",
-    "description": "National Park Inn, Longmire Museum Visitor Center and Henry M. Jackson Memorial Visitor Center at Paradise open year-around, hours vary; Paradise Inn lodging, dining, gift shop opens for the season May 18; Ohanapecosh Visitor Center opens late June, Sunrise Visitor Center opens in July; 39000 State Route 706 E, Ashford."
+    "description": "National Park Inn, Longmire Museum Visitor Center and Henry M. Jackson Memorial Visitor Center at Paradise open year-around, hours vary; Paradise Inn lodging, dining, gift shop opens for the season May 18; Ohanapecosh Visitor Center opens late June, Sunrise Visitor Center opens in July",
+    "location": "39000 State Route 706 E, Ashford"
   },
   {
     "name": "Mounger Pool",
     "category": "athletic",
+    "quadrant": "Central",
     "date_text": "Thru Sept. 9",
     "end": "9/9/2018",
     "phone": "206-684-4708",
     "url": "http://seattle.gov/parks/find/pools/mounger-pool",
     "details": "$3.75-$5.50 ",
-    "description": "Outdoor Big Pool with corkscrew slide, shallow Little Pool; swim lessons, open swims, themed events, hours vary daily, 2535 32nd Ave. W., Seattle."
+    "description": "Outdoor Big Pool with corkscrew slide, shallow Little Pool; swim lessons, open swims, themed events, hours vary daily",
+    "location": "2535 32nd Ave. W., Seattle"
   },
   {
     "name": "Enchanted Village and Wild Waves Water Park",
     "category": "athletic",
+    "quadrant": "South",
     "date_text": "Thru Sept. 3",
     "end": "9/3/2018",
     "phone": "253-661-8000",
     "url": "http://wildwaves.com/index.php",
     "details": "$16.99-$21.99 through June 15; $22.99-$40.99 June 16-Sept. 3 ",
-    "description": "Fun park rides only, 10:30 a.m.-6 p.m. May 12-13, 19-20; fun park and water park, 10:30 a.m.-6 p.m. May 26-28, 9 a.m.-4 p.m. June 1, 10:30 a.m.-6 p.m. June 2-3, 9 a.m.-4 p.m. June 6-8, 10:30 a.m.-6 p.m. June 9-10, 9 a.m.-4 p.m. June 11-15; 10:30 a.m.-7 p.m. June 16-25, 27-28; 10:30 a.m. 8 p.m. June 29 through Aug. 31; 10:30 a.m.-7 p.m. Sept. 1-3; Wild Waves & Enchanted Village, 36201 Enchanted Parkway S., Federal Way."
+    "description": "Fun park rides only, 10:30 a.m.-6 p.m. May 12-13, 19-20; fun park and water park, 10:30 a.m.-6 p.m. May 26-28, 9 a.m.-4 p.m. June 1, 10:30 a.m.-6 p.m. June 2-3, 9 a.m.-4 p.m. June 6-8, 10:30 a.m.-6 p.m. June 9-10, 9 a.m.-4 p.m. June 11-15; 10:30 a.m.-7 p.m. June 16-25, 27-28; 10:30 a.m. 8 p.m. June 29 through Aug. 31; 10:30 a.m.-7 p.m. Sept. 1-3",
+    "location": "Wild Waves & Enchanted Village, 36201 Enchanted Parkway S., Federal Way"
   },
   {
     "name": "Remlinger Farms Country Fair Fun Park",
     "category": "athletic",
+    "quadrant": "East",
     "date_text": "Thru. Sept. 3",
     "end": "9/3/2018",
     "phone": "425-333-4135",
     "url": "http://remlingerfarms.com",
     "details": "$14.95-$17.11 ",
-    "description": "Thru Sept. 3 Farm animals, entertainment, rides and attractions for children, 10:30 a.m.-4:30 p.m. Saturdays-Sundays through June 20, 10:30 a.m.-4:30 p.m. daily June 21-Sept. 3, Remlinger Farms, 32610 N.E. 32nd St., Carnation."
+    "description": "Thru Sept. 3 Farm animals, entertainment, rides and attractions for children, 10:30 a.m.-4:30 p.m. Saturdays-Sundays through June 20, 10:30 a.m.-4:30 p.m. daily June 21-Sept. 3",
+    "location": "Remlinger Farms, 32610 N.E. 32nd St., Carnation"
   },
   {
     "name": "Point Defiance Zoo and Aquarium",
     "category": "athletic",
+    "quadrant": "South",
     "date_text": "Thru Sept. 3",
     "end": "9/3/2018",
     "phone": "253-404-3800",
     "url": "http://pdza.org",
     "details": "$7.95-$17.95 ",
-    "description": "Budgie Buddies opening weekend, feed colorful Australian birds, May 12-13, open 10:30 a.m.-1 p.m. and 2-5 p.m. weekends, 10:30 a.m.-2 p.m. weekdays; Wild Wonders Shows daily; World Ocean Weekend activities June 2-3; Half-Price Dads Day and activities June 17; World Tiger Day activities, July 28; open 9:30 a.m.-5 p.m. daily through June 29; 9:30 a.m.-6 p.m. daily June 30-Sept. 3, Point Defiance Zoo & Aquarium, 5400 N. Pearl St., Tacoma."
+    "description": "Budgie Buddies opening weekend, feed colorful Australian birds, May 12-13, open 10:30 a.m.-1 p.m. and 2-5 p.m. weekends, 10:30 a.m.-2 p.m. weekdays; Wild Wonders Shows daily; World Ocean Weekend activities June 2-3; Half-Price Dads Day and activities June 17; World Tiger Day activities, July 28; open 9:30 a.m.-5 p.m. daily through June 29; 9:30 a.m.-6 p.m. daily June 30-Sept. 3",
+    "location": "Point Defiance Zoo & Aquarium, 5400 N. Pearl St., Tacoma"
   },
   {
     "name": "Syttende Mai",
     "category": "festivals",
+    "quadrant": "North",
     "date_text": "May 17",
     "date": "5/17/2018",
     "url": "http://17thofmay.org",
-    "description": "Norway Constitution Day celebration; children’s activities, Fjord horses, 10 a.m.-5 p.m., Nordic Heritage Museum, 2655 N.W. Market St.; musical entertainment, 2-6 p.m., Bergen Place Park, 22nd Avenue Northwest and Northwest Market Street; open house heritage displays, entertainment, noon-5 p.m., Leif Erikson Hall, 2245 N.W. 57th St., Seattle; 17th of May Ballard Parade, 6 p.m. on 24th Avenue Northwest from Northwest 62nd Street to Northwest Market Street, Seattle."
+    "description": "Norway Constitution Day celebration; children’s activities, Fjord horses, 10 a.m.-5 p.m., Nordic Heritage Museum, 2655 N.W. Market St.; musical entertainment, 2-6 p.m., Bergen Place Park, 22nd Avenue Northwest and Northwest Market Street; open house heritage displays, entertainment, noon-5 p.m., Leif Erikson Hall, 2245 N.W. 57th St., Seattle; 17th of May Ballard Parade, 6 p.m.",
+    "location": "On 24th Avenue Northwest from Northwest 62nd Street to Northwest Market Street, Seattle"
   },
   {
     "name": "A Glimpse of China Chinese Culture & Arts Festival",
     "category": "festivals",
+    "quadrant": "Central",
     "date_text": "May 19",
     "date": "5/19/2018",
     "phone": "206-684-7200",

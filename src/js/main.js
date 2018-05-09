@@ -32,8 +32,7 @@ var preprocessData = function(row) {
   row.timestamps.key = row.timestamps.date || row.timestamps.start;
 
   row.categories = row.category ? row.category.split(" ") : [];
-
-  row.quadrant = row.quadrant ? row.quadrant.toLowerCase() : "north"; // TODO: remove 'north' - just for testing current blanks
+  row.quadrants = row.quadrant ? row.quadrant.toLowerCase().split(" ") : [];
 };
 eventData.forEach(preprocessData);
 recsData.forEach(preprocessData);
