@@ -43,7 +43,7 @@ var drawItem = function(list) {
   return list[(list.length * Math.random()) | 0];
 };
 
-var getItem = function(config, metaName) {
+var getItem = function(config, metaName, oldName) {
   // Add category to config (which has qudrant and day)
   var config = Object.assign({ categories: window.metacats[metaName].cats }, config);
   var filters = [
@@ -54,7 +54,10 @@ var getItem = function(config, metaName) {
   var list = eventsAndRecs;
   filters.forEach(f => list = f(list, config));
 
-  var data = drawItem(list);
+  var data;
+  do {
+    data = drawItem(list);
+  } while (data.name === oldName); // ensure rerolling never returns the same as before
   return {
     metaName,
     metaMessage: window.metacats[metaName].message,
@@ -65,7 +68,7 @@ var getItem = function(config, metaName) {
 var reroll = function() {
   var descNode = this.previousElementSibling; // <p>
   var nameNode = descNode.previousElementSibling; // <h4>
-  var newItem = getItem(spaceTimeFilters, this.dataset.metacat);
+  var newItem = getItem(spaceTimeFilters, this.dataset.metacat, nameNode.innerHTML);
   nameNode.innerHTML = newItem.data.name;
   descNode.innerHTML = newItem.data.description || "";
 };
