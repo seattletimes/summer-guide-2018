@@ -7,7 +7,7 @@ var planTemplate = dot.compile(require("./_itinerary.html"));
 var goButton = $.one(".generate-itinerary");
 var quadrantSelect = $.one(`[name="quadrant"]`);
 var dateInput = $.one(`[name="date"]`);
-var resultList = $.one(".itinerary-results ul");
+var resultList = $.one(".itinerary-results");
 
 var today = new Date();
 dateInput.value = `${today.getFullYear()}-${padLeft(today.getMonth() + 1, 2)}-${padLeft(today.getDate(), 2)}`;
@@ -63,8 +63,8 @@ var getItem = function(config, metaName) {
 };
 
 var reroll = function() {
-  var nameNode = this.parentNode.nextElementSibling;
-  var descNode = nameNode.nextElementSibling;
+  var descNode = this.previousElementSibling; // <p>
+  var nameNode = descNode.previousElementSibling; // <h4>
   var newItem = getItem(spaceTimeFilters, this.dataset.metacat);
   nameNode.innerHTML = newItem.data.name;
   descNode.innerHTML = newItem.data.description || "";
