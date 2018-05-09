@@ -16,19 +16,19 @@ var spaceTimeFilters = {};
 var updateFilters = function() {
   spaceTimeFilters = {
     quadrant: quadrantSelect.value,
-    date: dateInput.valueAsDate, // TODO: IE 11 support ... ?
+    day: dateInput.valueAsDate, // TODO: IE 11 support ... ?
   };
 };
 
 var eventsAndRecs = eventData.concat(recsData);
 
-var filterQuadrant = function(list, quadrant) {
+var filterQuadrant = function(list, { quadrant }) {
   var filtered = list.filter(e => e.quadrant == quadrant);
   // get and concat food, attractions, etc.
   return filtered;
 };
 
-var filterDate = function(list, day = new Date()) {
+var filterDate = function(list, { day = new Date() }) {
   return list.filter(function(item) {
     if (item.timestamps.date) {
       return item.timestamps.date == day;
@@ -41,13 +41,18 @@ var drawItem = function(list) {
   return list[(list.length * Math.random()) | 0];
 };
 
-var getItem = function(filters, metaName) {
-  var eligible = filterDate(
-    filterCategories(
-      filterQuadrant(eventsAndRecs, filters.quadrant),
-      window.metacats[metaName].cats),
-    filters.date);
-  var data = drawItem(eligible);
+var getItem = function(config, metaName) {
+  // Add category to config (which has qudrant and day)
+  var config = Object.assign({ categories: window.metacats[metaName].cats }, config);
+  var filters = [
+    filterQuadrant,
+    filterCategories,
+    filterDate
+  ];
+  var list = eventsAndRecs;
+  filters.forEach(f => list = f(list, config));
+
+  var data = drawItem(list);
   return {
     metaName,
     metaMessage: window.metacats[metaName].message,
