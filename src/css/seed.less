@@ -117,21 +117,37 @@ header {
   }
 }
 
-@card-margin: 16px;
+@card-spacing: 16px;
 .event-listings {
   .display-flex();
   .justify-content(space-between);
   .flex-wrap(wrap);
-  margin: -@card-margin;
+  padding: 16px 0;
   font-family: @df-sans;
   font-size: 17px;
 
+  @media @mobile {
+    display: block;
+  }
+
   div.item {
-    .flex(1 0 30%);
-    margin: @card-margin;
-    min-width: 200px;
-    border: 1px solid @df-light-gray;
-    border-radius: 4px;
-    padding: 0 @card-margin;
+    .flex(1 1 300px);
+    padding: @card-spacing;
+
+    @media @tablet {
+      .flex(0 0 50%);
+    }
+  }
+
+  .card {
+    height: 100%;
+    padding: @card-spacing;
+    box-shadow:
+      0 16px 16px -8px fade(black, 20%),
+      0 8px 32px 0 fade(black, 6%);
+  }
+  
+  h4, h5 {
+    margin: 0;
   }
 }

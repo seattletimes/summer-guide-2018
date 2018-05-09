@@ -1,13 +1,15 @@
 <% data.forEach(function(row){ %>
 <div class="item">
-  <h4><a href="<%= row.url %>"><%= row.name %></a></h4>
-  <h5 class="dates"><%= row.date_text || "" %></h5>
-  <p class="description">
-    <%= row.description %>
-    <% if (row.phone) { %>
-      (<a href="tel:<%= row.phone %>"><%= row.phone %></a>)
-    <% } %>
-  </p>
-  <p class="details"><%= row.details || "" %></p>
+  <div class="card">
+    <h4><a href="<%= row.url %>"><%= row.name %></a></h4>
+    <h5 class="dates"><%= row.date_text || "" %></h5>
+    <p class="description">
+      <%= row.description %>
+      <% if (row.phone) { %>
+        (<a href="tel:<%= row.phone %>"><%= row.phone %></a>)
+      <% } %>
+    </p>
+    <p class="details"><%= row.details || "" %></p>
+  </div>
 </div>
 <% }); %>
