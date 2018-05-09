@@ -5,20 +5,10 @@
     "meta": "artistic"
   },
   {
-    "short": "fourth",
-    "long": "Fourth of July",
-    "meta": "other"
-  },
-  {
     "short": "outdoors",
     "long": "Outdoors",
     "meta": "active",
     "notes": "(hikes, nature walks, etc.)"
-  },
-  {
-    "short": "aquatic",
-    "long": "Aquatic Activities",
-    "meta": "active"
   },
   {
     "short": "festivals",
@@ -42,13 +32,8 @@
   },
   {
     "short": "athletic",
-    "long": "Athletic Events",
+    "long": "Athletic and Aquatic Activities",
     "meta": "active",
     "notes": "(races, 5Ks, etc.)"
-  },
-  {
-    "short": "cars",
-    "long": "Car Shows",
-    "meta": "other"
   }
 ]

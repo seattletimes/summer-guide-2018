@@ -41,9 +41,8 @@ require("./list")();
 require("./planner");
 
 $("[data-tab]").forEach(a => a.addEventListener("click", function() {
-  var selector = `.tab.${this.getAttribute("data-tab")}`;
-  $.one(".tab.selected").classList.remove("selected");
-  $.one(".tab-select .current").classList.remove("current");
+  var tab = this.getAttribute("data-tab");
+  document.body.setAttribute("data-mode", tab);
+  $.one(".current").classList.remove("current");
   this.classList.add("current");
-  $.one(selector).classList.add("selected");
 }));

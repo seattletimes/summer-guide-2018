@@ -3,47 +3,43 @@
     "name": "The Fat Hen",
     "category": "food",
     "quadrant": "North",
-    "description": "Hearty breakfast options including egg bakes and a variety of benedicts.",
-    "url": "http://thefathenseattle.com/",
-    "date_text": "Ongoing"
+    "description": "Cozy breakfast spot serving up egg bakes and a variety of benedicts.",
+    "url": "https://www.seattletimes.com/life/food-drink/the-fat-hen-a-cozy-nook-for-the-brood-in-the-ballard-hood/"
   },
   {
     "name": "Portage Bay Cafe",
     "category": "food",
     "quadrant": "North",
     "description": "Hearty breakfast options including migas and Swedish pancakes. Go ahead and splurge on the Rancher’s Breakfast with a short stack on the side.",
-    "url": "http://www.portagebaycafe.com/",
-    "date_text": "Ongoing"
+    "url": "http://www.portagebaycafe.com/"
   },
   {
     "name": "Golden Gardens Park",
     "category": "outdoors",
     "quadrant": "North",
     "description": "Take one of the scenic trails at Golden Gardens Park to the end of the beach for some stunning views of Puget Sound.",
-    "url": "https://www.seattle.gov/parks/find/parks/golden-gardens-park",
-    "date_text": "Ongoing"
+    "url": "https://www.wta.org/go-hiking/hikes/golden-gardens-park"
   },
   {
     "name": "Burke Gilman Trail",
     "category": "outdoors",
     "quadrant": "North",
-    "description": "Grab a LimeBike or take a leisurely stroll along this popular cyclist's paradise that stretches all the way from Kenmore to Golden Gardens (with the exception of that pesky missing link).",
-    "url": "https://www.seattle.gov/parks/find/parks/burke-gilman-trail",
-    "date_text": "Ongoing"
+    "description": "Grab a LimeBike or take a leisurely stroll along this popular cyclist's paradise stretching all the way from Kenmore to Golden Gardens (with the exception of that pesky missing link).",
+    "url": "https://www.seattle.gov/parks/find/parks/burke-gilman-trail"
   },
   {
     "name": "Ballard Locks",
     "category": "outdoors",
     "quadrant": "North",
     "description": "At the Ballard Locks, where the Ship Canal hits Salmon Bay, take a peek at your local Chums and Coho as they migrate from mid-June through October via an underwater fish ladder. Get even better acquainted with the fish by taking a free naturalist-guided tour.",
-    "url": "http://www.nws.usace.army.mil/Missions/Civil-Works/Locks-and-Dams/Chittenden-Locks/"
+    "url": "http://www.govlink.org/watersheds/8/action/salmon-seeson/ballard.aspx"
   },
   {
     "name": "Un Bien",
     "category": "food",
     "quadrant": "North",
-    "description": " Is Un Bien actually better than Seattle’s famous Paseo? Better try their big, messy Caribbean roast sandwich just to make sure.",
-    "url": "http://unbienseattle.com/"
+    "description": "Is Un Bien actually better than Seattle’s famous Paseo? Better try their big, messy Caribbean roast sandwich just to make sure.",
+    "url": "https://www.seattletimes.com/life/food-drink/paseo-and-un-bien-a-tale-of-two-sandwiches/"
   },
   {
     "name": "Magnuson Park",
@@ -54,27 +50,28 @@
   },
   {
     "name": "Agua Verde Paddle Club",
-    "category": "outdoors food aquatic",
+    "category": "outdoors food athletic",
     "quadrant": "North",
     "description": "At Agua Verde Paddle Club, you can rent a kayak by the hour. Check out the houseboat community in Portage Bay, head west to see Gas Works Park from a different viewpoint, or travel east through the Montlake Cut to hang with the wildlife near the Washington Park Arboretum. After you’ve paddled with the fishes, return to the mainland to drink like one. Back at the Agua Verde Cafe, trade in your kayak for a margarita and a seat with a view of Portage Bay.",
     "url": "http://aguaverde.com/"
   },
   {
     "name": "Center for Wooden Boats",
-    "category": "aquatic activities",
+    "category": "athletic",
     "quadrant": "North",
-    "description": "Check out the Center for Wooden Boats for a more accessible option for getting on the water, including classes, boat rentals, and Steamship Saturday cruises aboard a historic 125-foot steamboat.\n",
+    "description": "Check out the Center for Wooden Boats for a more accessible option for getting on the water — the space offers classes, boat rentals, and Steamship Saturday cruises aboard a historic 125-foot steamboat.\n",
     "url": "http://cwb.org/"
   },
   {
     "name": "JuneBaby",
     "category": "food",
     "quadrant": "North",
-    "description": "Treat yourself to a big, beautiful Southern supper at the award-winning JuneBaby.",
-    "url": "https://www.junebabyseattle.com/"
+    "description": "Treat yourself to a big, beautiful Southern supper at the award-winning JuneBaby, helmed by James Beard Award-winning chef Edouardo Jordan.",
+    "url": "https://www.seattletimes.com/life/food-drink/edouardo-jordans-junebaby-named-a-food-wine-restaurant-of-the-year/"
   },
   {
     "name": "Add-a-Ball",
+    "category": "arts",
     "quadrant": "North",
     "description": "Stuff your pockets full of quarters and saunter over to Add-a-Ball, where “the largest collection of coin-operated arcade machines in the city” ought to keep your inner child happy for a few hours (you still have to be over 21, though).",
     "url": "http://add-a-ball.com/"
@@ -84,156 +81,198 @@
     "category": "food",
     "quadrant": "South",
     "description": "Enjoy complete Jebena Buna (a traditional coffee ceremony practiced in Ethiopia and Eritrea) table service at Cafe Avole (pronounced ah-bole, it translates to the first strong cup of coffee in the three-cup ceremony). The coffee experience is the cafe’s focus, but there’s a small menu, too.",
-    "url": "https://www.facebook.com/Cafe-Avole-659103624188066/"
+    "url": "https://www.seattletimes.com/seattle-news/seattle-cafe-wants-to-showcase-ethiopian-style-coffee/"
   },
   {
-    "name": "Wing Luke Museum",
-    "category": "arts",
+    "name": "“What’s in your cup? Community-Brewed Culture”",
+    "category": "arts food",
     "quadrant": "South",
     "description": "Gain a deeper appreciation for how our favorite drinks get to our cups at the “What’s in your cup? Community-Brewed Culture” exhibit at the Wing Luke Museum of the Asian American Experience (on view until Sept. 16). The exhibit promises to examine how some of the Asian and “so called Asian-inspired” beverages we drink — and the places they come from — influence whole communities and cultures.",
-    "url": "http://www.wingluke.org/"
+    "url": "http://www.wingluke.org/whats-in-your-cup",
+    "date_text": "October 13, 2017 - September 16, 2018",
+    "start": "October 13",
+    "end": "September 16"
   },
   {
     "name": "Jefferson Park",
     "category": "outdoors",
     "quadrant": "South",
     "description": "Tee off at Jefferson Park’s golf course, test out a new board at the skatepark, tire out the kids on the zip lines at the spray park, or just take in the views of the Duwamish River and the Olympics. And if none of that is to your liking, there’s always lawn bowling.",
-    "url": "https://www.seattle.gov/parks/find/parks/jefferson-park",
-    "date_text": "Ongoing"
+    "url": "https://www.seattle.gov/parks/find/parks/jefferson-park"
   },
   {
     "name": "Sisters and Brothers",
     "category": "food",
     "quadrant": "South",
     "description": "For one of Seattle’s really, truly super-spicy-hot eating experiences, head to Georgetown’s Sisters and Brothers and order your Nashville hot chicken “insane”-style. For the spice-averse, “naked” is available, and also great. And there’s plenty of cold beer, too.",
-    "url": "http://www.sistersandbrothersbar.com/"
+    "url": "https://www.seattletimes.com/life/food-drink/why-seattles-lining-up-for-nashville-hot-chicken/"
   },
   {
     "name": "Fantagraphics Bookstore and Gallery",
     "category": "arts",
-    "quadrant": "South"
-  },
-  {
-    "name": "Georgetown Records",
-    "category": "music",
-    "quadrant": "South"
+    "quadrant": "South",
+    "description": "’Tis the era of the nerd, so embrace your geekier side and grab some new alt comics at Fantagraphics Bookstore and Gallery. Might I suggest something from the “Love and Rockets” series? Or if music is more your thing, nab a couple of new issues of “Hip Hop Family Tree” before heading over to Georgetown Records just next door for your vinyl fix.",
+    "url": "https://www.seattletimes.com/entertainment/books/fantagraphics-seattle-artists-rack-up-nominations-at-the-comic-worlds-oscars-the-eisner-awards/"
   },
   {
     "name": "Kubota Garden",
     "category": "outdoors",
-    "quadrant": "South"
+    "quadrant": "South",
+    "description": "Find a quiet spot at Kubota Garden, a 20-acre historical landmark that began as a 5-acre garden created by Fujitaro Kubota in 1927. It has a fascinating history and it’s beautifully designed — the perfect place to relax.",
+    "url": "https://www.seattletimes.com/pacific-nw-magazine/majestic-kubota-garden-is-refreshed-and-refreshing/"
   },
   {
     "name": "Bar Ciudad",
     "category": "food",
-    "quadrant": "South"
+    "quadrant": "South",
+    "description": "Every Sunday from 3 to 10 p.m., the Bar Ciudad courtyard turns into a dope dance party, with different DJs and performers every weekend. Get inspired to get down with some small but sweet cocktails featuring ingredients like pomegranate molasses, and cool down between sets with a boozy slushy.",
+    "url": "https://www.barciudad.com/events/"
   },
   {
     "name": "Clock-Out Lounge",
     "category": "music",
-    "quadrant": "South"
-  },
-  {
-    "name": "Breezy Town Pizza",
-    "category": "food",
-    "quadrant": "South"
+    "quadrant": "South",
+    "description": "Clock-Out Lounge features live music three nights a week (DJs and karaoke round out the rest of the week) and big fat slices from Seattle pizza expert Dave Lichterman’s Breezy Town Pizza every night. With pinball machines and kid-friendly hours until 8 p.m., the Clock-Out is a place you can bring the kids, too (at least for a little while).",
+    "url": "https://www.seattletimes.com/news/clock-out-lounge-and-breezy-town-pizza-bring-live-music-deep-dish-to-beacon-hill/"
   },
   {
     "name": "Chace's Pancake Corral",
     "category": "food",
-    "quadrant": "East"
+    "quadrant": "East",
+    "description": "Get a taste of old-school Eastside flavor at Chace’s Pancake Corral. Open for 60 years, this family-owned classic starts serving at 5:45 a.m., when the regulars start coming. It’s the kind of place with wagon-wheel chandeliers — and the pancakes are great.",
+    "url": "https://www.seattletimes.com/life/food-drink/chaces-pancake-corral-celebrates-50-years-of-coffee-and-camaraderie/"
   },
   {
     "name": "Mercer Slough Nature Park",
     "category": "outdoors",
-    "quadrant": "East"
+    "quadrant": "East",
+    "description": "The Mercer Slough Nature Park is a great spot to get in a light walk, or if you’re there during blueberry season (the dates vary), you can pick your own snack for later at the Mercer Slough Blueberry Farm.",
+    "url": "https://www.wta.org/go-hiking/hikes/mercer-slough-nature-park-trails"
   },
   {
     "name": "Trailhead Direct shuttle",
     "category": "outdoors",
-    "quadrant": "East"
+    "quadrant": "East",
+    "description": "Catch the Trailhead Direct shuttle from Eastgate Freeway Park ’n’ Ride to one of several trailheads in the Issaquah Alps. Just hop on, pick a hike and hop back on when you’re ready; the shuttle runs every 30 minutes.",
+    "url": "https://www.seattletimes.com/life/outdoors/trailhead-direct-offers-shuttle-service-from-mount-baker-to-the-issaquah-alps-with-more-stops-coming-soon/"
   },
   {
     "name": "Lake Sammamish",
     "category": "outdoors",
-    "quadrant": "East"
+    "quadrant": "East",
+    "description": "There’s nothing better than jumping into a cool freshwater lake. At Lake Sammamish, you can take a breather on one of two beaches and dive in. There are also paddle boards and kayaks for rent for those who’d rather keep their hair dry.",
+    "url": "http://parks.state.wa.us/533/Lake-Sammamish"
   },
   {
     "name": "KidsQuest Children's Museum",
     "category": "arts",
     "quadrant": "East",
     "description": "If you’ve got young kids to tire out or are a big kid yourself, check out the KidsQuest Children’s Museum for plenty of things to climb on, climb through, ride, build and other action verbs. Unlike most museums, you can let the kids run free here, with classes at the Learning Lab, a Water room, and even a fake store where kids can play shopkeeper.",
-    "url": "https://www.kidsquestmuseum.org/"
+    "url": "https://www.seattletimes.com/entertainment/kidsquest-childrens-museum-opens-tuesday-at-new-location-in-bellevue/"
   },
   {
     "name": "Marymoor Park",
     "category": "outdoors",
-    "quadrant": "East"
+    "quadrant": "East",
+    "description": "With frequent outdoor concerts, a velodrome, a free climbing wall and a 40-acre dog park, there’s no shortage of cool ways to spend your limited hours of Northwest sunlight at Marymoor Park.",
+    "url": "https://www.kingcounty.gov/services/parks-recreation/parks/parks-and-natural-lands/popular-parks/marymoor.aspx"
   },
   {
     "name": "Bellevue Arts Museum",
     "category": "arts",
-    "quadrant": "East"
+    "quadrant": "East",
+    "description": "Get some culture at Bellevue Arts Museum, where you can take in the famous calavera prints of José Guadalupe Posada, who influenced generations of Mexican artists (on view through Aug. 19), or be inspired by the figurative paintings from international star Alex Katz, who’s still going strong at 90 (on view June 1-Sept. 16). Then there’s always the first-time museum exhibition of FEMAIL, a “reactive collaboration” of fashion artists conducted through snail mail (on view June 1-Sept. 30). You know you’re curious.",
+    "url": "https://www.bellevuearts.org/exhibitions/upcoming/femail"
   },
   {
     "name": "Tiger Bites",
     "category": "food",
-    "quadrant": "East"
+    "quadrant": "East",
+    "description": "Stop in at Tiger Bites for a meal you can’t get anywhere else in the city. The restaurant specializes in baos, a popular snack in Taiwanese night markets, but the menu also features unique creations like “Tiger Fries,” fries topped with kalbi beef, kimchi and a sweet-and-spicy mayo (the owners describe it as “Tiger Bites-style poutine”).",
+    "url": "https://www.seattletimes.com/life/food-drink/at-tiger-bites-in-bellevue-try-baos-and-other-dishes-inspired-by-taiwans-night-markets/"
   },
   {
     "name": "Mox Boarding House",
     "category": "food",
     "quadrant": "East",
     "description": "Stop in at Mox Boarding House during their open gaming hours for a well-stocked game library, a full-service restaurant, beer and wine, and a chance to try out board games you’ve been thinking about buying.",
-    "url": "https://www.moxboardinghouse.com/"
+    "url": "https://www.moxboardinghouse.com/locations/"
   },
   {
     "name": "Cinemark Reserve",
-    "quadrant": "East"
+    "category": "food arts",
+    "quadrant": "East",
+    "description": "Sit back and indulge a little at Cinemark Reserve. Here, you can order crème brûlée and an old-fashioned at the push of a button while you watch “Avengers: Infinity War” in the comfort of a reclining leather chair (also equipped with seat warmers for the perpetually cold).",
+    "url": "https://www.seattletimes.com/life/food-drink/dinner-at-a-movie-a-new-bellevue-cinema-offers-the-very-best-upscale-dinner-and-drinks-bet-yet/"
   },
   {
     "name": "Water taxi",
-    "quadrant": "West"
+    "category": "outdoors",
+    "quadrant": "West",
+    "description": "How you get where you’re going can be half the fun, and in this case that’s definitely true. Taking the water taxi from downtown Seattle to West Seattle is a feast of beautiful views. And the views only get better as you explore on land.",
+    "url": "https://www.kingcounty.gov/depts/transportation/water-taxi/west-seattle.aspx"
   },
   {
     "name": "Marination Mai Kai",
     "category": "food",
-    "quadrant": "West"
+    "quadrant": "West",
+    "description": "At Marination Ma Kai, a feast awaits. Hawaiian-Korean breakfast — like house-made-Portuguese-sausage-and-egg sliders — is available Friday through Sunday, 9 a.m. to 2 p.m. (with lunch starting at 11 a.m. Monday through Thursday). This local favorite also has all kinds of cold drinks, something you may want to keep in mind for later (or get started now!).",
+    "url": "https://www.seattletimes.com/life/food-drink/happy-hour-places-for-drinks-with-a-view/"
   },
   {
     "name": "Alki Kayak Tours",
     "category": "outdoors",
-    "quadrant": "West"
+    "quadrant": "West",
+    "description": "If you can manage to resist the urge to just camp out all day at Alki Beach, reward yourself with a trip to Alki Kayak Tours, where you can rent some inline skates or a bike to cruise the Alki Trail, which will take you on a beautiful tour of the West Seattle coast.",
+    "url": "http://www.kayakalki.com/"
   },
   {
     "name": "Alki Point Lighthouse",
     "category": "outdoors",
-    "quadrant": "West"
+    "quadrant": "West",
+    "description": "On weekends between 1 p.m. and 4 p.m., you can get a free tour of the Alki Point Lighthouse from U.S. Coast Guard Auxiliarists or active-duty personnel, featuring a history of the lighthouse, which has been operational since 1913.",
+    "url": "http://wow.uscgaux.info/content.php?unit=130-02&category=alki-pt-lighthouse"
   },
   {
     "name": "Nightshade Nursery",
-    "quadrant": "West"
+    "category": "outdoors",
+    "quadrant": "West",
+    "description": "You’ll know you’re in the right place when you see a sign for a “TOMATO PLANT SALE” at the top of a West Seattle driveway — Nightshade Nursery isn’t on Google Maps yet, but if you’ve got a green thumb, it offers a great selection of heirloom tomato plants. And even if you can’t fit a Purple Calabash plant into your bag, nursery employees offer great advice on growing and eating tomatoes that makes it worth the pit stop.",
+    "url": "https://nightshadenursery.wordpress.com/"
   },
   {
-    "name": "Lincoln Park",
-    "category": "outdoors",
-    "quadrant": "West"
+    "name": "Colman Pool",
+    "category": "outdoors athletic",
+    "quadrant": "West",
+    "description": "Take a dip at Lincoln Park's Colman Pool, an outdoor heated saltwater swimming pool just off the beach. There’s a slide!",
+    "url": "https://www.seattle.gov/parks/find/parks/lincoln-park"
   },
   {
     "name": "Sunfish",
-    "quadrant": "West"
+    "category": "food",
+    "quadrant": "West",
+    "description": "Locals always debate whether Alki’s greatest hot, golden-fried fish ’n’ chips come from Sunfish or Spud — go to whichever is closest, and you’ll be happy. Take it to-go and scope out Alki Beach for a good spot to watch the sunset.",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-very-best-fish-and-chips-and-a-shout-out-to-burien/"
   },
   {
     "name": "Spud",
-    "quadrant": "West"
+    "category": "food",
+    "quadrant": "West",
+    "description": "Locals always debate whether Alki’s greatest hot, golden-fried fish ’n’ chips come from Sunfish or Spud — go to whichever is closest, and you’ll be happy. Take it to-go and scope out Alki Beach for a good spot to watch the sunset.",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-very-best-fish-and-chips-and-a-shout-out-to-burien/"
   },
   {
     "name": "Supreme",
-    "quadrant": "West"
+    "category": "food",
+    "quadrant": "West",
+    "description": "Head on over to Supreme, the 21-and-older spot from Mark Fuller of Ma’ono/New Luck Toy fame, for cocktails and (eventually, after a couple of those “Supreme-sicle” frozen ones kick in) some New York-style slices. Through the haze of boozy slushies, whatever neon chalk art you draw on the restaurant’s glow-in-the-dark chalkboard walls will be masterpieces.",
+    "url": "http://www.supreme.bar/"
   },
   {
     "name": "Alki Beach",
     "category": "outdoors",
-    "quadrant": "West"
+    "quadrant": "West",
+    "description": "The best place to watch the sunset is Alki Beach, and the best place at Alki Beach to watch the sunset is around a bonfire. But the fire pits are first-come, first-served, so you might want to grab a spot early — or else bring snacks to bribe whoever managed to snag a pit into being your new best friends.",
+    "url": "https://www.seattle.gov/parks/find/parks/alki-beach-park"
   }
 ]

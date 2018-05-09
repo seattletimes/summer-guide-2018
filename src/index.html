@@ -4,7 +4,7 @@
     <%= t.include("partials/_head.html", grunt.data.json) %>
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
-  <body>
+  <body data-mode="listings">
     <%= t.include("partials/_nav.html") %>
 
     <%= t.include("partials/_ad.html", { type: "banner" }) %>
@@ -23,14 +23,13 @@
     <main class="constrained">
 
       <nav class="tab-select">
-        <a data-tab="listing" class="current">Show all listings</a> |
-        <a data-tab="itinerary">Plan your day!</a>
+        <a data-tab="listings" class="current">Show all listings</a> |
+        <a data-tab="planning">Plan your day!</a>
       </nav>
 
-      <div class="listing tab selected">
-          <nav class="filters">
+      <nav class="filters">
+        <div class="filter-group categories">
           <h2 class="nav-header">Choose categories</h2>
-
           <ul class="categories">
             <% json.categories.forEach(function(item) { %>
             <li>
@@ -38,9 +37,9 @@
               <label for="<%= item.short %>"><%= item.long %></label>
             <% }); %>
           </ul>
-
+        </div>
+        <div class="filter-group months">
           <h2 class="nav-header">Choose a month</h2>
-
           <ul class="months">
             <% [
               { short: "5", long: "May" },
@@ -54,36 +53,33 @@
               <label for="<%= item.short %>"><%= item.long %></label>
             <% }); %>
           </ul>
-        </nav>
-
-        <div class="event-listings"></div>
-    </div>
-
-    <div class="itinerary tab">
-      <div class="controls">
-        <input type="date" name="date" placeholder="YYYY-MM-DD">
-        <select name="quadrant">
-          <option value="north">North</option>
-          <option value="south">South</option>
-          <option value="east">East</option>
-          <option value="west">West</option>
-        </select>
-        <div class="filters">
-          <h2 class="nav-header">I would like to …</h2>
-          <ul>
-            <% Object.keys(json.meta).forEach(function(metaName) { %>
-            <li>
-              <input class="metacategory" type="checkbox" value="<%= metaName %>" id="metacat-<%= metaName %>">
-              <label for="metacat-<%= metaName %>">… <%= json.meta[metaName].message %></label>
-            <% }); %>
-          </ul>
+        </div>
+        <div class="filter-group search">
+          <h2 class="nav-header">Search for events</h2>
+          <input id="search">
+        </div>
+        <div class="filter-group itinerary">
+          <div class="controls">
+            <div>
+              <h2 class="nav-header">What day are you planning for?</h2>
+              <input type="date" name="date" placeholder="YYYY-MM-DD">
+            </div>
+            <div>
+              <h2 class="nav-header">Where in Seattle will you be?</h2>
+              <select name="quadrant">
+                <option value="north">North</option>
+                <option value="south">South</option>
+                <option value="east">East</option>
+                <option value="west">West</option>
+              </select>
+            </div>
+          </div>
           <button class="generate-itinerary">Go</button>
         </div>
-      </div>
-
-      <div class="itinerary-results">
-      </div>
-    </div>
+      </nav>
+      <div class="event-listings"></div>
+      <div class="itinerary-results"></div>
+    </main>
 
     <script>
 window.eventData = <%= JSON.stringify(json.events) %>;

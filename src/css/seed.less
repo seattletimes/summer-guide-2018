@@ -61,21 +61,52 @@ header {
   }
 }
 
-.tab {
-  display: none;
-
-  &.selected {
-    display: block;
-  }
-}
-
 .filters {
+  .display-flex();
+  .justify-content(space-between);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 16px 32px -24px;
+  background-color: white;
+  padding-bottom: 16px;
   font-family: @df-sans;
   text-align: center;
 
+  @media @mobile {
+    display: block;
+    position: static;
+  }
+
+  .filter-group {
+    .flex(0 0 27%);
+    padding: 8px;
+
+    &.categories {
+      .flex(0 0 46%);
+    }
+
+    &.itinerary {
+      .flex(0 0 54%);
+
+      .controls {
+        .display-flex();
+        .justify-content(space-between);
+        padding-bottom: 16px;
+
+        @media @mobile {
+          display: block;
+        }
+
+        div {
+          padding: 8px;
+        }
+      }
+    }
+  }
+
   h2 {
     font-size: 15px;
-    border-bottom: 1px solid @df-light-gray;
   }
 
   ul {
@@ -88,7 +119,7 @@ header {
     }
   }
 
-  input {
+  input[type="checkbox"] {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
@@ -114,6 +145,14 @@ header {
       background: @st-light-blue;
       color: inherit;
     }
+  }
+
+  [data-mode="listings"] & {
+    .itinerary, .go { display: none }
+  }
+
+  [data-mode="planning"] & {
+    .months, .search { display: none }
   }
 }
 
