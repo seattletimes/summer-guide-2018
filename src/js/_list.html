@@ -1,15 +1,22 @@
 <% data.forEach(function(row){ %>
 <div class="item">
   <div class="card">
-    <h4><a href="<%= row.url %>"><%= row.name %></a></h4>
-    <h5 class="dates"><%= row.date_text || "" %></h5>
-    <p class="description">
+    <div class="metadata">
+      <h4><a href="<%= row.url %>"><%= row.name %></a></h4>
+      <h5 class="dates"><%= row.date_text || "" %></h5>
+    </div>
+    <div class="description">
       <%= row.description %>
+      <div class="details"><%= row.details || "" %></div>
+    </div>
+    <ul class="contact">
       <% if (row.phone) { %>
-        (<a href="tel:<%= row.phone %>"><%= row.phone %></a>)
+      <li> Phone: <a href="tel:<%= row.phone %>"><%= row.phone %></a>
       <% } %>
-    </p>
-    <p class="details"><%= row.details || "" %></p>
+      <% if (row.url) { %>
+      <li> On the web at <a href="<%= row.url %>"><%= row.url.replace(/https?:\/\/|www\.|(\w)\/.*?$/g, "$1") %></a>
+      <% } %>
+    </ul>
   </div>
 </div>
 <% }); %>

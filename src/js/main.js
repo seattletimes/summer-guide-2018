@@ -30,6 +30,7 @@ var preprocessData = function(row) {
     }
   }
   row.timestamps.key = row.timestamps.date || row.timestamps.start;
+  row.url = row.url ? row.url.trim() : "";
 
   row.categories = row.category ? row.category.split(" ") : [];
   row.quadrants = row.quadrant ? row.quadrant.toLowerCase().split(" ") : [];
