@@ -5,12 +5,6 @@
     "meta": "artistic"
   },
   {
-    "short": "outdoors",
-    "long": "Outdoors",
-    "meta": "active",
-    "notes": "(hikes, nature walks, etc.)"
-  },
-  {
     "short": "festivals",
     "long": "Festivals & Parades",
     "meta": "other"
@@ -21,19 +15,25 @@
     "meta": "eat"
   },
   {
-    "short": "music",
-    "long": "Music",
-    "meta": "artistic"
-  },
-  {
     "short": "market",
     "long": "Markets",
     "meta": "other"
   },
   {
+    "short": "music",
+    "long": "Music",
+    "meta": "artistic"
+  },
+  {
     "short": "athletic",
-    "long": "Athletic and Aquatic Activities",
+    "long": "Athletic & Aquatic Activities",
     "meta": "active",
     "notes": "(races, 5Ks, etc.)"
+  },
+  {
+    "short": "outdoors",
+    "long": "Outdoors",
+    "meta": "active",
+    "notes": "(hikes, nature walks, etc.)"
   }
 ]

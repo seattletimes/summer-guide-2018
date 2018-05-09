@@ -2,11 +2,13 @@
   {
     "name": "Seattle Aquarium",
     "category": "athletic",
+    "quadrant": "Central",
     "date_text": "Ongoing",
     "phone": "206-386-4300",
     "url": "https://www.seattleaquarium.org/",
     "details": "$19.95-$29.95, ages 3 and younger free ",
-    "description": "Window on Washington Waters, tide pool touch tanks, marine mammals, Pacific Coral Reef, 9:30 a.m.-5 p.m. daily, 1483 Alaskan Way, Pier 59, Seattle."
+    "description": "Window on Washington Waters, tide pool touch tanks, marine mammals, Pacific Coral Reef, 9:30 a.m.-5 p.m. daily",
+    "location": "1483 Alaskan Way, Pier 59, Seattle"
   },
   {
     "name": "Seattle Great Wheel",
@@ -1493,7 +1495,7 @@
     "end": "7/22/2018",
     "url": "http://biteofseattle.com",
     "description": "Celebrating its 37th anniversary, food from 60-plus restaurants and vendors, craft beer and cider tasting, music and entertainment on three stages, The Alley restaurant showcase benefiting Food Lifeline, beer gardens, cooking demonstrations, 11 a.m.-9 p.m. July 20-21, 11 a.m.-8 p.m. July 22",
-    "location": "Seattle Center, Seattle"
+    "location": "Seattle Center"
   },
   {
     "name": "Seafair Pow Wow",
@@ -2685,7 +2687,7 @@
   {
     "name": "Seattle Pike Place Market",
     "category": "market",
-    "quadrant": "seattle",
+    "quadrant": "central",
     "phone": "206-682-7453",
     "url": "http://www.pikeplacemarket.org/",
     "description": "Fresh produce, arts and crafts vendors, shops, bakeries, restaurants, 9 a.m.-6 p.m. Mondays-Saturdays, 9 a.m.-5 p.m. Sundays, hours of businesses vary",
@@ -2694,7 +2696,7 @@
   {
     "name": "Pike Place Seasonal Farmers Markets",
     "category": "market",
-    "quadrant": "seattle",
+    "quadrant": "central",
     "url": "http://pikeplacemarket.org/farmers-market",
     "description": "Opening week of May 29, produce, flowers, honey and more from Pike Place Market producers at four locations; new this year, Regrade, 10 a.m.-2 p.m. Tuesdays, Seventh Avenue and Lenora Street; returning locations, City Hall, 10 a.m.-2 p.m. Tuesdays, 600 Fourth Ave.; South Lake Union, 10 a.m.-2 p.m. Thursdays, 410 Terry Ave. N.; First Hill, 10 a.m.-2 p.m. Fridays, Ninth Avenue and University Street, Seattle.",
     "location": "Multiple locations"
@@ -2702,7 +2704,7 @@
   {
     "name": "Columbia City Farmers Market",
     "category": "market",
-    "quadrant": "seattle",
+    "quadrant": "south",
     "url": "http://seattlefarmersmarkets.org",
     "description": "Local produce, cut flowers, plant starts, eggs, cheese, fish, poultry, meats, 3-7 p.m. Wednesdays",
     "location": "37th Avenue South and South Edmunds Street, Seattle"
@@ -2710,7 +2712,7 @@
   {
     "name": "Wallingford Farmers Market",
     "category": "market",
-    "quadrant": "seattle",
+    "quadrant": "north",
     "url": "http://sfmamarkets.com/visit-wallingford-farmers-market",
     "description": "Seasonal farm produce from Washington farms, food vendors, 3-7 p.m. Wednesdays",
     "location": "Meridian Park, 4649 Sunnyside Ave. N., Seattle"
@@ -2718,7 +2720,7 @@
   {
     "name": "Lake City Farmers Market",
     "category": "market",
-    "quadrant": "seattle",
+    "quadrant": "north",
     "url": "http://seattlefarmersmarkets.org",
     "description": "Opening June 7, local produce, flowers, plant starts, eggs, cheese, fish, poultry, meats, 3-7 p.m. Thursdays",
     "location": "Northeast 125th Street and 28th Avenue Northeast, Seattle"
@@ -2726,7 +2728,7 @@
   {
     "name": "Madrona Farmers Market",
     "category": "market",
-    "quadrant": "seattle",
+    "quadrant": "south",
     "url": "http://sfmamarkets.com/madrona-farmers-market",
     "description": "Seasonal produce from Washington farmers, fishers and ranchers, variety of foods made from locally grown ingredients, 3-7 p.m. Fridays",
     "location": "Madrona Grocery Outlet parking lot, 1126 Martin Luther King Jr. Way, Seattle"
@@ -2734,7 +2736,7 @@
   {
     "name": "Phinney Farmers Market",
     "category": "market",
-    "quadrant": "seattle",
+    "quadrant": "north",
     "url": "http://seattlefarmersmarkets.org",
     "description": "Opening June 1, local produce, flowers, plant starts, eggs, cheese, fish, poultry, meats, 3:30-7:30 p.m. Fridays",
     "location": "Phinney Neighborhood Center, 6532 Phinney Ave. N, Seattle"
@@ -2742,7 +2744,7 @@
   {
     "name": "University District Farmers Market",
     "category": "market",
-    "quadrant": "seattle",
+    "quadrant": "north",
     "url": "http://seattlefarmersmarkets.org",
     "description": "Fresh produce and farm products, flowers, food vendors, 9 a.m.-2 p.m. Saturdays year around",
     "location": "University Way & N.E. 50th Ave., Seattle"
@@ -2750,7 +2752,7 @@
   {
     "name": "Magnolia Farmers Market",
     "category": "market",
-    "quadrant": "seattle",
+    "quadrant": "north",
     "url": "http://seattlefarmersmarkets.org",
     "description": "Opening June 2, local produce, flowers, plant starts, eggs, cheese, fish, poultry, meats, 10 a.m.-2 p.m. Saturdays, closed Aug. 5",
     "location": "33rd Avenue West and West McGraw Street, Seattle"
@@ -2758,7 +2760,7 @@
   {
     "name": "Capitol Hill Farmers Market",
     "category": "market",
-    "quadrant": "seattle",
+    "quadrant": "central",
     "url": "http://seattlefarmersmarkets.org",
     "description": "Fresh produce and farm product vendors, flowers, food vendors, 11 a.m.-3 p.m. Sundays year around",
     "location": "Broadway and East Pine Street, Seattle Community College Campus, Seattle"
@@ -2766,7 +2768,7 @@
   {
     "name": "West Seattle Farmers Market",
     "category": "market",
-    "quadrant": "seattle",
+    "quadrant": "west",
     "url": "http://seattlefarmersmarkets.org",
     "description": "Fresh produce, farm products, food vendors, 10 a.m.-2 p.m. Sundays",
     "location": "Southwest Alaska Street and California Avenue Southwest, Seattle"
@@ -2774,7 +2776,7 @@
   {
     "name": "Ballard Farmers Market",
     "category": "market",
-    "quadrant": "seattle",
+    "quadrant": "north",
     "url": "http://sfmamarkets.com",
     "description": "Year-round farmers market, produce from Washington state farmers, 10 a.m.-3 p.m. Sundays",
     "location": "Ballard Avenue Northwest and 22nd Avenue Northwest, Seattle"
@@ -2938,6 +2940,7 @@
     "name": "Auburn Farmers Market",
     "category": "market",
     "quadrant": "south",
+    "start": "6/3/2018",
     "url": "http://auburnwa.gov/page70.aspx",
     "description": "Opening June 3, locally grown and farm-based foods, crafts, food vendor, performances, 10 a.m.-3 p.m. Sundays",
     "location": "Les Gove Park, 11th Street and Auburn Way South, Auburn"
