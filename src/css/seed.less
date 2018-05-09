@@ -117,26 +117,21 @@ header {
   }
 }
 
+@card-margin: 16px;
 .event-listings {
+  .display-flex();
+  .justify-content(space-between);
+  .flex-wrap(wrap);
+  margin: -@card-margin;
   font-family: @df-sans;
   font-size: 17px;
-  border-collapse: collapse;
-  vertical-align: top;
 
-  tr {
-    padding: 8px 0;
-  }
-
-  td, th {
-    text-align: left;
-    padding: 8px;
-
-    &:first-child {
-      padding-left: 0;
-    }
-
-    &:last-child {
-      padding-right: 0;
-    }
+  div.item {
+    .flex(1 0 30%);
+    margin: @card-margin;
+    min-width: 200px;
+    border: 1px solid @df-light-gray;
+    border-radius: 4px;
+    padding: 0 @card-margin;
   }
 }
