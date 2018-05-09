@@ -4,7 +4,7 @@
     <%= t.include("partials/_head.html", grunt.data.json) %>
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
-  <body data-mode="listings">
+  <body data-mode="listings" data-planned="no">
     <%= t.include("partials/_nav.html") %>
 
     <%= t.include("partials/_ad.html", { type: "banner" }) %>

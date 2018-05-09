@@ -29,6 +29,7 @@ var preprocessData = function(row) {
       end: new Date(end[2], end[0] - 1, end[1], 24)
     }
   }
+  row.timestamps.key = row.timestamps.date || row.timestamps.start;
 
   row.categories = row.category ? row.category.split(" ") : [];
 
@@ -43,6 +44,9 @@ require("./planner");
 $("[data-tab]").forEach(a => a.addEventListener("click", function() {
   var tab = this.getAttribute("data-tab");
   document.body.setAttribute("data-mode", tab);
+  if (tab === "listings") {
+    document.body.setAttribute("data-planned", "no");
+  }
   $.one(".current").classList.remove("current");
   this.classList.add("current");
 }));

@@ -43,45 +43,46 @@ var drawItem = function(list) {
   return list[(list.length * Math.random()) | 0];
 };
 
-var getItem = function(config, metaName, oldName) {
+var getItem = function(config, cat, oldName) {
   // Add category to config (which has qudrant and day)
-  var config = Object.assign({ categories: window.metacats[metaName].cats }, config);
+  var fullConfig = Object.assign({ categories: [cat] }, config);
   var filters = [
     filterQuadrant,
     filterCategories,
-    filterDate
+    filterDate,
   ];
   var list = eventsAndRecs;
-  filters.forEach(f => list = f(list, config));
+  filters.forEach(f => list = f(list, fullConfig));
 
   var data;
   do {
     data = drawItem(list);
-  } while (data.name === oldName); // ensure rerolling never returns the same as before
+  } while (data && data.name === oldName); // ensure rerolling never returns the same as before
   return {
-    metaName,
-    metaMessage: window.metacats[metaName].message,
+    cat,
     data,
+    rerollable: list.length > 1, // button is useless if there's only 1 choice (or 0)
   }
 };
 
 var reroll = function() {
   var descNode = this.previousElementSibling; // <p>
   var nameNode = descNode.previousElementSibling; // <h4>
-  var newItem = getItem(spaceTimeFilters, this.dataset.metacat, nameNode.innerHTML);
+  var newItem = getItem(spaceTimeFilters, this.dataset.cat, nameNode.innerHTML);
   nameNode.innerHTML = newItem.data.name;
   descNode.innerHTML = newItem.data.description || "";
 };
 
 var generatePlan = function() {
   updateFilters();
-  var slots = $(".metacategory:checked").map(metaCheckbox => {
-    return getItem(spaceTimeFilters, metaCheckbox.value);
+  var slots = $(".category:checked").map(c => {
+    return getItem(spaceTimeFilters, c.value);
   });
   resultList.innerHTML = planTemplate(slots);
   $(".reroll").forEach( btn => {
     btn.addEventListener("click", reroll);
   });
+  document.body.setAttribute("data-planned", "yes");
 };
 
 goButton.addEventListener("click", generatePlan);

@@ -1,7 +1,7 @@
 <% data.forEach(function(item) {%>
 <div class="item">
   <div class="card">
-    <h5><%= item.metaMessage %></h5>
+    <h5><%= item.cat %></h5>
     <% if (item.data) { %>
       <h4><%= item.data.name %></h4>
       <p><%= item.data.description || "" %></p>
@@ -9,7 +9,7 @@
       <h4>??? (TK a nice message)</h4>
       <p>We couldn't find anything for this time and place.</p>
     <% } %>
-    <%if (item.data) { %><button class="reroll" data-metacat="<%= item.metaName %>">Something else!</button><% } %>
+    <%if (item.rerollable) { %><button class="reroll" data-cat="<%= item.cat %>">Something else!</button><% } %>
   </div>
 </div>
 <% }); %>

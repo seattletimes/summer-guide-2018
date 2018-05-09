@@ -69,7 +69,7 @@ header {
   top: 0;
   box-shadow: 0 16px 32px -24px;
   background-color: white;
-  padding-bottom: 16px;
+  padding-bottom: 8px;
   font-family: @df-sans;
   text-align: center;
 
@@ -80,7 +80,7 @@ header {
 
   .filter-group {
     .flex(0 0 27%);
-    padding: 8px;
+    padding: 0 8px;
 
     &.categories {
       .flex(0 0 46%);
@@ -189,4 +189,12 @@ header {
   h4, h5 {
     margin: 0;
   }
+}
+
+[data-planned="no"] {
+  .itinerary-results { display: none; }
+}
+
+[data-planned="yes"] {
+  .event-listings { display: none }
 }
