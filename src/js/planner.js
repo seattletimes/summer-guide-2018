@@ -14,9 +14,11 @@ dateInput.value = `${today.getFullYear()}-${padLeft(today.getMonth() + 1, 2)}-${
 
 var spaceTimeFilters = {};
 var updateFilters = function() {
+  // Can't just construct with date string because of timezone
+  var [y, m, d] = dateInput.value.split('-').map(Number);
   spaceTimeFilters = {
     quadrant: quadrantSelect.value,
-    day: dateInput.valueAsDate, // TODO: IE 11 support ... ?
+    day: new Date(y, m - 1, d, 0),
   };
 };
 
@@ -31,7 +33,7 @@ var filterQuadrant = function(list, { quadrant }) {
 var filterDate = function(list, { day = new Date() }) {
   return list.filter(function(item) {
     if (item.timestamps.date) {
-      return item.timestamps.date == day;
+      return item.timestamps.date * 1 === day * 1;
     }
     return item.timestamps.start < day && item.timestamps.end > day;
   });
