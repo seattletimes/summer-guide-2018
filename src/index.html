@@ -39,7 +39,7 @@
           </ul>
         </div>
         <div class="filter-group months">
-          <h2 class="nav-header">Choose a month</h2>
+          <h2 class="nav-header">Choose months</h2>
           <ul class="months">
             <% [
               { short: "5", long: "May" },
@@ -54,7 +54,7 @@
             <% }); %>
           </ul>
           <input type="checkbox" id="hide-past">
-          <label for="hide-past">Hide events that have past</label>
+          <label for="hide-past">Hide past events</label>
         </div>
         <div class="filter-group search">
           <h2 class="nav-header">Search for events</h2>
@@ -64,7 +64,7 @@
           <div class="controls">
             <div>
               <h2 class="nav-header">What day are you planning for?</h2>
-              <input type="date" name="date" placeholder="YYYY-MM-DD">
+              <input type="date" name="date" min="2018-05-01" max="2018-09-30" placeholder="YYYY-MM-DD">
             </div>
             <div>
               <h2 class="nav-header">Where in Seattle will you be?</h2>

@@ -15,6 +15,7 @@ var padLeft = function(string, length, padder = "0") {
     var padding = new Array(l + 1).join(padder);
     return padding + string;
   }
+  return string; // doesn't need padding
 };
 
 // Show items included in a list of categories
