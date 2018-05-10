@@ -99,6 +99,10 @@ main.app {
         }
       }
     }
+
+    [data-searching] &:not(.search) {
+      opacity: 0.3;
+    }
   }
 
   h2 {
@@ -115,6 +119,10 @@ main.app {
     border-color: @df-light-gray;
   }
 
+  label {
+    font-size: 15px;
+  }
+
   @label-margin: 4px;
   input.pseudo {
     clip-path: inset(100%);
@@ -126,7 +134,6 @@ main.app {
 
     & + label {
       display: block;
-      font-size: 15px;
       color: @df-middle-gray;
       margin: 4px 0;
       padding: 2px 0;
@@ -174,7 +181,7 @@ main.app {
 
   .search input {
     margin: @label-margin;
-    width: 80%;
+    width: 100%;
     border: 1px solid @df-light-gray;
     padding: @label-margin 2 * @label-margin;
     font-size: 15px;

@@ -11,6 +11,7 @@ var resultList = $.one(".itinerary-results");
 
 var today = new Date();
 dateInput.value = `${today.getFullYear()}-${padLeft(today.getMonth() + 1, 2)}-${padLeft(today.getDate(), 2)}`;
+console.log(dateInput.value);
 
 var spaceTimeFilters = {};
 var updateFilters = function() {
@@ -30,15 +31,6 @@ var filterQuadrant = function(list, { quadrant }) {
   return filtered;
 };
 
-var filterDate = function(list, { day = new Date() }) {
-  return list.filter(function(item) {
-    if (item.timestamps.date) {
-      return item.timestamps.date * 1 === day * 1;
-    }
-    return item.timestamps.start < day && item.timestamps.end > day;
-  });
-};
-
 var drawItem = function(list) {
   return list[(list.length * Math.random()) | 0];
 };
@@ -54,13 +46,13 @@ var getItem = function(config, cat, oldName) {
   var list = eventsAndRecs;
   filters.forEach(f => list = f(list, fullConfig));
 
-  var data;
+  var item;
   do {
-    data = drawItem(list);
-  } while (data && data.name === oldName); // ensure rerolling never returns the same as before
+    item = drawItem(list);
+  } while (item && item.name === oldName); // ensure rerolling never returns the same as before
   return {
     cat,
-    data,
+    item,
     rerollable: list.length > 1, // button is useless if there's only 1 choice (or 0)
   }
 };
@@ -78,7 +70,9 @@ var generatePlan = function() {
   var slots = $(".category:checked").map(c => {
     return getItem(spaceTimeFilters, c.value);
   });
-  resultList.innerHTML = planTemplate(slots);
+  resultList.innerHTML = listTemplate({
+    items: slots.map(s => s.item),
+  });
   $(".reroll").forEach( btn => {
     btn.addEventListener("click", reroll);
   });

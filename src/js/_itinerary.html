@@ -1,14 +1,28 @@
 <% data.forEach(function(item) {%>
 <div class="item">
   <div class="card">
-    <h5><%= item.cat %></h5>
-    <% if (item.data) { %>
-      <h4><%= item.data.name %></h4>
-      <p><%= item.data.description || "" %></p>
-    <% } else { %>
-      <h4>??? (TK a nice message)</h4>
-      <p>We couldn't find anything for this time and place.</p>
-    <% } %>
+  <% if (item.data) {
+    var row = item.data; %>
+    <div class="metadata">
+      <h4><a href="<%= row.url %>"><%= row.name %></a></h4>
+      <h5 class="dates"><%= row.date_text || "" %></h5>
+    </div>
+    <div class="description">
+      <%= row.description %>
+      <div class="details"><%= row.details || "" %></div>
+    </div>
+    <ul class="contact">
+      <% if (row.phone) { %>
+      <li> Phone: <a href="tel:<%= row.phone %>"><%= row.phone %></a>
+      <% } %>
+      <% if (row.url) { %>
+      <li> On the web at <a href="<%= row.url %>"><%= row.url.replace(/https?:\/\/|www\.|(\w)\/.*?$/g, "$1") %></a>
+      <% } %>
+      <% if (row.location) { %>
+      <li> <%= row.location %>
+      <% } %>
+    </ul>
+  <% } %>
     <%if (item.rerollable) { %><button class="reroll" data-cat="<%= item.cat %>">Something else!</button><% } %>
   </div>
 </div>

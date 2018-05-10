@@ -1,4 +1,4 @@
-<% data.forEach(function(row){ %>
+<% data.items.forEach(function(row){ %>
 <div class="item">
   <div class="card">
     <div class="metadata">
@@ -23,6 +23,6 @@
   </div>
 </div>
 <% }); %>
-<% if (data.length === 0) { %>
+<% if (data.items.length === 0) { %>
   <h2 class="constrained smaller">No events match the filters you have selected.</h2>
 <% } %>

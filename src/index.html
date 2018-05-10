@@ -15,17 +15,23 @@
         <div class="credit">Ellen M. Banner / The Seattle Times</div>
         <h1><div class="smaller">Build your own</div>Seattle summer</h1>
       </div>
+      <p class="constrained smaller">
+        Seattle summers are special. We say that because it’s true. Make this one count with our essential guide to all things summer 2018 — from concerts to kayaking to the Fourth of July. And remember, just as your plans change often, so do everyone else’s. Check details closer to the event, just in case.
     </header>
 
     <main class="app">
       <nav class="filters">
-
+        <div class="filter-group search">
+          <h2 class="nav-header">Search for events</h2>
+          <input type="text" placeholder="Name, keywords, location …" data-string="query">
+        </div>
+        <hr>
         <div class="filter-group categories">
           <h2 class="nav-header">1. What do you want to do?</h2>
           <ul class="categories">
             <% json.categories.forEach(function(item) { %>
             <li>
-              <input class="category pseudo" type="checkbox" value="<%= item.short %>" id="<%= item.short %>" checked="checked">
+              <input class="category pseudo" type="checkbox" value="<%= item.short %>" id="<%= item.short %>" checked="checked" data-aggregate="categories">
               <label for="<%= item.short %>"><%= item.long %></label>
             <% }); %>
           </ul>
@@ -41,18 +47,17 @@
               { short: "9", long: "September" }
             ].forEach(function(item) { %>
             <li>
-              <input class="month pseudo" type="checkbox" value="<%= item.short %>" id="<%= item.short %>" checked="checked">
+              <input class="month pseudo" type="checkbox" value="<%= item.short %>" id="<%= item.short %>" checked="checked" data-aggregate="months">
               <label for="<%= item.short %>"><%= item.long %></label>
             <% }); %>
             <li>
               <input class="date pseudo" type="checkbox" value="custom" id="custom-date">
               <label for="custom-date">
                 Custom date
-                <input type="date" name="date" min="2018-05-01" max="2018-09-30" placeholder="YYYY-MM-DD">
+                <input type="date" name="date" min="2018-05-01" max="2018-09-30" placeholder="YYYY-MM-DD" data-string="day">
               </label>
           </ul>
-          <hr>
-          <input type="checkbox" id="hide-past">
+          <input type="checkbox" id="hide-past" data-flag="hidePast">
           <label for="hide-past">Hide past events</label>
         </div>
         <div class="filter-group quadrant">
@@ -66,26 +71,22 @@
               { short: "west", long: "West" }
             ].forEach(function(item) { %>
             <li>
-              <input class="quadrant pseudo" type="checkbox" value="<%= item.short %>" id="<%= item.short %>" checked="checked">
+              <input class="quadrant pseudo" type="checkbox" value="<%= item.short %>" id="<%= item.short %>" checked="checked" data-aggregate="quadrants">
               <label for="<%= item.short %>"><%= item.long %></label>
             <% }) %>
           </ul>
         </div>
-        <div class="filter-group search">
-          <h2 class="nav-header">Search for events</h2>
-          <input type="text" placeholder="Name, keywords, location …">
-        </div>
         <div class="filter-group go">
           <h2 class="nav-header">4. Get results</h2>
-          <input type="checkbox" id="live-results">
+          <input type="checkbox" id="live-results" data-flag="showAll">
           <label for="live-results">Show all results</label>
           <button class="pick-items">Pick 3</button>
         </div>
       </nav>
     </section>
       <div class="event-listings">
-        <p class="constrained smaller">
-          Seattle summers are special. We say that because it’s true. Make this one count with our essential guide to all things summer 2018 — from concerts to kayaking to the Fourth of July. And remember, just as your plans change often, so do everyone else’s. Check details closer to the event, just in case.
+        <% var instructions = '<p class="constrained smaller">Search for events, or use the filters to find them.'; %>
+        <%= instructions %>
       </div>
       <div class="itinerary-results"></div>
     </main>
@@ -93,6 +94,7 @@
     <script>
 window.eventData = <%= JSON.stringify(json.events) %>;
 window.recsData = <%= JSON.stringify(json.recs) %>;
+window.instructions = <%= JSON.stringify(instructions) %>;
     </script>
 
     <script src="app.js" async></script>
