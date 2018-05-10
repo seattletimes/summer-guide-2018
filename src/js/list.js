@@ -2,6 +2,7 @@
 var $ = require("./lib/qsa");
 var dot = require("./lib/dot");
 var { filterItems, filterBySearch } = require("./filters.js");
+var { padLeft } = require("./util.js");
 
 var filterContainer = $.one(".filters");
 var searchBox = $.one(".search input");
@@ -41,7 +42,6 @@ var applyFilters = function() {
   }
 
   var items = filterItems(window.eventData, config);
-
   // Output HTML into template from final results
   listContainer.innerHTML = listTemplate({ items });
 };
@@ -62,3 +62,19 @@ var runSearch = function() {
 
 filterContainer.addEventListener("change", applyFilters);
 searchBox.addEventListener("keyup", runSearch);
+
+var useDateCheckbox = $.one(`[data-flag="useCustomDate"]`);
+// If we check "use custom date," automatically uncheck all months
+useDateCheckbox.addEventListener("change", () => {
+  if (useDateCheckbox.checked){
+    $(`[data-aggregate="months"]:checked`).forEach(m => m.checked = false);
+  }
+})
+// If we check any month, automatically uncheck "use custom date"
+$(`[data-aggregate="months"]`).forEach(m => m.addEventListener("change", () => {
+  if (useDateCheckbox.checked) useDateCheckbox.checked = false;
+}));
+
+// Initialize custom date to day
+var today = new Date();
+$.one(`[name="date"]`).value = `${today.getFullYear()}-${padLeft(today.getMonth() + 1, 2)}-${padLeft(today.getDate(), 2)}`;

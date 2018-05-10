@@ -9,9 +9,7 @@ var quadrantSelect = $.one(`[name="quadrant"]`);
 var dateInput = $.one(`[name="date"]`);
 var resultList = $.one(".itinerary-results");
 
-var today = new Date();
-dateInput.value = `${today.getFullYear()}-${padLeft(today.getMonth() + 1, 2)}-${padLeft(today.getDate(), 2)}`;
-console.log(dateInput.value);
+
 
 var spaceTimeFilters = {};
 var updateFilters = function() {

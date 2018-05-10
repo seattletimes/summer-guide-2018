@@ -51,10 +51,10 @@
               <label for="<%= item.short %>"><%= item.long %></label>
             <% }); %>
             <li class="always-block">
-              <input class="date pseudo" type="checkbox" value="custom" id="custom-date">
+              <input class="date pseudo" type="checkbox" value="custom" id="custom-date" data-flag="useCustomDate">
               <label for="custom-date">
                 Custom date
-                <input type="date" name="date" min="2018-05-01" max="2018-09-30" placeholder="YYYY-MM-DD" data-string="day">
+                <input type="date" name="date" min="2018-05-01" max="2018-09-30" placeholder="YYYY-MM-DD" data-string="dayString">
               </label>
           </ul>
           <input type="checkbox" id="hide-past" data-flag="hidePast">

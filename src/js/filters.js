@@ -26,7 +26,9 @@ var filterMonths = function(list, { months }) {
 };
 
 // Show items matching a particular date
-var filterDate = function(list, { day = new Date() }) {
+var filterDate = function(list, { dayString }) {
+  var [y, m, d] = dayString.split('-').map(Number);
+  var day = new Date(y, m - 1, d, 0);
   return list.filter(function(item) {
     if (item.timestamps.date) {
       return item.timestamps.date * 1 === day * 1;
@@ -37,7 +39,7 @@ var filterDate = function(list, { day = new Date() }) {
 
 // If custom date, filter by that; otherwise by month (never both)
 var filterTime = function(list, config) {
-  if (config.day) return filterDate(list, config);
+  if (config.useCustomDate) return filterDate(list, config);
   return filterMonths(list, config);
 };
 
