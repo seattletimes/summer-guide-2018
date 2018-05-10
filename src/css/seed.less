@@ -107,7 +107,6 @@ header {
       .controls {
         .display-flex();
         .justify-content(space-between);
-        padding-bottom: 16px;
 
         @media @mobile {
           display: block;
@@ -134,7 +133,8 @@ header {
     }
   }
 
-  input[type="checkbox"] {
+  @label-margin: 4px;
+  input.month, input.category {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
@@ -143,8 +143,8 @@ header {
     position: absolute;
 
     & + label {
-      padding: 4px 8px;
-      margin: 4px;
+      padding: @label-margin 2 * @label-margin;
+      margin: @label-margin;
       display: inline-block;
       border: 1px solid @df-light-gray;
       border-radius: 4px;
@@ -166,6 +166,15 @@ header {
     }
   }
 
+  .search input {
+    margin: @label-margin;
+    width: 80%;
+    border: 1px solid @df-light-gray;
+    padding: @label-margin 2 * @label-margin;
+    font-size: 15px;
+    font-family: inherit;
+    line-height: inherit;
+  }
 
   [data-mode="listings"] & {
     .itinerary, .go { display: none }
@@ -190,11 +199,11 @@ header {
   }
 
   div.item {
-    .flex(0 0 33.3333%);
+    .flex(1 0 33.3333%);
     padding: @card-spacing;
 
     @media @tablet {
-      .flex(0 0 50%);
+      .flex(1 0 50%);
     }
   }
 
