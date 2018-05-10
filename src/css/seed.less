@@ -14,14 +14,29 @@ header {
   h1 {
     margin: 0;
     position: absolute;
-    padding: 40px 0;
+    padding: 20px 0 40px 0;
     width: 100%;
     top: 0;
     left: 0;
-    background: linear-gradient(to bottom, black, transparent);
+    background: linear-gradient(to bottom, #39621d, transparent);
     text-align: center;
-    color: white;
-    font-size: 48px;
+    color: #3dfbbe;
+    font-size: 78px;
+    font-family: Lobster, @df-serif;
+    font-weight: normal;
+    text-shadow: 4px 4px 4px fade(black, 40%);
+
+    .smaller {
+      font-size: 50%;
+    }
+
+    @media @mobile {
+      color: black;
+      position: static;
+      display: block;
+      background: transparent;
+      font-size: 48px;
+    }
   }
 
   .credit {

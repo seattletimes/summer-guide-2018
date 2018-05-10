@@ -3,6 +3,7 @@
   <head>
     <%= t.include("partials/_head.html", grunt.data.json) %>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
   </head>
   <body data-mode="listings" data-planned="no">
     <%= t.include("partials/_nav.html") %>
@@ -11,9 +12,9 @@
     <header class="top">
       <div class="image-container">
         <img src="./assets/headers/splash.jpg" alt="Child getting splashed by water">
-        <h1>Build your own Seattle summer</h1>
+        <div class="credit">Ellen M. Banner / The Seattle Times</div>
+        <h1><div class="smaller">Build your own</div>Seattle summer</h1>
       </div>
-      <div class="credit">Ellen M. Banner / The Seattle Times</div>
 
       <p class="constrained smaller">
         Seattle summers are special. We say that because it’s true. Make this one count with our essential guide to all things summer 2018 — from concerts to kayaking to the Fourth of July. And remember, just as your plans change often, so do everyone else’s. Check details closer to the event, just in case.
