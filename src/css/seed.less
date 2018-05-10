@@ -145,7 +145,12 @@ header {
       background: @st-light-blue;
       color: inherit;
     }
+
+    &:checked#hide-past + label {
+      background: @st-light-purple;
+    }
   }
+
 
   [data-mode="listings"] & {
     .itinerary, .go { display: none }

@@ -6,7 +6,16 @@ var { intersects, filterCategories } = require("./util");
 var listTemplate = dot.compile(require("./_list.html"));
 var listContainer = $.one(".event-listings");
 
+var hidePastCheckbox = $.one("#hide-past")
 var searchBox = $.one(".search input");
+
+
+// Hide items that finished before today
+var filterPast = function(list, { hidePast }) {
+  if (!hidePast) return list;
+  var today = new Date(2018,6,8,0);
+  return list.filter(r => r.timestamps.endKey >= today);
+};
 
 // Show items matching the months array
 var filterMonths = function(list, { months }) {
@@ -24,14 +33,15 @@ var filterBySearch = function(list, { query }) {
 
 // Apply all filters to the full list
 var applyFilters = function() {
-  console.log('apply');
   // Get form inputs
   var categories = $(".category:checked").map(c => c.value);
   var months = $(".month:checked").map(m => m.value).sort();
   var query = searchBox.value;
-  var config = { categories, months, query };
+  var hidePast = hidePastCheckbox.checked;
+  var config = { categories, months, query, hidePast };
   // Set up a filter chain, in which the result of each step is passed into the next
   var filters = [
+    filterPast,
     filterMonths,
     filterCategories,
     filterBySearch
