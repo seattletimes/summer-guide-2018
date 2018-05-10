@@ -48,6 +48,15 @@ header {
   }
 }
 
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  padding-bottom: 8px;
+  box-shadow: 0 16px 32px -24px;
+}
+
 .tab-select {
   text-align: center;
   font-family: @df-sans;
@@ -64,12 +73,6 @@ header {
 .filters {
   .display-flex();
   .justify-content(space-between);
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  box-shadow: 0 16px 32px -24px;
-  background-color: white;
-  padding-bottom: 8px;
   font-family: @df-sans;
   text-align: center;
 
