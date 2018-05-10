@@ -63,50 +63,17 @@ header {
   }
 }
 
-.sticky {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  background-color: white;
-  padding-bottom: 8px;
-  box-shadow: 0 16px 32px -24px transparent;
-  transition: all .2s linear;
-
-  &.stuck {
-    box-shadow: 0 16px 32px -24px fade(black, 30%);
-
-    @media @mobile {
-      box-shadow: none;
-    }
-  }
-
-  @media @mobile {
-    position: static;
-  }
-}
-
-.tab-select {
-  text-align: center;
-  font-family: @df-sans;
-
-  a {
-    cursor: pointer;
-  }
-
-  .current {
-    font-weight: bold;
-  }
-}
-
-.filters {
+main.app {
   .display-flex();
-  .justify-content(space-between);
-  font-family: @df-sans;
-  text-align: center;
 
   @media @mobile {
     display: block;
   }
+}
+
+.filters {
+  font-family: @df-sans;
+  .flex(0 0 240px);
 
   .filter-group {
     .flex(0 0 30%);
@@ -142,14 +109,14 @@ header {
     list-style-type: none;
     margin: 0;
     padding: 0;
+  }
 
-    li {
-      display: inline-block;
-    }
+  hr {
+    border-color: @df-light-gray;
   }
 
   @label-margin: 4px;
-  input.month, input.category {
+  input.pseudo {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
@@ -158,26 +125,50 @@ header {
     position: absolute;
 
     & + label {
-      padding: @label-margin 2 * @label-margin;
-      margin: @label-margin;
-      display: inline-block;
-      border: 1px solid @df-light-gray;
-      border-radius: 4px;
+      display: block;
       font-size: 15px;
       color: @df-middle-gray;
+      margin: 4px 0;
+      padding: 2px 0;
+
+      &::before {
+        display: inline-block;
+        width: 1em;
+        content: "";
+        font-weight: normal;
+      }
 
       &:hover, &:focus {
-        border: 1px solid @df-dark-gray;
+        background: @df-light-gray;
       }
     }
 
     &:checked + label {
-      background: @st-light-blue;
+      color: black;
+
       color: inherit;
+      &::before {
+        content: "✔";
+      }
     }
 
     &:checked#hide-past + label {
       background: @st-light-purple;
+    }
+  }
+
+  #custom-date {
+    & + label {
+      overflow: hidden;
+      input { display: none }
+    }
+
+    &:checked + label {
+      input {
+        display: block;
+        width: 75%;
+        float: right;
+      }
     }
   }
 
@@ -191,12 +182,11 @@ header {
     line-height: inherit;
   }
 
-  [data-mode="listings"] & {
-    .itinerary, .go { display: none }
-  }
-
-  [data-mode="planning"] & {
-    .months, .search { display: none }
+  .go {
+    button {
+      display: block;
+      width: 100%;
+    }
   }
 }
 
@@ -214,11 +204,11 @@ header {
   }
 
   div.item {
-    .flex(1 0 33.3333%);
+    .flex(0 0 50%);
     padding: @card-spacing;
 
     @media @tablet {
-      .flex(1 0 50%);
+      .flex(0 0 100%);
     }
   }
 

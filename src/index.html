@@ -20,26 +20,21 @@
         Seattle summers are special. We say that because it’s true. Make this one count with our essential guide to all things summer 2018 — from concerts to kayaking to the Fourth of July. And remember, just as your plans change often, so do everyone else’s. Check details closer to the event, just in case.
     </header>
 
-    <main>
-      <section class="sticky">
-      <nav class="tab-select">
-        <a data-tab="listings" class="current">Show all listings</a> |
-        <a data-tab="planning">Plan your day!</a>
-      </nav>
-
+    <main class="app">
       <nav class="filters">
+
         <div class="filter-group categories">
-          <h2 class="nav-header">Choose categories</h2>
+          <h2 class="nav-header">1. What do you want to do?</h2>
           <ul class="categories">
             <% json.categories.forEach(function(item) { %>
             <li>
-              <input class="category" type="checkbox" value="<%= item.short %>" id="<%= item.short %>" checked="checked">
+              <input class="category pseudo" type="checkbox" value="<%= item.short %>" id="<%= item.short %>" checked="checked">
               <label for="<%= item.short %>"><%= item.long %></label>
             <% }); %>
           </ul>
         </div>
         <div class="filter-group months">
-          <h2 class="nav-header">Choose months</h2>
+          <h2 class="nav-header">2. When?</h2>
           <ul class="months">
             <% [
               { short: "5", long: "May" },
@@ -49,35 +44,45 @@
               { short: "9", long: "September" }
             ].forEach(function(item) { %>
             <li>
-              <input class="month" type="checkbox" value="<%= item.short %>" id="<%= item.short %>" checked="checked">
+              <input class="month pseudo" type="checkbox" value="<%= item.short %>" id="<%= item.short %>" checked="checked">
               <label for="<%= item.short %>"><%= item.long %></label>
             <% }); %>
+            <li>
+              <input class="date pseudo" type="checkbox" value="custom" id="custom-date">
+              <label for="custom-date">
+                Custom date
+                <input type="date" name="date" min="2018-05-01" max="2018-09-30" placeholder="YYYY-MM-DD">
+              </label>
           </ul>
+          <hr>
           <input type="checkbox" id="hide-past">
           <label for="hide-past">Hide past events</label>
+        </div>
+        <div class="filter-group quadrant">
+          <h2 class="nav-header">3. Where?</h2>
+          <ul class="quadrants">
+            <% [
+              { short: "central", long: "Central" },
+              { short: "north", long: "North" },
+              { short: "south", long: "South" },
+              { short: "east", long: "East" },
+              { short: "west", long: "West" }
+            ].forEach(function(item) { %>
+            <li>
+              <input class="quadrant pseudo" type="checkbox" value="<%= item.short %>" id="<%= item.short %>" checked="checked">
+              <label for="<%= item.short %>"><%= item.long %></label>
+            <% }) %>
+          </ul>
         </div>
         <div class="filter-group search">
           <h2 class="nav-header">Search for events</h2>
           <input type="text" placeholder="Name, keywords, location …">
         </div>
-        <div class="filter-group itinerary">
-          <div class="controls">
-            <div>
-              <h2 class="nav-header">What day are you planning for?</h2>
-              <input type="date" name="date" min="2018-05-01" max="2018-09-30" placeholder="YYYY-MM-DD">
-            </div>
-            <div>
-              <h2 class="nav-header">Where in Seattle will you be?</h2>
-              <select name="quadrant">
-                <option value="central">Central</option>
-                <option value="north">North</option>
-                <option value="south">South</option>
-                <option value="east">East</option>
-                <option value="west">West</option>
-              </select>
-            </div>
-          </div>
-          <button class="generate-itinerary">Go</button>
+        <div class="filter-group go">
+          <h2 class="nav-header">4. Get results</h2>
+          <input type="checkbox" id="live-results">
+          <label for="live-results">Show all results</label>
+          <button class="pick-items">Pick 3</button>
         </div>
       </nav>
     </section>
