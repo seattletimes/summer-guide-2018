@@ -16,6 +16,9 @@
       <% if (row.url) { %>
       <li> On the web at <a href="<%= row.url %>"><%= row.url.replace(/https?:\/\/|www\.|(\w)\/.*?$/g, "$1") %></a>
       <% } %>
+      <% if (row.location) { %>
+      <li> <%= row.location %>
+      <% } %>
     </ul>
   </div>
 </div>
