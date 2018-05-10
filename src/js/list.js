@@ -13,7 +13,7 @@ var searchBox = $.one(".search input");
 // Hide items that finished before today
 var filterPast = function(list, { hidePast }) {
   if (!hidePast) return list;
-  var today = new Date(2018,6,8,0);
+  var today = new Date();
   return list.filter(r => r.timestamps.endKey >= today);
 };
 

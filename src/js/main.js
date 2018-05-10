@@ -52,3 +52,14 @@ $("[data-tab]").forEach(a => a.addEventListener("click", function() {
   $.one(".current").classList.remove("current");
   this.classList.add("current");
 }));
+
+var debounce = require("./lib/debounce");
+
+var sticky = $.one(".sticky");
+
+var onScroll = debounce(function() {
+  var bounds = sticky.getBoundingClientRect();
+  sticky.classList[bounds.top < 4 ? "add" : "remove"]("stuck");
+})
+
+window.addEventListener("scroll", onScroll);
