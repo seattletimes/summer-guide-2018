@@ -1,6 +1,10 @@
+// Enable before going live!
 // require("./lib/ads");
-var $ = require("./lib/qsa");
+// var paywall = require("./lib/paywall");
+// setTimeout(() => paywall(10832177), 3000);
 
+
+var $ = require("./lib/qsa");
 // Pre-process data:
 // * add a months array based on the dates specified
 // * split category field into an array
