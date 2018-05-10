@@ -64,6 +64,8 @@ header {
 }
 
 main.app {
+  max-width: 1200px;
+  margin: auto;
   .display-flex();
 
   @media @mobile {
@@ -113,6 +115,15 @@ main.app {
     list-style-type: none;
     margin: 0;
     padding: 0;
+  }
+
+  li {
+    @media @mobile {
+      display: inline-block;
+      padding-right: 8px;
+
+      &.always-block { display: block; }
+    }
   }
 
   hr {
