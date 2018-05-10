@@ -44,5 +44,5 @@ eventData.forEach(preprocessData);
 eventData.sort((e1, e2) => e1.timestamps.key - e2.timestamps.key);
 recsData.forEach(preprocessData);
 
-require("./list")();
+require("./list");
 // require("./planner");
