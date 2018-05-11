@@ -21,7 +21,9 @@
         RELATED STORY | <a href="https://www.seattletimes.com/life/travel/seattle-beyond-the-space-needle-pick-an-itinerary-and-explore-this-summer/">Seattle beyond the Space Needle: Pick an itinerary and explore this summer</a>
     </header>
 
+    <% var instructions = '<p class="constrained smaller instructions">Search for events, or use the buttons to the left to get recommendations based on your interests. Click "Build your own" to generate a personalized itinerary for a summer outing, or select "Show all results" to see all events that match your criteria.</p>'; %>
     <main class="app">
+      <div class="mobile-only"><%= instructions.replace("to the left", "below") %></div>
       <nav class="filters">
         <div class="filter-group search">
           <h2 class="nav-header">Search for events</h2>
@@ -87,7 +89,6 @@
       </nav>
     </section>
       <div class="event-listings">
-        <% var instructions = '<p class="constrained smaller">Search for events, or use the filters to find them.'; %>
         <%= instructions %>
       </div>
       <div class="itinerary-results"></div>

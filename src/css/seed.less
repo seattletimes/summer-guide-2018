@@ -1,10 +1,22 @@
 @import "seattletimes";
 
+.mobile-only {
+  display: none;
+
+  @media @mobile {
+    display: block;
+  }
+}
+
 header {
   padding: 0 0 48px;
   max-width: 1200px;
   margin: auto;
   position: relative;
+
+  @media @mobile {
+    padding-bottom: 24px;
+  }
 
   img {
     width: 100%;
@@ -298,6 +310,16 @@ main.app {
 
 [data-planned="yes"] {
   .event-listings { display: none }
+}
+
+.instructions {
+  font-family: @df-sans;
+  font-size: 17px;
+  .event-listings & {
+    @media @mobile {
+      display: none;
+    }
+  }
 }
 
 .credits {
