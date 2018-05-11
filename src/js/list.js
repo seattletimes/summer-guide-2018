@@ -60,7 +60,7 @@ var applyFilters = function() {
   resetBuildButtonText();
   var config = getConfig();
   if (!config.showAll) { // Stop execution, show instructions
-    if (listContainer.firstChild.tagName !== 'P') listContainer.innerHTML = window.instructions;
+    if (listContainer.innerHTML !== "") listContainer.innerHTML = "";
     return;
   }
   var items = filterItems(window.eventData, config);

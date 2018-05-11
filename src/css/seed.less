@@ -196,7 +196,6 @@ h2.nav-header {
 
     & + label {
       display: block;
-      color: @df-middle-gray;
       margin: 4px 0;
       border: 1px solid @df-light-gray;
       border-radius: 4px;
@@ -211,12 +210,12 @@ h2.nav-header {
       // }
 
       &:hover, &:focus {
-        background: @df-light-gray;
+        border-color: black;
+        // background: @df-light-gray;
       }
     }
 
     &:checked + label {
-      color: black;
       background-color: @df-light-gray;
 
       color: inherit;
@@ -243,7 +242,7 @@ h2.nav-header {
       input {
         display: block;
         width: 75%;
-        float: right;
+        margin: auto;
       }
     }
   }
@@ -303,6 +302,7 @@ h2.nav-header {
       0 8px 32px 0 fade(black, 6%);
     .display-flex();
     .flex-direction(column);
+    overflow: hidden;
   }
 
   h4 {

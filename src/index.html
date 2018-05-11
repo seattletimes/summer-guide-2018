@@ -16,21 +16,23 @@
         <p class="constrained smaller">
           <a href="https://www.seattletimes.com/life/travel/seattle-beyond-the-space-needle-pick-an-itinerary-and-explore-this-summer/">RELATED STORY | Seattle beyond the Space Needle: Pick an itinerary and explore this summer</a>
       <div class="image-container">
-        <img src="./assets/headers/splash.jpg" alt="Child getting splashed by water">
-        <div class="credit">Ruby Barrera, 8, enjoys one of the water features at Jefferson Park in summer 2017. (Ellen M. Banner / The Seattle Times)</div>
+        <img src="./assets/headers/splash.jpg" alt="Ruby Barrera getting splashed by water" aria-describedby="header-caption">
+        <div class="credit" id="header-caption">Ruby Barrera, 8, enjoys one of the water features at Jefferson Park in summer 2017. (Ellen M. Banner / The Seattle Times)</div>
       </div>
     </header>
 
     <main class="app">
       <p class="constrained smaller">Search for events, or use the buttons below to get recommendations based on your interests. Click "Build your own" to generate a personalized itinerary for a summer outing, or select "Show all results" to see all events that match your criteria.</p>
-      <div class="search constrained smaller">
-        <h2 class="nav-header">Search for events</h2>
+
+      <div class="search constrained smaller" id="search-controls">
+        <h2 class="nav-header" id="search-label">Search for events</h2>
         <div class="search-wrapper">
-          <input type="text" placeholder="Name, keywords, location …" data-string="query" autocomplete="off">
+          <input type="text" placeholder="Name, keywords, location …" data-string="query" autocomplete="off" aria-labelledby="search-label">
           <button aria-label="Clear search">×</button>
         </div>
       </div>
-      <nav class="filters">
+
+      <nav class="filters" id="filter-controls">
           <div class="filter-group categories">
             <h2 class="nav-header">1. What are you interested in?</h2>
             <ul class="categories">
@@ -47,7 +49,7 @@
               <li class="always-block">
                 <input class="date pseudo" type="checkbox" value="custom" id="custom-date" checked="checked" data-flag="useCustomDate" autocomplete="off">
                 <label for="custom-date">
-                  Specific date
+                  Custom date
                   <input type="date" name="date" min="2018-05-01" max="2018-09-30" placeholder="YYYY-MM-DD" data-string="dayString" autocomplete="off">
                 </label>
               <% [
@@ -84,11 +86,8 @@
           </div>
       </nav>
     </section>
-      <div class="event-listings">
-        <% var instructions = '<p></p>'; %>
-        <%= instructions %>
+      <div class="event-listings" aria-live="polite" aria-controls="search-controls filter-controls">
       </div>
-      <div class="itinerary-results"></div>
     </main>
 
     <footer class="credits constrained">
@@ -105,7 +104,6 @@
     <script>
 window.eventData = <%= JSON.stringify(json.events) %>;
 window.recsData = <%= JSON.stringify(json.recs) %>;
-window.instructions = <%= JSON.stringify(instructions) %>;
     </script>
 
     <script src="app.js" async></script>
