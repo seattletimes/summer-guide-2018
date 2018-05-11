@@ -8,6 +8,12 @@
   }
 }
 
+div.or-sep { // separator
+  margin: auto 0;
+  color: @df-middle-gray;
+  text-align: center;
+}
+
 header {
   padding: 0 0 48px;
   max-width: 1200px;
@@ -79,18 +85,36 @@ header {
 main.app {
   max-width: 1200px;
   margin: auto;
+}
+
+.filters {
+  .flex(0 0 240px);
+  font-family: @df-sans;
   .display-flex();
+  .justify-content(space-between);
 
   @media @mobile {
     display: block;
   }
-}
 
-.filters {
-  font-family: @df-sans;
-  .flex(0 0 240px);
+  .filter-main {
+    .flex(0 1 75%);
+    .display-flex();
+
+    @media @tablet {
+      .flex-wrap(wrap);
+      div.filter-group {
+        .flex(0 0 50%);
+      }
+    }
+
+    @media @mobile {
+      display: block;
+    }
+  }
 
   .filter-group {
+    .flex(0 0 25%);
     padding: 0 8px;
 
     [data-searching] &:not(.search) {
@@ -144,12 +168,12 @@ main.app {
       margin: 4px 0;
       padding: 2px 0;
 
-      &::before {
-        display: inline-block;
-        width: 1em;
-        content: "";
-        font-weight: normal;
-      }
+      // &::before {
+      //   display: inline-block;
+      //   width: 1em;
+      //   content: "";
+      //   font-weight: normal;
+      // }
 
       &:hover, &:focus {
         background: @df-light-gray;
@@ -160,12 +184,12 @@ main.app {
       color: black;
 
       color: inherit;
-      &::before {
-        content: "✔";
-        @media @mobile {
-          padding-right: 4px;
-        }
-      }
+      // &::before {
+      //   content: "✔";
+      //   @media @mobile {
+      //     padding-right: 4px;
+      //   }
+      // }
     }
 
     &:checked#hide-past + label {
@@ -223,7 +247,7 @@ main.app {
       border-radius: 4px;
       padding: 8px;
       box-shadow: 0 8px 16px -8px fade(black, 20%);
-      font-size: 24px;
+      font-size: 16px;
       color: @df-off-white;
       font-family: inherit;
       text-transform: uppercase;
@@ -234,12 +258,6 @@ main.app {
         border-color: black;
         box-shadow: 0 16px 16px -8px fade(black, 20%);
       }
-    }
-
-    div { // separator
-      padding-top: 8px;
-      color: @df-middle-gray;
-      text-align: center;
     }
   }
 }
@@ -259,12 +277,12 @@ main.app {
   }
 
   div.item {
-    .flex(0 0 50%);
+    .flex(0 0 33%);
     overflow: hidden;
     padding: @card-spacing;
 
     @media @tablet {
-      .flex(0 0 100%);
+      .flex(0 0 50%);
     }
   }
 

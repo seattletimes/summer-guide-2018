@@ -21,9 +21,8 @@
       </div>
     </header>
 
-    <% var instructions = '<p class="constrained smaller instructions">Search for events, or use the buttons to the left to get recommendations based on your interests. Click "Build your own" to generate a personalized itinerary for a summer outing, or select "Show all results" to see all events that match your criteria.</p>'; %>
     <main class="app">
-      <div class="mobile-only"><%= instructions.replace("to the left", "below") %></div>
+      <p class="constrained smaller instructions">Search for events, or use the buttons below to get recommendations based on your interests. Click "Build your own" to generate a personalized itinerary for a summer outing, or select "Show all results" to see all events that match your criteria.</p>
       <nav class="filters">
         <div class="filter-group search">
           <h2 class="nav-header">Search for events</h2>
@@ -32,7 +31,6 @@
             <button aria-label="Clear search">×</button>
           </div>
         </div>
-        <hr>
         <div class="filter-main">
           <div class="filter-group categories">
             <h2 class="nav-header">1. What do you want to do?</h2>
@@ -81,7 +79,7 @@
           <div class="filter-group go">
           <h2 class="nav-header">4. Get results</h2>
           <button class="pick-items">Build your own</button>
-          <div>- or -</div>
+          <div class="or-sep">- or -</div>
           <input type="checkbox" id="live-results" data-flag="showAll" autocomplete="off">
           <label for="live-results">Show all results</label>
         </div>
@@ -89,6 +87,7 @@
       </nav>
     </section>
       <div class="event-listings">
+        <% var instructions = '<p></p>'; %>
         <%= instructions %>
       </div>
       <div class="itinerary-results"></div>
