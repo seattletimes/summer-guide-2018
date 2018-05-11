@@ -281,184 +281,224 @@
     "date": "5/19/2018",
     "phone": "206-684-7200",
     "url": "http://chinaartandculture.org",
-    "description": "Creative traditions, performances and food, Seattle Center Armory, Seattle."
+    "description": "Creative traditions, performances and food",
+    "location": "Seattle Center Armory, Seattle"
   },
   {
     "name": "West Seattle Bee Festival",
     "category": "festivals",
+    "quadrant": "West",
     "date_text": "May 19",
     "date": "5/19/2018",
     "url": "http://westseattlebeegarden.com/bee-fest-2018.html",
-    "description": "Kids & Pets Parade, 11 a.m.; art and science activities, music, food, Vendor Fair, Woodland Park Zoo live animal program, 10 a.m.-3 p.m., High Point Commons Park, 6400 Sylvan Way S.W., Seattle."
+    "description": "Kids & Pets Parade, 11 a.m.; art and science activities, music, food, Vendor Fair, Woodland Park Zoo live animal program, 10 a.m.-3 p.m.",
+    "location": "High Point Commons Park, 6400 Sylvan Way S.W., Seattle"
   },
   {
     "name": "Petapalooza",
     "category": "festivals",
+    "quadrant": "South",
     "date_text": "May 19",
     "date": "5/19/2018",
     "phone": "253-931-3043",
     "url": "http://auburnwa.gov",
-    "description": "Dog Trot 3K/5K Fun Run, 9:30 a.m.; animal-related entertainment stage, flydog and agility demos, pony rides, agility area, vendors, pet adoptions and services, activities for pets and humans, 10 a.m.-5 p.m., Game Farm Park, 3030 R St. S.E., Auburn."
+    "description": "Dog Trot 3K/5K Fun Run, 9:30 a.m.; animal-related entertainment stage, flydog and agility demos, pony rides, agility area, vendors, pet adoptions and services, activities for pets and humans, 10 a.m.-5 p.m.",
+    "location": "Game Farm Park, 3030 R St. S.E., Auburn"
   },
   {
     "name": "Paine Field Aviation Day",
     "category": "festivals",
+    "quadrant": "North",
     "date_text": "May 19",
     "date": "5/19/2018",
     "url": "https://www.painefield.com/198/Paine-Field-Aviation-Day",
     "details": "$25-$45, Paine Field, 3407 109th St. S.W., Everett; $15, ages 9 and younger free; $35/family pass, two adults and children ",
-    "description": "Flying Heritage & Combat Armor Museum and Historic Flight Foundation exhibits, food vendors, flight schools, flying demonstrations, 10 a.m.-5 p.m.; 5K/10K run/walk, 8:30 a.m.,."
+    "description": "Flying Heritage & Combat Armor Museum and Historic Flight Foundation exhibits, food vendors, flight schools, flying demonstrations, 10 a.m.-5 p.m.; 5K/10K run/walk, 8:30 a.m.",
+    "location": "Paine Field, 3407 109th St. S.W., Everett"
   },
   {
     "name": "Armed Forces Day Parade, Bremerton",
     "category": "festivals",
+    "quadrant": "West",
     "date_text": "May 19",
     "date": "5/19/2018",
     "url": "http://bremertonchamber.org/pages/ArmedForcesDayParade",
-    "description": "The largest Armed Forces Day Parade in the nation, in its 71st year; all branches of the military, police and firefighters, youth organizations, dignitaries, commercial businesses, car clubs; 10 a.m., downtown Bremerton."
+    "description": "The largest Armed Forces Day Parade in the nation, in its 71st year; all branches of the military, police and firefighters, youth organizations, dignitaries, commercial businesses, car clubs; 10 a.m.",
+    "location": "Downtown Bremerton"
   },
   {
     "name": "U District Street Fair",
     "category": "festivals",
+    "quadrant": "North",
     "date_text": "May 19-20",
     "start": "5/19/2018",
     "end": "5/20/2018",
     "url": "http://udistrictstreetfair.org/",
-    "description": "Hundreds of craft and food vendors, music, beer garden, kids’ activities, 10 a.m.-7 p.m. May 19, 10 a.m.-6 p.m. May 20, University Way Northeast from Campus Parkway to North 50th Street, Seattle."
+    "description": "Hundreds of craft and food vendors, music, beer garden, kids’ activities, 10 a.m.-7 p.m. May 19, 10 a.m.-6 p.m. May 20",
+    "location": "University Way Northeast from Campus Parkway to North 50th Street, Seattle"
   },
   {
     "name": "Beat The Bridge",
     "category": "festivals",
+    "quadrant": "North",
     "date_text": "May 20",
     "date": "5/20/2018",
     "phone": "206-838-5153",
     "url": "http://www2.jdrf.org/site/TR?fr_id=7194&pg=entry",
     "details": "$30-$50 ",
-    "description": "8K run with wheelchair division with challenge to cross the University Bridge before it’s raised; 3 mile/1 mile walk/fun run through UW campus; proceeds benefit JDRF (Juvenile Diabetes Research Foundation), 8 a.m. Husky Stadium, 3800 Montlake Blvd., Seattle."
+    "description": "8K run with wheelchair division with challenge to cross the University Bridge before it’s raised; 3 mile/1 mile walk/fun run through UW campus; proceeds benefit JDRF (Juvenile Diabetes Research Foundation), 8 a.m.",
+    "location": "Husky Stadium, 3800 Montlake Blvd., Seattle"
   },
   {
     "name": "Girls On The Run 5K",
     "category": "festivals",
+    "quadrant": "South",
     "date_text": "May 20",
     "date": "5/20/2018",
     "url": "http://girlsrun.org/5k/",
     "details": "$15-$50 ",
-    "description": "Run to benefit Girls on the Run of Puget Sound, 9:30 a.m. Renton Stadium, 405 N. Logan Ave., Renton."
+    "description": "Run to benefit Girls on the Run of Puget Sound, 9:30 a.m.",
+    "location": "Renton Stadium, 405 N. Logan Ave., Renton"
   },
   {
     "name": "Touch-A-Truck",
     "category": "festivals",
+    "quadrant": "North",
     "date_text": "May 20",
     "date": "5/20/2018",
     "url": "https://www.jrleagueseattle.org/?nd=touchatruck2018",
     "details": "$5 ",
-    "description": "Children explore working trucks and meet operators; kids’ activities, food trucks, 10 a.m.-1 p.m., quiet hour 9-10 a.m., Magnuson Park, 7400 Sand Point Way N.E., Seattle."
+    "description": "Children explore working trucks and meet operators; kids’ activities, food trucks, 10 a.m.-1 p.m., quiet hour 9-10 a.m.",
+    "location": "Magnuson Park, 7400 Sand Point Way N.E., Seattle"
   },
   {
     "name": "Mushroom Maynia",
     "category": "festivals",
+    "quadrant": "North",
     "date_text": "May 20",
     "date": "5/20/2018",
     "url": "http://psms.org/mMaynia.php",
     "details": "$3/person or $5/family ",
-    "description": "Safe cultivation, hunting and harvesting methods, art and crafts, nature walks, 10 a.m.-4 p.m., Center for Urban Horticulture, 3501 N.E. 41st St., Seattle."
+    "description": "Safe cultivation, hunting and harvesting methods, art and crafts, nature walks, 10 a.m.-4 p.m.",
+    "location": "Center for Urban Horticulture, 3501 N.E. 41st St., Seattle"
   },
   {
     "name": "Intercultural Festival",
     "category": "festivals",
+    "quadrant": "North",
     "date_text": "May 20",
     "date": "5/20/2018",
     "phone": "206-369-5232",
     "url": "http://stmp.org",
-    "description": "International food, entertainment, folk dancing, arts and crafts, children’s games, 11 a.m.-5 p.m., St. Thomas More Catholic Church, 6511 176th St. S.W., Lynnwood."
+    "description": "International food, entertainment, folk dancing, arts and crafts, children’s games, 11 a.m.-5 p.m.",
+    "location": "St. Thomas More Catholic Church, 6511 176th St. S.W., Lynnwood"
   },
   {
     "name": "Tour of Boats, Classic Cars, Marine Swap Meet",
     "category": "festivals",
+    "quadrant": "South",
     "date_text": "May 20",
     "date": "5/20/2018",
     "url": "http://tacomayachtclub.org",
     "details": "$5 ",
-    "description": "Boat tours, wear soft soled shoes; food trucks; benefits local charities, noon-4 p.m., Tacoma Yacht Club, 5401 N. Waterfront Drive, Tacoma."
+    "description": "Boat tours, wear soft soled shoes; food trucks; benefits local charities, noon-4 p.m.",
+    "location": "Tacoma Yacht Club, 5401 N. Waterfront Drive, Tacoma"
   },
   {
     "name": "Bicycle Sunday",
     "category": "festivals",
+    "quadrant": "South",
     "date_text": "May 20",
     "date": "5/20/2018",
     "url": "http://parkways.seattle.gov/2017/12/21/mark-calendar-2018-bicycle-sundays/",
-    "description": ", 27 Lake Washington Boulevard closed to motorized vehicles, open to bike, stroll or jog, 10 a.m.-6 p.m. and 27, between Seward Park and Mount Baker Park beach, Seattle; opening day celebration 10 a.m.-2 p.m. , Seward Park."
+    "description": ", 27 Lake Washington Boulevard closed to motorized vehicles, open to bike, stroll or jog, 10 a.m.-6 p.m. and 27, between Seward Park and Mount Baker Park beach, Seattle; opening day celebration 10 a.m.-2 p.m.",
+    "location": "Seward Park"
   },
   {
     "name": "Northwest Folklife Festival",
     "category": "festivals",
+    "quadrant": "Central",
     "date_text": "May 25-28",
     "start": "5/25/2018",
     "end": "5/28/2018",
     "phone": "206-684-7200",
     "url": "http://nwfolklife.org",
-    "description": "Multicultural music and dance performances at indoor and outdoor venues around Seattle Center, Seattle Center, Seattle; donations requested."
+    "description": "Multicultural music and dance performances at indoor and outdoor venues around Seattle Center; donations requested.",
+    "location": "Seattle Center, Seattle"
   },
   {
     "name": "Tankfest NW",
     "category": "festivals",
+    "quadrant": "North",
     "date_text": "May 26",
     "date": "5/26/2018",
     "phone": "206-342-4242",
     "url": "http://flyingheritage.com/Visit/Events.aspx",
     "details": "$15-$25, free for active military, veterans and ages 5 and younger ",
-    "description": "Vintage tanks and artillery, military vehicle demonstrations, kids’ activities, 9 a.m.-4 p.m., Flying Heritage & Combat Armor Museum, 3407 109th St. S.W., Paine Field, Everett."
+    "description": "Vintage tanks and artillery, military vehicle demonstrations, kids’ activities, 9 a.m.-4 p.m.",
+    "location": "Flying Heritage & Combat Armor Museum, 3407 109th St. S.W., Paine Field, Everett"
   },
   {
     "name": "Seagull Calling Contest",
     "category": "festivals",
+    "quadrant": "West",
     "date_text": "May 26",
     "date": "5/26/2018",
     "url": "http://portorchardchamber.org/seagullcallingfestival/",
-    "description": "Farmers market, car show, 9 a.m.-3 p.m.; wings cook-off and sale, 9 a.m.-noon; seagull calling contest, 1 p.m., Port Orchard Marina, Port Orchard."
+    "description": "Farmers market, car show, 9 a.m.-3 p.m.; wings cook-off and sale, 9 a.m.-noon; seagull calling contest, 1 p.m.",
+    "location": "Port Orchard Marina, Port Orchard"
   },
   {
     "name": "Kitsap Harbor Festival",
     "category": "festivals",
+    "quadrant": "West",
     "date_text": "May 26-27",
     "start": "5/26/2018",
     "end": "5/27/2018",
     "url": "http://kitsapharborfestival.org",
-    "description": "Pirates, craft and food vendors, kids’ activities, entertainment, beer garden, 10 a.m.-6 p.m. May 26, 10 a.m.-5 p.m. May 27, Bremerton Marina and Port Orchard Marina, 707."
+    "description": "Pirates, craft and food vendors, kids’ activities, entertainment, beer garden, 10 a.m.-6 p.m. May 26, 10 a.m.-5 p.m. May 27",
+    "location": "Bremerton Marina and Port Orchard Marina, 707"
   },
   {
     "name": "East Green Lake, Madrona beaches",
     "category": "athletic",
+    "quadrant": "North",
     "date_text": "May 26-Aug. 26",
     "start": "5/26/2018",
     "end": "8/26/2018",
     "url": "http://seattle.gov/parks/",
-    "description": "Life guards on duty, weather permitting, 2-7 p.m. weekdays through June 22; noon-7 p.m. weekdays June 23-Aug. 26, 11 a.m.-7 p.m. Saturdays-Sundays through Aug. 26, Madrona Beach, 853 Lake Washington Blvd., and East Green Lake, East Green Lake Beach, 7201 E. Green Lake Drive N., Seattle."
+    "description": "Life guards on duty, weather permitting, 2-7 p.m. weekdays through June 22; noon-7 p.m. weekdays June 23-Aug. 26, 11 a.m.-7 p.m. Saturdays-Sundays through Aug. 26",
+    "location": "Madrona Beach, 853 Lake Washington Blvd., and East Green Lake, East Green Lake Beach, 7201 E. Green Lake Drive N., Seattle"
   },
   {
     "name": "Colman Pool",
     "category": "athletic",
+    "quadrant": "West",
     "date_text": "May 26-Sept. 3",
     "start": "5/26/2018",
     "end": "9/3/2018",
     "phone": "206-684-7494",
     "url": "http://seattle.gov/parks/",
-    "description": "Heated, saltwater Olympic size pool, Giant Tube Slide; open swims, swimming lessons, special events, Colman Pool, Lincoln Park, 8603 Fauntleroy Way S.W., Seattle; hours and fees vary."
+    "description": "Heated, saltwater Olympic size pool, Giant Tube Slide; open swims, swimming lessons, special events",
+    "location": "Colman Pool, Lincoln Park, 8603 Fauntleroy Way S.W., Seattle; hours and fees vary"
   },
   {
     "name": "Renton History Museum",
     "category": "arts",
+    "quadrant": "South",
     "date_text": "May 28-Nov. 11",
     "start": "5/28/2018",
     "end": "11/11/2018",
     "phone": "425-255-2330",
     "url": "http://rentonhistory.org",
     "details": "$2-$5 ",
-    "description": "“On the Battlefront and the Homefront: Rentonites in the Great War” exhibit on local residents who served on the battlefront and homefront during World War I, ; “I’m Going Through: Black Miners Arrive in King County” exhibit in honor of Renton’s Juneteenth celebration, tracing the arrival of African American miners and their families in King County in the 1880s and 1890s, June 1-Aug. 31; 10 a.m.-4 p.m. Tuesdays-Saturdays, Renton History Museum, 235 Mill Ave. S., Renton."
+    "description": "“On the Battlefront and the Homefront: Rentonites in the Great War” exhibit on local residents who served on the battlefront and homefront during World War I, ; “I’m Going Through: Black Miners Arrive in King County” exhibit in honor of Renton’s Juneteenth celebration, tracing the arrival of African American miners and their families in King County in the 1880s and 1890s, June 1-Aug. 31; 10 a.m.-4 p.m. Tuesdays-Saturdays",
+    "location": "Renton History Museum, 235 Mill Ave. S., Renton"
   },
   {
     "name": "Beach Naturalist Program",
     "category": "athletic",
+    "quadrant": "North South West",
     "date_text": "May 29-Aug. 12",
     "start": "5/29/2018",
     "end": "8/12/2018",
@@ -468,266 +508,361 @@
   {
     "name": "Bellevue Jazz & Blues Festival",
     "category": "arts",
+    "quadrant": "East",
     "date_text": "May 30-June 3",
     "start": "5/30/2018",
     "end": "6/3/2018",
     "url": "http://bellevuedowntown.com/events/jazz-and-blues-festival/schedule",
-    "description": "Regional jazz and blues musicians, middle and high school jazz performances throughout downtown Bellevue, ; locations and costs vary."
+    "description": "Regional jazz and blues musicians, middle and high school jazz performances throughout downtown Bellevue",
+    "location": "Downtown Bellevue"
   },
   {
     "name": "Bite of Greece",
+    "category": "food",
+    "quadrant": "Central",
     "date_text": "June 1-3",
     "start": "6/1/2018",
     "end": "6/3/2018",
     "phone": "206-323-8557",
     "url": "http://biteofgreeceseattle.com/Default_v3.aspx",
-    "description": "Greek food and music, Taverna, vendors, 4-10 p.m. June 1, 11 a.m.-10 p.m. June 2, noon-6 p.m. June 3, Greek Orthodox Church of the Assumption, 1804 13th Ave., Seattle."
+    "description": "Greek food and music, Taverna, vendors, 4-10 p.m. June 1, 11 a.m.-10 p.m. June 2, noon-6 p.m. June 3",
+    "location": "Greek Orthodox Church of the Assumption, 1804 13th Ave., Seattle"
   },
   {
     "name": "Honk! Fest West",
+    "category": "music",
+    "quadrant": "South",
     "date_text": "June 1-3",
     "start": "6/1/2018",
     "end": "6/3/2018",
     "url": "http://honkfestwest.org/honk-2018/",
-    "description": "Performances celebrating brass, percussion and street band culture, Georgetown 5-10 p.m. June 1; White Center 1-6 p.m. June 2; Columbia City 2-6 p.m. June 3, Seattle."
+    "description": "Performances celebrating brass, percussion and street band culture, Georgetown 5-10 p.m. June 1; White Center 1-6 p.m. June 2; Columbia City 2-6 p.m. June 3, Seattle.",
+    "location": "Seattle"
   },
   {
     "name": "Edmonds Waterfront Festival",
+    "category": "festivals food",
+    "quadrant": "North",
     "date_text": "June 1-3",
     "start": "6/1/2018",
     "end": "6/3/2018",
     "url": "http://edmondswaterfrontfestival.org",
     "details": "$4/admission, ages 12 and younger free .",
-    "description": "Entertainment, arts and crafts vendors, food courts, kids’ activities, beer and wine garden, hydroplanes and classic boat display, 3-10 p.m. June 1, 11 a.m.-10 p.m. June 2, 11 a.m.-7 p.m. June 3, Edmonds."
+    "description": "Entertainment, arts and crafts vendors, food courts, kids’ activities, beer and wine garden, hydroplanes and classic boat display, 3-10 p.m. June 1, 11 a.m.-10 p.m. June 2, 11 a.m.-7 p.m. June 3",
+    "location": "Edmonds"
   },
   {
     "name": "Kitsap Medieval Faire",
+    "category": "festivals",
+    "quadrant": "West",
     "date_text": "June 1-3",
     "start": "6/1/2018",
     "end": "6/3/2018",
     "url": "http://kitsapmedievalfaire.org",
     "details": "$10, ages 17 and younger free .",
-    "description": "Society for Creative Anachronism, Inc. (SCA), Barony of Dragon’s Laire, hosts tournament combat, archery, vendors, food court, noon-10 p.m. June 1; 10 a.m.-5 p.m. June 2, 9 a.m.-1 p.m. June 3, Norseland, 8707 S.W. Sentinel Peak Way, Bremerton."
+    "description": "Society for Creative Anachronism, Inc. (SCA), Barony of Dragon’s Laire, hosts tournament combat, archery, vendors, food court, noon-10 p.m. June 1; 10 a.m.-5 p.m. June 2, 9 a.m.-1 p.m. June 3",
+    "location": "Norseland, 8707 S.W. Sentinel Peak Way, Bremerton"
   },
   {
     "name": "Flying Wheels Summer Century",
+    "category": "athletic outdoors",
+    "quadrant": "East",
     "date_text": "June 2",
     "date": "6/2/2018",
     "details": "$60-$65, $10-$15/ages 12 and younger ([cascade.org/rides-major-rides/flying-wheelsCQ).](https://cascade.org/rides-major-rides/flying-wheels)",
-    "description": "Cascade Bicycle Club Snoqualmie Valley ride, route options 46 to 100 miles; finish line festival, 6 a.m.-5 p.m., Marymoor Park, 6046 W. Lake Sammamish Parkway N.E., Redmond."
+    "description": "Cascade Bicycle Club Snoqualmie Valley ride, route options 46 to 100 miles; finish line festival, 6 a.m.-5 p.m.",
+    "location": "Marymoor Park, 6046 W. Lake Sammamish Parkway N.E., Redmond"
   },
   {
     "name": "Burien Pride Festival",
+    "category": "festivals",
+    "quadrant": "South",
     "date_text": "June 2",
     "date": "6/2/2018",
     "url": "http://burienpride.com",
-    "description": "Celebration of the LGBTQ community, music, vendors, food, 10 a.m.-8 p.m., Burien Town Square Park, 152nd Street Southwest and Fifth Avenue Southwest, Burien."
+    "description": "Celebration of the LGBTQ community, music, vendors, food, 10 a.m.-8 p.m.",
+    "location": "Burien Town Square Park, 152nd Street Southwest and Fifth Avenue Southwest, Burien"
   },
   {
     "name": "Bastyr Herb and Food Fair",
+    "category": "food",
+    "quadrant": "North",
     "date_text": "June 2",
     "date": "6/2/2018",
     "url": "http://bastyr.edu",
-    "description": "Educational speakers, workshops, cooking demonstrations, food vendors, Medicinal Herb Garden tours, sale of culinary plant starts, entertainment, children’s activities, 10 a.m.-5 p.m., Bastyr University, 14500 Juanita Drive N.E., Kenmore; free shuttle available from Kenmore Park and Ride."
+    "description": "Educational speakers, workshops, cooking demonstrations, food vendors, Medicinal Herb Garden tours, sale of culinary plant starts, entertainment, children’s activities, 10 a.m.-5 p.m.",
+    "location": "Bastyr University, 14500 Juanita Drive N.E., Kenmore; free shuttle available from Kenmore Park and Ride"
   },
   {
     "name": "Pagdiriwang Philippine Festival",
+    "category": "festivals arts",
+    "quadrant": "Central",
     "date_text": "June 2-3",
     "start": "6/2/2018",
     "end": "6/3/2018",
     "phone": "206-684-7200",
     "url": "http://festalpagdiriwang.com",
-    "description": "Celebrating Filipino Independence Day with art, fashion, film, games, Seattle Center, Seattle."
+    "description": "Celebrating Filipino Independence Day with art, fashion, film, games",
+    "location": "Seattle Center, Seattle"
   },
   {
     "name": "Bainbridge in Bloom Garden Tour",
+    "category": "outdoors",
+    "quadrant": "West",
     "date_text": "June 2-3",
     "start": "6/2/2018",
     "end": "6/3/2018",
     "url": "http://ahbainbridge.org/bainbridgeinbloom/",
-    "details": "$25-$35 .",
-    "description": "Hosted by Arts & Humanities Bainbridge, tour of five gardens, Bike the Bloom option available; 9 a.m.-5 p.m. Filipino American Community Hall, 7566 High School Road, Bainbridge Island."
+    "details": "$25-$35",
+    "description": "Hosted by Arts & Humanities Bainbridge, tour of five gardens, Bike the Bloom option available; 9 a.m.-5 p.m.",
+    "location": "Filipino American Community Hall, 7566 High School Road, Bainbridge Island"
   },
   {
     "name": "Duvall Days",
+    "category": "festivals",
+    "quadrant": "East",
     "date_text": "June 2-3",
     "start": "6/2/2018",
     "end": "6/3/2018",
     "url": "http://duvalldays.org",
-    "description": "Community parade, 10:30 a.m.; vendors, music and dance performances, art demonstrations, kids’ play zones, food vendors, beer gardens, 9 a.m.-10 p.m. June 2; Riverview Education Foundation Run and Firefighters Pancake Breakfast, 7 a.m.-1 p.m. June 3, Duvall."
+    "description": "Community parade, 10:30 a.m.; vendors, music and dance performances, art demonstrations, kids’ play zones, food vendors, beer gardens, 9 a.m.-10 p.m. June 2; Riverview Education Foundation Run and Firefighters Pancake Breakfast, 7 a.m.-1 p.m. June 3",
+    "location": "Duvall"
   },
   {
     "name": "Dozer Day",
+    "category": "arts",
+    "quadrant": "South",
     "date_text": "June 2-3",
     "start": "6/2/2018",
     "end": "6/3/2018",
     "url": "http://seattle.dozerday.org",
-    "details": "$8-$13 .",
-    "description": "Kids assist professional drivers on real construction equipment, 11 a.m.-4 p.m., Washington State Fair Events Center, 110 Ninth Ave. S.W., Puyallup."
+    "details": "$8-$13",
+    "description": "Kids assist professional drivers on real construction equipment, 11 a.m.-4 p.m.",
+    "location": "Washington State Fair Events Center, 110 Ninth Ave. S.W., Puyallup"
   },
   {
     "name": "Susan G. Komen Puget Sound Race For the Cure",
+    "category": "athletic outdoors",
+    "quadrant": "Central",
     "date_text": "June 3",
     "date": "6/3/2018",
     "phone": "206-633-0303",
     "url": "http://komenpugetsound.org",
     "details": "$25-$45, fundraising/donations suggested .",
-    "description": "More Than Pink March, 5K walk or run, 1 mile option, to benefit breast cancer research and financial support, 8 a.m., Seattle Center, Seattle."
+    "description": "More Than Pink March, 5K walk or run, 1 mile option, to benefit breast cancer research and financial support, 8 a.m.",
+    "location": "Seattle Center, Seattle"
   },
   {
     "name": "Big Backyard 5K",
+    "category": "athletic outdoors",
+    "quadrant": "East",
     "date_text": "June 3",
     "date": "6/3/2018",
     "url": "http://bby5k.com",
-    "details": "$20-$40 .",
-    "description": "5K run/walk, post-race celebration; benefits King County Parks maintenance and operations, 9 a.m. Marymoor Park, 6046 W. Lake Sammamish Parkway N.E., Redmond."
+    "details": "$20-$40",
+    "description": "5K run/walk, post-race celebration; benefits King County Parks maintenance and operations, 9 a.m.",
+    "location": "Marymoor Park, 6046 W. Lake Sammamish Parkway N.E., Redmond"
   },
   {
     "name": "Summer Sip in the Garden",
+    "category": "food outdoors",
+    "quadrant": "South",
     "date_text": "June 3",
     "date": "6/3/2018",
     "url": "http://tinyurl.com/SummerSip2018",
-    "details": "$25-$30 .",
-    "description": "Wine, beer and cider by local producers, benefits local charities, 3 p.m. Highline SeaTac Botanical Garden, 13735 24th Ave. S., SeaTac."
+    "details": "$25-$30",
+    "description": "Wine, beer and cider by local producers, benefits local charities, 3 p.m.",
+    "location": "Highline SeaTac Botanical Garden, 13735 24th Ave. S., SeaTac"
   },
   {
     "name": "Bicycle Sunday",
+    "category": "athletic outdoors",
+    "quadrant": "South",
     "date_text": "June 3, 17, 24",
     "date": "6/3/2018",
     "url": "http://parkways.seattle.gov/2017/12/21/mark-calendar-2018-bicycle-sundays/",
-    "description": "Lake Washington Boulevard closed to motorized vehicles, open to bike, stroll or jog, 10 a.m.-6 p.m. between Seward Park and Mount Baker Park beach, Seattle."
+    "description": "Lake Washington Boulevard closed to motorized vehicles, open to bike, stroll or jog, 10 a.m.-6 p.m.",
+    "location": "Between Seward Park and Mount Baker Park beach, Seattle"
   },
   {
     "name": "Vashon Sheepdog Classic",
+    "category": "festivals",
+    "quadrant": "West",
     "date_text": "June 7-10",
     "start": "6/7/2018",
     "end": "6/10/2018",
     "url": "http://vashonsheepdogclassic.com",
-    "details": "$10 .",
-    "description": "National herding competition on spectator-friendly meadows, food vendors, fiber arts village, Misty Isle Farms, Old Mill Road and Southwest 220th Street, Vashon."
+    "details": "$10",
+    "description": "National herding competition on spectator-friendly meadows, food vendors, fiber arts village",
+    "location": "Misty Isle Farms, Old Mill Road and Southwest 220th Street, Vashon"
   },
   {
     "name": "Maple Valley Days",
+    "category": "festivals arts",
+    "quadrant": "South",
     "date_text": "June 8-10",
     "start": "6/8/2018",
     "end": "6/10/2018",
     "url": "http://maplevalleydays.com",
-    "description": "Carnival, entertainment, vendors, 3-8 p.m. June 8; 10 a.m.-9 p.m. June 9; 10 a.m.-5 p.m. June 10; parade, 10 a.m. June 9, Witte Road; Street Rats Car Show, 8 a.m.-4 p.m. June 9; Arts Festival, noon-6 p.m. June 8, 10 a.m.-5 p.m. June 9; Lake Wilderness Park, 23601 224th Ave. S.E., Maple Valley."
+    "description": "Carnival, entertainment, vendors, 3-8 p.m. June 8; 10 a.m.-9 p.m. June 9; 10 a.m.-5 p.m. June 10; parade, 10 a.m. June 9, Witte Road; Street Rats Car Show, 8 a.m.-4 p.m. June 9; Arts Festival, noon-6 p.m. June 8, 10 a.m.-5 p.m. June 9",
+    "location": "Lake Wilderness Park, 23601 224th Ave. S.E., Maple Valley"
   },
   {
     "name": "Sorticulture Garden Arts Festival",
+    "category": "outdoors festivals",
+    "quadrant": "North",
     "date_text": "June 8-10",
     "start": "6/8/2018",
     "end": "6/10/2018",
     "url": "http://everettwa.gov/823/Sorticulture-Garden-Arts-Festival",
-    "description": "Garden art vendors, plant sale, 10 a.m.-8 p.m. June 8, 10 a.m.-6 p.m. June 9, 10 a.m.-4 p.m. June 10, Legion Park, 145 Alverson Blvd., Everett."
+    "description": "Garden art vendors, plant sale, 10 a.m.-8 p.m. June 8, 10 a.m.-6 p.m. June 9, 10 a.m.-4 p.m. June 10, Legion Park",
+    "location": "145 Alverson Blvd., Everett"
   },
   {
     "name": "Spirit of Indigenous People",
+    "category": "festivals arts",
+    "quadrant": "Central",
     "date_text": "June 9",
     "date": "6/9/2018",
     "phone": "206-684-7200",
     "url": "http://sihb.org",
-    "description": "Traditional and contemporary North American Native life, arts, crafts and food vendors, performances, 11 a.m.-5 p.m., Seattle Center, Seattle."
+    "description": "Traditional and contemporary North American Native life, arts, crafts and food vendors, performances, 11 a.m.-5 p.m.",
+    "location": "Seattle Center, Seattle"
   },
   {
     "name": "Shilshole Boatfest",
+    "category": "outdoors festivals",
+    "quadrant": "North",
     "date_text": "June 9",
     "date": "6/9/2018",
     "url": "http://www.portseattle.org/Marinas/Shilshole-Bay-Marina/Pages/Shilshole-Boatfest.aspx",
-    "description": "Sailboat and powerboat rides, boat tours, kayaking and paddleboarding, Seattle Fire Boat display, beer and wine garden, kids’ activities, boat safety information, music, food trucks, vendors, 11 a.m.-4 p.m., Shilshole Bay Marina, 7001 Seaview Ave. N.W., Seattle."
+    "description": "Sailboat and powerboat rides, boat tours, kayaking and paddleboarding, Seattle Fire Boat display, beer and wine garden, kids’ activities, boat safety information, music, food trucks, vendors, 11 a.m.-4 p.m.",
+    "location": "Shilshole Bay Marina, 7001 Seaview Ave. N.W., Seattle"
   },
   {
     "name": "PhinneyWood Garage Sale Day",
+    "category": "market",
+    "quadrant": "North",
     "date_text": "June 9",
     "date": "6/9/2018",
     "url": "http://phinneycenter.org/garagesale",
-    "description": "Yard sales at 100 locations around the neighborhood, and flea market, tool sale, plant swap at Phinney Center, 9 a.m.-2 p.m., Phinney Center, 6532 Phinney Ave. N., Seattle."
+    "description": "Yard sales at 100 locations around the neighborhood, and flea market, tool sale, plant swap at Phinney Center, 9 a.m.-2 p.m.",
+    "location": "Phinney Center, 6532 Phinney Ave. N., Seattle"
   },
   {
     "name": "Georgetown Carnival",
+    "category": "festivals",
+    "quadrant": "South",
     "date_text": "June 9",
     "date": "6/9/2018",
     "url": "http://georgetownmerchants.org",
-    "description": "Vendors, music, activities, noon-10 p.m., Georgetown historic business district, Seattle."
+    "description": "Vendors, music, activities, noon-10 p.m.",
+    "location": "Georgetown historic business district, Seattle"
   },
   {
     "name": "Lake to Lake Bike Ride",
+    "category": "outdoors athletic",
+    "quadrant": "East",
     "date_text": "June 9",
     "date": "6/9/2018",
     "phone": "425-452-4882",
     "url": "https://parks.bellevuewa.gov/special-events/lake-to-lake-bike-ride",
-    "details": "$15-$20 .",
-    "description": "Eight-mile Greenbelt Loop or 22-mile Lake Loop through Bellevue’s park system, 9 a.m. Lake Hills Community Park, 1200 164th Ave. S.E., Bellevue."
+    "details": "$15-$20",
+    "description": "Eight-mile Greenbelt Loop or 22-mile Lake Loop through Bellevue’s park system, 9 a.m.",
+    "location": "Lake Hills Community Park, 1200 164th Ave. S.E., Bellevue"
   },
   {
     "name": "Finnish Summer Party",
+    "category": "festivals",
+    "quadrant": "East",
     "date_text": "June 9",
     "date": "6/9/2018",
     "url": "http://finlandiafoundationseattle.com/event/finnish-summer-party/",
     "details": "$17-$20/family or $5/person .",
-    "description": "Finnish entertainment, food, music, dancing, children’s program, 1-6 p.m., Vasa Park Resort & Ballroom, 3560 W. Lake Sammamish Parkway S.E., Bellevue."
+    "description": "Finnish entertainment, food, music, dancing, children’s program, 1-6 p.m.",
+    "location": "Vasa Park Resort & Ballroom, 3560 W. Lake Sammamish Parkway S.E., Bellevue"
   },
   {
     "name": "Highline Garden Tour",
+    "category": "outdoors",
+    "quadrant": "South",
     "date_text": "June 9",
     "date": "6/9/2018",
     "url": "http://highlinehistory.org",
     "details": "$12-$18 .",
-    "description": "Visit gardens in Burien, SeaTac, Normandy Park, 10 a.m.-4 p.m."
+    "description": "Visit gardens in Burien, SeaTac, Normandy Park, 10 a.m.-4 p.m.",
+    "location": "Burien, SeaTac, Normandy Park"
   },
   {
     "name": "Rock ’n’ Roll Marathon",
+    "category": "outdoors athletic",
+    "quadrant": "Central",
     "date_text": "June 9-10",
     "start": "6/9/2018",
     "end": "6/10/2018",
     "url": "http://runrocknroll.com",
     "details": "$49.99-$119.99, fundraising for St. Jude's Children's Research Hospital suggested .",
-    "description": "5K June 9; marathon, half marathon with bands and cheer teams along the course June 10, Seattle Center, Seattle."
+    "description": "5K June 9; marathon, half marathon with bands and cheer teams along the course June 10",
+    "location": "Seattle Center, Seattle"
   },
   {
     "name": "Seattle Rose Society",
+    "category": "market",
+    "quadrant": "East",
     "date_text": "June 9-10",
     "start": "6/9/2018",
     "end": "6/10/2018",
     "url": "http://seattlerosesociety.org",
-    "description": "Seattle Rose Society 105th annual rose show, Marketplace at Factoria, 4055 Factoria Mall, Bellevue."
+    "description": "Seattle Rose Society 105th annual rose show",
+    "location": "Marketplace at Factoria, 4055 Factoria Mall, Bellevue"
   },
   {
     "name": "Evergreen Mountain Bike Festival",
+    "category": "outdoors athletic",
+    "quadrant": "East",
     "date_text": "June 9-10",
     "start": "6/9/2018",
     "end": "6/10/2018",
     "url": "http://evergreenmtb.org",
     "details": "$20-$40 for access to bike demos, skill clinics and guided rides, ages 14 and younger free .",
-    "description": "Bike demos, vendors, bike skills clinics, jump show, kids’ events, beer garden, 9 a.m.-5 p.m., Duthie Hill Mountain Bike Park, Duthie Hill Road, Issaquah; free admission."
+    "description": "Bike demos, vendors, bike skills clinics, jump show, kids’ events, beer garden, 9 a.m.-5 p.m.; free admission.",
+    "location": "Duthie Hill Mountain Bike Park, Duthie Hill Road, Issaquah"
   },
   {
     "name": "Beach Naturalists, Des Moines Beach Park",
+    "category": "outdoors",
+    "quadrant": "South",
     "date_text": "June 13-Aug. 12",
     "start": "6/13/2018",
     "end": "8/12/2018",
     "url": "http://seattleaquarium.org/beach-naturalist",
-    "description": "Explore the beach at low tide with naturalists; 9:30 a.m.-12:30 p.m. June 13; 9:30 a.m.-1 p.m. June 14; 10 a.m.-2 p.m. June 15; 11 a.m.-3 p.m. June 16; noon-3 p.m. June 17; 11:45 a.m.-1:45 p.m. June 30; 9-11:30 a.m. July 11; 9-11:30 a.m. July 12; 9:30 a.m.-1:30 p.m. July 13; 10:30 a.m.-2:30 p.m. July 14; 11:15 a.m.-2:45 p.m. July 15; 9-11 a.m. Aug. 9; 9 a.m.-noon Aug. 10; 10 a.m.-1 p.m. Aug. 11; 10:30 a.m.-1:30 a.m. Aug. 12, Des Moines Beach Park, 22030 Cliff Avenue S., Des Moines."
+    "description": "Explore the beach at low tide with naturalists; 9:30 a.m.-12:30 p.m. June 13; 9:30 a.m.-1 p.m. June 14; 10 a.m.-2 p.m. June 15; 11 a.m.-3 p.m. June 16; noon-3 p.m. June 17; 11:45 a.m.-1:45 p.m. June 30; 9-11:30 a.m. July 11; 9-11:30 a.m. July 12; 9:30 a.m.-1:30 p.m. July 13; 10:30 a.m.-2:30 p.m. July 14; 11:15 a.m.-2:45 p.m. July 15; 9-11 a.m. Aug. 9; 9 a.m.-noon Aug. 10; 10 a.m.-1 p.m. Aug. 11; 10:30 a.m.-1:30 a.m. Aug. 12",
+    "location": "Des Moines Beach Park, 22030 Cliff Avenue S., Des Moines"
   },
   {
     "name": "“Double Exposure: Edward S. Curtis, Marianne Nicolson, Tracy Rector, Will Wilson”",
+    "category": "arts",
+    "quadrant": "Central",
     "date_text": "June 14-Sept. 9",
     "start": "6/14/2018",
     "end": "9/9/2018",
     "phone": "868-1952",
     "details": "$14.95-$24.95 (206-654-3100 or [seattleartmuseum.orgCQ ](http://seattleartmuseum.org)).",
-    "description": "Iconic early 20th-century works by American photographer Edward S. Curtis and contemporary photography, video, and installation by indigenous artists Marianne Nicolson, Tracy Rector, and Will Wilson, in commemoration of the 150th anniversary of Curtis’s birth to explore the legacy of his historic portraits of Native Americans, focusing on Native and First Nations voices, ; 10 a.m.-5 p.m. Mondays; closed Tuesdays; 10 a.m.-5 p.m. Wednesdays; 10 a.m.-9 p.m. Thursdays; 10 a.m.-5 p.m. Fridays-Sundays; Seattle Art Museum, 1300 First Ave., Seattle."
+    "description": "Iconic early 20th-century works by American photographer Edward S. Curtis and contemporary photography, video, and installation by indigenous artists Marianne Nicolson, Tracy Rector, and Will Wilson, in commemoration of the 150th anniversary of Curtis’s birth to explore the legacy of his historic portraits of Native Americans, focusing on Native and First Nations voices, ; 10 a.m.-5 p.m. Mondays; closed Tuesdays; 10 a.m.-5 p.m. Wednesdays; 10 a.m.-9 p.m. Thursdays; 10 a.m.-5 p.m. Fridays-Sundays",
+    "location": "Seattle Art Museum, 1300 First Ave., Seattle"
   },
   {
     "name": "Washington Brewers Festival",
+    "category": "food",
+    "quadrant": "East",
     "date_text": "June 15-17",
     "start": "6/15/2018",
     "end": "6/17/2018",
     "phone": "206-795-5510",
     "url": "https://washingtonbeer.com/festivals/washington-brewers-festival.php",
     "details": "$25-$35/day; ages under 21 free, fees for some kids' activities; $5/designated driver .",
-    "description": "500 beers from 150 Washington breweries, wine and cider tastings, food trucks, live music, Root Beer Garden, Kids’ Playground; ages 21 and older only, 4-9:30 p.m. June 15; all ages, 11 a.m.-8 p.m. June 16, 11:30 a.m.-5:30 p.m. June 17, Marymoor Park, 6046 W. Lake Sammamish Parkway N.E., Redmond."
+    "description": "500 beers from 150 Washington breweries, wine and cider tastings, food trucks, live music, Root Beer Garden, Kids’ Playground; ages 21 and older only, 4-9:30 p.m. June 15; all ages, 11 a.m.-8 p.m. June 16, 11:30 a.m.-5:30 p.m. June 17",
+    "location": "Marymoor Park, 6046 W. Lake Sammamish Parkway N.E., Redmond"
   },
   {
     "name": "Edmonds Arts Festival",
@@ -2748,6 +2883,8 @@
     "name": "Pike Place Seasonal Farmers Markets",
     "category": "market",
     "quadrant": "central",
+    "date_text": "Four locations throughout the week",
+    "start": "5/29/2018",
     "url": "http://pikeplacemarket.org/farmers-market",
     "description": "Opening week of May 29, produce, flowers, honey and more from Pike Place Market producers at four locations; new this year, Regrade, 10 a.m.-2 p.m. Tuesdays, Seventh Avenue and Lenora Street; returning locations, City Hall, 10 a.m.-2 p.m. Tuesdays, 600 Fourth Ave.; South Lake Union, 10 a.m.-2 p.m. Thursdays, 410 Terry Ave. N.; First Hill, 10 a.m.-2 p.m. Fridays, Ninth Avenue and University Street, Seattle.",
     "location": "Multiple locations"
@@ -2756,6 +2893,7 @@
     "name": "Columbia City Farmers Market",
     "category": "market",
     "quadrant": "south",
+    "date_text": "Wednesdays",
     "url": "http://seattlefarmersmarkets.org",
     "description": "Local produce, cut flowers, plant starts, eggs, cheese, fish, poultry, meats, 3-7 p.m. Wednesdays",
     "location": "37th Avenue South and South Edmunds Street, Seattle"
@@ -2764,6 +2902,7 @@
     "name": "Wallingford Farmers Market",
     "category": "market",
     "quadrant": "north",
+    "date_text": "Wednesdays",
     "url": "http://sfmamarkets.com/visit-wallingford-farmers-market",
     "description": "Seasonal farm produce from Washington farms, food vendors, 3-7 p.m. Wednesdays",
     "location": "Meridian Park, 4649 Sunnyside Ave. N., Seattle"
@@ -2772,6 +2911,8 @@
     "name": "Lake City Farmers Market",
     "category": "market",
     "quadrant": "north",
+    "date_text": "Thursdays",
+    "start": "6/7/2018",
     "url": "http://seattlefarmersmarkets.org",
     "description": "Opening June 7, local produce, flowers, plant starts, eggs, cheese, fish, poultry, meats, 3-7 p.m. Thursdays",
     "location": "Northeast 125th Street and 28th Avenue Northeast, Seattle"
@@ -2780,6 +2921,7 @@
     "name": "Madrona Farmers Market",
     "category": "market",
     "quadrant": "south",
+    "date_text": "Fridays",
     "url": "http://sfmamarkets.com/madrona-farmers-market",
     "description": "Seasonal produce from Washington farmers, fishers and ranchers, variety of foods made from locally grown ingredients, 3-7 p.m. Fridays",
     "location": "Madrona Grocery Outlet parking lot, 1126 Martin Luther King Jr. Way, Seattle"
@@ -2788,6 +2930,8 @@
     "name": "Phinney Farmers Market",
     "category": "market",
     "quadrant": "north",
+    "date_text": "Fridays",
+    "start": "6/1/2018",
     "url": "http://seattlefarmersmarkets.org",
     "description": "Opening June 1, local produce, flowers, plant starts, eggs, cheese, fish, poultry, meats, 3:30-7:30 p.m. Fridays",
     "location": "Phinney Neighborhood Center, 6532 Phinney Ave. N, Seattle"
@@ -2796,6 +2940,7 @@
     "name": "University District Farmers Market",
     "category": "market",
     "quadrant": "north",
+    "date_text": "Saturdays",
     "url": "http://seattlefarmersmarkets.org",
     "description": "Fresh produce and farm products, flowers, food vendors, 9 a.m.-2 p.m. Saturdays year around",
     "location": "University Way & N.E. 50th Ave., Seattle"
@@ -2804,6 +2949,8 @@
     "name": "Magnolia Farmers Market",
     "category": "market",
     "quadrant": "north",
+    "date_text": "Saturdays",
+    "start": "6/2/2018",
     "url": "http://seattlefarmersmarkets.org",
     "description": "Opening June 2, local produce, flowers, plant starts, eggs, cheese, fish, poultry, meats, 10 a.m.-2 p.m. Saturdays, closed Aug. 5",
     "location": "33rd Avenue West and West McGraw Street, Seattle"
@@ -2812,6 +2959,7 @@
     "name": "Capitol Hill Farmers Market",
     "category": "market",
     "quadrant": "central",
+    "date_text": "Sundays",
     "url": "http://seattlefarmersmarkets.org",
     "description": "Fresh produce and farm product vendors, flowers, food vendors, 11 a.m.-3 p.m. Sundays year around",
     "location": "Broadway and East Pine Street, Seattle Community College Campus, Seattle"
@@ -2820,6 +2968,7 @@
     "name": "West Seattle Farmers Market",
     "category": "market",
     "quadrant": "west",
+    "date_text": "Sundays",
     "url": "http://seattlefarmersmarkets.org",
     "description": "Fresh produce, farm products, food vendors, 10 a.m.-2 p.m. Sundays",
     "location": "Southwest Alaska Street and California Avenue Southwest, Seattle"
@@ -2828,6 +2977,7 @@
     "name": "Ballard Farmers Market",
     "category": "market",
     "quadrant": "north",
+    "date_text": "Sundays",
     "url": "http://sfmamarkets.com",
     "description": "Year-round farmers market, produce from Washington state farmers, 10 a.m.-3 p.m. Sundays",
     "location": "Ballard Avenue Northwest and 22nd Avenue Northwest, Seattle"
@@ -2836,14 +2986,17 @@
     "name": "Mercer Island Farmers Market",
     "category": "market",
     "quadrant": "east",
+    "date_text": "Sundays",
+    "start": "6/3/2018",
     "url": "http://mifarmersmarket.org/",
-    "description": "Opening June 3, local produce, meat, baked goods, food vendors, 10 a.m.-3 p.m. Sunday",
+    "description": "Opening June 3, local produce, meat, baked goods, food vendors, 10 a.m.-3 p.m. Sundays",
     "location": "Mercerdale Park, 77th Avenue Southeast and Southeast 32nd Street, Mercer Island"
   },
   {
     "name": "Bellevue Farmers Market",
     "category": "market",
     "quadrant": "east",
+    "date_text": "Thursdays",
     "url": "http://bellevuefarmersmarket.org",
     "description": "Seasonal produce, flowers, meats, arts and crafts, food vendors, 3-7 p.m. Thursdays",
     "location": "1717 Bellevue Way N.E., Bellevue"
@@ -2852,6 +3005,8 @@
     "name": "Crossroads Farmers Market",
     "category": "market",
     "quadrant": "east",
+    "date_text": "Tuesdays",
+    "start": "6/5/2018",
     "url": "https://crossroadsbellevue.com/directory/shop#farmers-market",
     "description": "Opening June 5, Washington produce, flowers, food, noon-6 p.m. Tuesdays",
     "location": "Crossroads Bellevue east parking lot, 15600 N.E. Eighth St., Bellevue"
@@ -2860,6 +3015,8 @@
     "name": "Kirkland Wednesday Market",
     "category": "market",
     "quadrant": "east",
+    "date_text": "Wednesdays",
+    "start": "6/6/2018",
     "url": "http://kirklandmarket.org/",
     "description": "Opening June 6, local produce, arts and crafts, food vendors, 2-7 p.m. Wednesdays (no market July 4)",
     "location": "Marina Park, 25 Lake Shore Plaza, Kirkland"
@@ -2868,6 +3025,7 @@
     "name": "Redmond Saturday Market",
     "category": "market",
     "quadrant": "east",
+    "date_text": "Saturdays",
     "url": "http://redmondsaturdaymarket.org/",
     "description": "Local produce and other farm products, plants, flowers, baked goods, fish, arts and crafts, food vendors, 9 a.m.-3 p.m. Saturdays",
     "location": "7730 Leary Way, Redmond"
@@ -2876,6 +3034,7 @@
     "name": "Sammamish Farmers Market",
     "category": "market",
     "quadrant": "east",
+    "date_text": "Wednesdays",
     "url": "http://sammamishfarmersmarket.org",
     "description": "Fresh produce, food vendors, arts and crafts, 4-8 p.m. Wednesdays",
     "location": "801 228th Ave. S.E., Sammamish"
@@ -2884,6 +3043,7 @@
     "name": "Woodinville Farmers Market",
     "category": "market",
     "quadrant": "east",
+    "date_text": "Saturdays",
     "url": "http://woodinvillefarmersmarket.com",
     "description": "Local produce, flowers, arts and crafts, food vendors, 9 a.m.-3 p.m. Saturdays",
     "location": "DeYoung Park, 13680 N.E. 175th St., Woodinville"
@@ -2892,6 +3052,7 @@
     "name": "Issaquah Farmers Market",
     "category": "market",
     "quadrant": "east",
+    "date_text": "Saturdays",
     "url": "http://ci.issaquah.wa.us/market",
     "description": "Local produce, flowers, baked goods, arts and crafts, food vendors, 9 a.m.-2 p.m. Saturdays",
     "location": "Pickering Barn, 1730 10th Ave. N.W., Issaquah"
@@ -2900,6 +3061,7 @@
     "name": "Carnation Farmers Market",
     "category": "market",
     "quadrant": "east",
+    "date_text": "Tuesdays",
     "url": "http://carnationfarmersmarket.org/",
     "description": "Fresh produce, flowers, plants, food vendors, cooking demonstrations, 3-7 p.m. Tuesdays",
     "location": "Stossel Avenue Northeast and West Bird Street, Carnation"
@@ -2908,6 +3070,7 @@
     "name": "Lake Forest Park Farmers Market",
     "category": "market",
     "quadrant": "north",
+    "date_text": "Sundays",
     "url": "http://thirdplacecommons.org/farmers-market/",
     "description": "Local produce, flowers, plants, 10 a.m.-3 p.m. Sundays",
     "location": "Third Place Commons, 17171 Bothell Way N.E., Lake Forest Park"
@@ -2916,6 +3079,7 @@
     "name": "Edmonds Garden Market/Summer Market",
     "category": "market",
     "quadrant": "north",
+    "date_text": "Saturdays",
     "url": "http://historicedmonds.org/summer-market/",
     "description": "Garden Market, fresh produce, plants, flowers, processed foods, arts and crafts, 9 a.m.-2 p.m. Saturdays through June 9, Fifth Avenue and Bell Street, Edmonds; Summer Market starting June 16, fresh produce, flowers, plants, arts and crafts, food vendors, 9 a.m.-3 p.m. Saturdays (no market Aug. 11), Fifth Avenue and Main Street, Edmonds.",
     "location": "Two Edmonds locations"
@@ -2924,6 +3088,8 @@
     "name": "Mukilteo Farmers Market",
     "category": "market",
     "quadrant": "north",
+    "date_text": "Wednesdays",
+    "start": "6/6/2018",
     "url": "http://mukilteofarmersmarket.org",
     "description": "Opening June 6, local produce, flowers, arts and crafts, food vendors, 3-7 p.m. Wednesdays",
     "location": "Mukilteo Lighthouse Park, 609 Front St., Mukilteo"
@@ -2932,6 +3098,8 @@
     "name": "Mill Creek Farmers Market",
     "category": "market",
     "quadrant": "north",
+    "date_text": "Fridays",
+    "start": "5/25/2018",
     "url": "http://millcreekfarmersmarket.org",
     "description": "Opening May 25, First year of new market with local produce, arts and crafts, noon-5 p.m. Fridays",
     "location": "Mill Creek City Hall North, 15720 Main St., Mill Creek"
@@ -2940,6 +3108,8 @@
     "name": "Bothell Farmers Market",
     "category": "market",
     "quadrant": "north",
+    "date_text": "Fridays",
+    "start": "6/1/2018",
     "url": "http://countryvillagebothell.com/bothell-farmers-market",
     "description": "Opening June 1, locally grown produce, flowers, baked goods, arts and crafts by local artists, noon-6 p.m. Fridays",
     "location": "Country Village, 23718 Bothell-Everett Highway, Bothell"
@@ -2948,6 +3118,7 @@
     "name": "Everett Farmers Market",
     "category": "market",
     "quadrant": "north",
+    "date_text": "Sundays and Wednesdays",
     "phone": "425-422-5656",
     "url": "http://everettfarmersmarket.net/",
     "description": "Fresh produce, arts and crafts, food vendors, 11 a.m.-4 p.m. Sundays, Port of Everett Boxcar Park, 615 13th St., Everett; also 4-8 p.m. Wednesdays, May 23-Sept. 26, Everett Station Transit Center, 2333 32nd St., Everett.",
@@ -2967,6 +3138,7 @@
     "category": "market",
     "quadrant": "south",
     "date_text": "Tuesdays",
+    "start": "6/5/2018",
     "url": "http://rentonfarmersmarket.com",
     "description": "Opening June 5, fresh produce, flowers, food vendors, 3-7 p.m. Tuesdays",
     "location": "Piazza Park, South Third Street and Burnett Avenue South, Renton"
@@ -2975,6 +3147,7 @@
     "name": "Burien Farmers Market",
     "category": "market",
     "quadrant": "south",
+    "date_text": "Thursdays",
     "url": "http://discoverburien.org/events/event/burien-farmers-market/",
     "description": "Farm products, food vendors, handmade goods, baked products, 11 a.m.-6 p.m. Thursdays",
     "location": "Burien Town Square Park, 152nd Street Southwest and Fifth Avenue Southwest, Burien"
@@ -2983,6 +3156,8 @@
     "name": "Kent Farmers Market",
     "category": "market",
     "quadrant": "south",
+    "date_text": "Sundays",
+    "start": "6/2/2018",
     "url": "http://kentfarmersmarket.com/",
     "description": "Opening June 2, fresh produce, food vendors, 9 a.m.-2 p.m. Saturdays (no market July 14)",
     "location": "Town Square Plaza Park, Smith Street and Second Avenue, Kent"
@@ -2991,6 +3166,7 @@
     "name": "Auburn Farmers Market",
     "category": "market",
     "quadrant": "south",
+    "date_text": "Sundays",
     "start": "6/3/2018",
     "url": "http://auburnwa.gov/page70.aspx",
     "description": "Opening June 3, locally grown and farm-based foods, crafts, food vendor, performances, 10 a.m.-3 p.m. Sundays",
