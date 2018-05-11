@@ -11,10 +11,10 @@
     </div>
     <ul class="contact">
       <% if (row.phone) { %>
-      <li> Phone: <a href="tel:<%= row.phone %>"><%= row.phone %></a>
+      <li><a href="tel:<%= row.phone %>"><%= row.phone %></a>
       <% } %>
       <% if (row.url) { %>
-      <li> On the web at <a href="<%= row.url %>"><%= row.url.replace(/https?:\/\/|www\.|(\w)\/.*?$/g, "$1") %></a>
+      <li><a href="<%= row.url %>"><%= row.url.replace(/https?:\/\/|www\.|(\w)\/.*?$/g, "$1") %></a>
       <% } %>
       <% if (row.location) { %>
       <li> <%= row.location %>

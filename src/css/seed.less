@@ -87,14 +87,53 @@ main.app {
   margin: auto;
 }
 
+h2.nav-header {
+  font-family: @df-sans;
+  font-size: 16px;
+}
+
+.search-wrapper {
+  .display-flex();
+  .justify-content(space-between);
+  font-family: @df-sans;
+
+  input {
+    .flex(1 0 0);
+    padding: 4px;
+    border: 1px solid @df-light-gray;
+    font-size: 15px;
+    font-family: inherit;
+    line-height: inherit;
+  }
+
+  button { // clear button
+    border: 0;
+    background-color: transparent;
+    font-size: 24px;
+    color: @df-light-gray;
+    cursor: pointer;
+
+    [data-searching] & {
+      color: inherit;
+    }
+  }
+}
+
 .filters {
-  .flex(0 0 240px);
   font-family: @df-sans;
   .display-flex();
   .justify-content(space-between);
 
   @media @mobile {
     display: block;
+  }
+
+  [data-searching] & {
+    opacity: 0.3;
+
+    @media @mobile {
+      display: none;
+    }
   }
 
   .filter-main {
@@ -114,20 +153,13 @@ main.app {
   }
 
   .filter-group {
-    .flex(0 0 25%);
+    .flex(0 1 250px);
     padding: 0 8px;
 
-    [data-searching] &:not(.search) {
-      opacity: 0.3;
-
-      @media @mobile {
-        display: none;
-      }
-    }
-  }
-
-  h2 {
-    font-size: 15px;
+    // ul {
+    //   border-left: 1px solid @df-middle-gray;
+    //   padding-left: 8px;
+    // }
   }
 
   ul {
@@ -166,7 +198,10 @@ main.app {
       display: block;
       color: @df-middle-gray;
       margin: 4px 0;
-      padding: 2px 0;
+      border: 1px solid @df-light-gray;
+      border-radius: 4px;
+      padding: 2px;
+      text-align: center;
 
       // &::before {
       //   display: inline-block;
@@ -182,6 +217,7 @@ main.app {
 
     &:checked + label {
       color: black;
+      background-color: @df-light-gray;
 
       color: inherit;
       // &::before {
@@ -208,32 +244,6 @@ main.app {
         display: block;
         width: 75%;
         float: right;
-      }
-    }
-  }
-
-  .search-wrapper {
-    .display-flex();
-    .justify-content(space-between);
-
-    input {
-      .flex(1 0 0);
-      border: 1px solid @df-light-gray;
-      padding: @label-margin 2 * @label-margin;
-      font-size: 15px;
-      font-family: inherit;
-      line-height: inherit;
-    }
-
-    button { // clear button
-      border: 0;
-      background-color: transparent;
-      font-size: 24px;
-      color: @df-light-gray;
-      cursor: pointer;
-
-      [data-searching] & {
-        color: inherit;
       }
     }
   }
@@ -266,7 +276,6 @@ main.app {
 .event-listings, .itinerary-results {
   .flex(1 0 0);
   .display-flex();
-  .justify-content(space-between);
   .flex-wrap(wrap);
   padding: 16px 0;
   font-family: @df-sans;
@@ -277,7 +286,7 @@ main.app {
   }
 
   div.item {
-    .flex(0 0 33%);
+    .flex(0 0 33.33333%);
     overflow: hidden;
     padding: @card-spacing;
 
@@ -334,16 +343,6 @@ main.app {
 
 [data-planned="yes"] {
   .event-listings { display: none }
-}
-
-.instructions {
-  font-family: @df-sans;
-  font-size: 17px;
-  .event-listings & {
-    @media @mobile {
-      display: none;
-    }
-  }
 }
 
 .credits {
