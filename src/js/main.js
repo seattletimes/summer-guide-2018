@@ -1,7 +1,7 @@
 // Enable before going live!
-// require("./lib/ads");
-// var paywall = require("./lib/paywall");
-// setTimeout(() => paywall(10832177), 3000);
+require("./lib/ads");
+var paywall = require("./lib/paywall");
+setTimeout(() => paywall(10832177), 3000);
 
 
 var $ = require("./lib/qsa");

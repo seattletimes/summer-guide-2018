@@ -6,15 +6,15 @@
     },
     "live": {
       "bucket": "projects.seattletimes.com",
-      "path": ""
+      "path": "2018/summer-guide"
     }
   },
-  "title": "",
-  "description": "",
-  "url": "",
-  "image": "assets/social.jpg",
+  "title": "Build your own Seattle summer",
+  "description": "Seattle summers are special. We say that because it’s true. Make this one count with our interactive guide to all things summer 2018.",
+  "url": "https://projects.seattletimes.com/2018/summer-guide/",
+  "image": "assets/headers/splash.jpg",
   "sheets": ["1hXI2w79qFY-8ZUQBZZdGVGpZFwwq-iGhi8i7u4EepwE"],
   "standout": false,
-  "embedded": true,
+  "embedded": false,
   "production": false
 }

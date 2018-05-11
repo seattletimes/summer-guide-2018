@@ -23,7 +23,10 @@
       <nav class="filters">
         <div class="filter-group search">
           <h2 class="nav-header">Search for events</h2>
-          <input type="search" placeholder="Name, keywords, location …" data-string="query" autocomplete="off">
+          <div class="search-wrapper">
+            <input type="text" placeholder="Name, keywords, location …" data-string="query" autocomplete="off">
+            <button aria-label="Clear search">×</button>
+          </div>
         </div>
         <hr>
         <div class="filter-main">
@@ -79,9 +82,10 @@
           </div>
           <div class="filter-group go">
           <h2 class="nav-header">4. Get results</h2>
+          <button class="pick-items">Build Your Own</button>
+          <div>- or -</div>
           <input type="checkbox" id="live-results" data-flag="showAll" autocomplete="off">
           <label for="live-results">Show all results</label>
-          <button class="pick-items">Pick 3</button>
         </div>
         </div>
       </nav>

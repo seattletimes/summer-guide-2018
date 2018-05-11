@@ -8,6 +8,7 @@ var { padLeft } = require("./util.js");
 // DOM references we'll want
 var filterMain = $.one(".filter-main");
 var searchBox = $.one(".search input");
+var clearSearchButton = $.one(".search button");
 var useDateCheckbox = $.one(`[data-flag="useCustomDate"]`);
 var pickItemsButton = $.one(".pick-items");
 var showAllCheckbox = $.one(`[data-flag="showAll"]`);
@@ -60,7 +61,7 @@ var applyFilters = function() {
   listContainer.innerHTML = listTemplate({ items });
 };
 
-var runSearch = function() {
+var runSearch = function(ev) {
   var config = getConfig();
   if (!config.query) { // I.e. Cleared search box
     applyFilters();
@@ -91,6 +92,10 @@ var buildItinerary = function() {
 
 filterMain.addEventListener("change", applyFilters);
 searchBox.addEventListener("input", debounce(runSearch));
+searchBox.addEventListener("keyup", debounce((ev) => {
+  if (ev.keyCode === 27) applyFilters();
+}));
+clearSearchButton.addEventListener("click", applyFilters);
 pickItemsButton.addEventListener("click", buildItinerary);
 
 // If we check "use custom date," automatically uncheck all months
