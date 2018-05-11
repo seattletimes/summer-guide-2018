@@ -10,12 +10,10 @@ var intersects = function(a, b) {
 
 var padLeft = function(string, length, padder = "0") {
   if (typeof string != "string") string = String(string);
-  if (string.length < length) {
-    var l = length - string.length;
-    var padding = new Array(l + 1).join(padder);
-    return padding + string;
-  }
-  return string; // doesn't need padding
+  if (string.length >= length) return string;
+  var l = length - string.length;
+  var padding = new Array(l + 1).join(padder);
+  return padding + string;
 };
 
 module.exports = { intersects, padLeft };

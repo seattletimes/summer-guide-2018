@@ -6,10 +6,16 @@ var { padLeft } = require("./util.js");
 
 var filterContainer = $.one(".filters");
 var searchBox = $.one(".search input");
+var pickItemsButton = $.one(".pick-items");
 
 var listTemplate = dot.compile(require("./_list.html"));
 var listContainer = $.one(".event-listings");
 
+// Removes random item from list and returns it
+var drawAndRemoveItem = function(list) {
+  var index = list.length * Math.random();
+  return list.splice(index, 1)[0];
+};
 
 var getConfig = function() {
   var config = {};
@@ -58,10 +64,24 @@ var runSearch = function() {
   }
   var items = filterBySearch(window.eventData, config);
   listContainer.innerHTML = listTemplate({ items });
-}
+};
+
+var eventsAndRecs = eventData.concat(recsData);
+var buildItinerary = function() {
+  var config = getConfig();
+  var eligibleItems = filterItems(eventsAndRecs, config);
+  var items = [];
+  while (items.length < 3 && eligibleItems.length > 0) {
+    var next = drawAndRemoveItem(eligibleItems);
+    console.log(next);
+    items.push(next);
+  }
+  listContainer.innerHTML = listTemplate({ items })
+};
 
 filterContainer.addEventListener("change", applyFilters);
 searchBox.addEventListener("keyup", runSearch);
+pickItemsButton.addEventListener("click", buildItinerary);
 
 var useDateCheckbox = $.one(`[data-flag="useCustomDate"]`);
 // If we check "use custom date," automatically uncheck all months
