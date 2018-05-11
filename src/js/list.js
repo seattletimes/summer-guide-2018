@@ -30,6 +30,12 @@ var clearSearch = function() {
   }
 };
 
+var resetBuildButtonText = function() {
+  if (pickItemsButton.innerHTML !== "Build your own") {
+    pickItemsButton.innerHTML = "Build your own";
+  }
+}
+
 var getConfig = function() {
   var config = {};
   $("[data-aggregate]:checked").forEach(function(input) {
@@ -51,6 +57,7 @@ var getConfig = function() {
 // Apply all filters to the full list (if "show all results" is checked)
 var applyFilters = function() {
   clearSearch();
+  resetBuildButtonText();
   var config = getConfig();
   if (!config.showAll) { // Stop execution, show instructions
     if (listContainer.firstChild.tagName !== 'P') listContainer.innerHTML = window.instructions;
@@ -72,6 +79,7 @@ var runSearch = function(ev) {
   }
   var items = filterBySearch(window.eventData, config);
   listContainer.innerHTML = listTemplate({ items });
+  resetBuildButtonText();
 };
 
 var eventsAndRecs = window.eventData.concat(recsData);
@@ -88,6 +96,9 @@ var buildItinerary = function() {
     items.push(next);
   }
   listContainer.innerHTML = listTemplate({ items })
+  if (pickItemsButton.innerHTML !== "Build another") {
+    pickItemsButton.innerHTML = "Build another";
+  }
 };
 
 filterMain.addEventListener("change", applyFilters);
