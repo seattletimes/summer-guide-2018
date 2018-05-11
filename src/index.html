@@ -91,6 +91,17 @@
       <div class="itinerary-results"></div>
     </main>
 
+    <footer class="credits constrained">
+      <ul>
+        <li> <b>Event listings:</b> Madeline McKenzie</li>
+        <li> <b>Itinerary recommendations:</b> Crystal Paul</li>
+        <li> <b>Design and development:</b> Alec Glassford and Thomas Wilburn</li>
+        <li> <b>Editing:</b> Paige Collins and Megan Burbank</li>
+        <li> <b>Production:</b> Shirley Qiu and Kirsten O'Brien</li>
+      </ul>
+    </footer>
+    <%= t.include("partials/_navBottom.html") %>
+
     <script>
 window.eventData = <%= JSON.stringify(json.events) %>;
 window.recsData = <%= JSON.stringify(json.recs) %>;
