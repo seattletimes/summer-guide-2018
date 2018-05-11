@@ -21,18 +21,22 @@ header {
   img {
     width: 100%;
     display: block;
+
+    // crop hack :-/ won't work in IE
+    max-height: 600px;
+    object-fit: cover;
   }
 
   h1 {
     margin: 0;
-    position: absolute;
+    // position: absolute;
     padding: 20px 0 40px 0;
     width: 100%;
     top: 0;
     left: 0;
-    background: linear-gradient(to bottom, #39621d, transparent);
+    // background: linear-gradient(to bottom, #39621d, transparent);
     text-align: center;
-    color: #3dfbbe;
+    // color: #3dfbbe;
     font-size: 78px;
     font-family: Lobster, @df-serif;
     font-weight: normal;

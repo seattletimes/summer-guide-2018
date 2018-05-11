@@ -10,15 +10,15 @@
 
     <%= t.include("partials/_ad.html", { type: "banner" }) %>
     <header class="top">
+      <h1><div class="smaller">Build your own</div>Seattle summer</h1>
+      <p class="constrained smaller">
+        Seattle summers are special. We say that because it’s true. Make this one count with our essential guide to all things summer 2018 — from concerts to kayaking to the Fourth of July. And remember, just as your plans change often, so do everyone else’s. Check details closer to the event, just in case.
+        <p class="constrained smaller">
+          <a href="https://www.seattletimes.com/life/travel/seattle-beyond-the-space-needle-pick-an-itinerary-and-explore-this-summer/">RELATED STORY | Seattle beyond the Space Needle: Pick an itinerary and explore this summer</a>
       <div class="image-container">
         <img src="./assets/headers/splash.jpg" alt="Child getting splashed by water">
         <div class="credit">Ruby Barrera, 8, enjoys one of the water features at Jefferson Park in summer 2017. (Ellen M. Banner / The Seattle Times)</div>
-        <h1><div class="smaller">Build your own</div>Seattle summer</h1>
       </div>
-      <p class="constrained smaller">
-        Seattle summers are special. We say that because it’s true. Make this one count with our essential guide to all things summer 2018 — from concerts to kayaking to the Fourth of July. And remember, just as your plans change often, so do everyone else’s. Check details closer to the event, just in case.
-      <p class="constrained smaller">
-        RELATED STORY | <a href="https://www.seattletimes.com/life/travel/seattle-beyond-the-space-needle-pick-an-itinerary-and-explore-this-summer/">Seattle beyond the Space Needle: Pick an itinerary and explore this summer</a>
     </header>
 
     <% var instructions = '<p class="constrained smaller instructions">Search for events, or use the buttons to the left to get recommendations based on your interests. Click "Build your own" to generate a personalized itinerary for a summer outing, or select "Show all results" to see all events that match your criteria.</p>'; %>
@@ -47,6 +47,12 @@
           <div class="filter-group months">
             <h2 class="nav-header">2. When?</h2>
             <ul class="months">
+              <li class="always-block">
+                <input class="date pseudo" type="checkbox" value="custom" id="custom-date" checked="checked" data-flag="useCustomDate" autocomplete="off">
+                <label for="custom-date">
+                  Specific date
+                  <input type="date" name="date" min="2018-05-01" max="2018-09-30" placeholder="YYYY-MM-DD" data-string="dayString" autocomplete="off">
+                </label>
               <% [
                 { short: "5", long: "May" },
                 { short: "6", long: "June" },
@@ -55,15 +61,9 @@
                 { short: "9", long: "September" }
               ].forEach(function(item) { %>
               <li>
-                <input class="month pseudo" type="checkbox" value="<%= item.short %>" id="<%= item.short %>" checked="checked" data-aggregate="months" autocomplete="off">
+                <input class="month pseudo" type="checkbox" value="<%= item.short %>" id="<%= item.short %>" data-aggregate="months" autocomplete="off">
                 <label for="<%= item.short %>"><%= item.long %></label>
               <% }); %>
-              <li class="always-block">
-                <input class="date pseudo" type="checkbox" value="custom" id="custom-date" data-flag="useCustomDate" autocomplete="off">
-                <label for="custom-date">
-                  Custom date
-                  <input type="date" name="date" min="2018-05-01" max="2018-09-30" placeholder="YYYY-MM-DD" data-string="dayString" autocomplete="off">
-                </label>
             </ul>
             <input type="checkbox" id="hide-past" data-flag="hidePast" autocomplete="off">
             <label for="hide-past">Hide past events</label>
