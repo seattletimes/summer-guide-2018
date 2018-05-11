@@ -1,0 +1,22 @@
+[
+  {
+    "short": "central",
+    "long": "Central Seattle"
+  },
+  {
+    "short": "north",
+    "long": "North of downtown"
+  },
+  {
+    "short": "south",
+    "long": "South of downtown"
+  },
+  {
+    "short": "east",
+    "long": "Eastside"
+  },
+  {
+    "short": "west",
+    "long": "West Seattle"
+  }
+]
