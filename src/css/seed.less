@@ -157,8 +157,10 @@ main.app {
 
       color: inherit;
       &::before {
-        padding-right: 1px;
         content: "✔";
+        @media @mobile {
+          padding-right: 4px;
+        }
       }
     }
 
