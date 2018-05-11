@@ -40,12 +40,9 @@ header {
   }
 
   .credit {
-    text-align: right;
     font-style: italic;
-    text-transform: uppercase;
-    font-family: @df-sans;
     font-size: 15px;
-    padding: 0 16px;
+    padding-top: 10px;
   }
 
   p.constrained {
@@ -148,6 +145,7 @@ main.app {
 
       color: inherit;
       &::before {
+        padding-right: 1px;
         content: "✔";
       }
     }
@@ -177,6 +175,7 @@ main.app {
     .justify-content(space-between);
 
     input {
+      .flex(1 0 0);
       border: 1px solid @df-light-gray;
       padding: @label-margin 2 * @label-margin;
       font-size: 15px;
@@ -302,7 +301,7 @@ main.app {
 }
 
 .credits {
-  padding: 48px 0 ;
+  padding: 48px 16px;
   ul {
     list-style-type: none;
     margin: 0;
