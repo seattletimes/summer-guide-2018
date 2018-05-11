@@ -1,20 +1,32 @@
 // code for the interactive listings
 var $ = require("./lib/qsa");
+var debounce = require("./lib/debounce");
 var dot = require("./lib/dot");
 var { filterItems, filterBySearch } = require("./filters.js");
 var { padLeft } = require("./util.js");
 
-var filterContainer = $.one(".filters");
+// DOM references we'll want
+var filterMain = $.one(".filter-main");
 var searchBox = $.one(".search input");
+var useDateCheckbox = $.one(`[data-flag="useCustomDate"]`);
 var pickItemsButton = $.one(".pick-items");
-
-var listTemplate = dot.compile(require("./_list.html"));
+var showAllCheckbox = $.one(`[data-flag="showAll"]`);
 var listContainer = $.one(".event-listings");
 
-// Removes random item from list and returns it
+// Template for displaying an array of cards
+var listTemplate = dot.compile(require("./_list.html"));
+
+// Removes random item from list and returns it (mutates list)
 var drawAndRemoveItem = function(list) {
-  var index = list.length * Math.random();
+  var index = list.length * Math.random() | 0; // `| 0` floors number
   return list.splice(index, 1)[0];
+};
+
+var clearSearch = function() {
+  if (searchBox.value.length > 0) searchBox.value = "";
+  if (document.body.hasAttribute("data-searching")) {
+    document.body.removeAttribute("data-searching");
+  }
 };
 
 var getConfig = function() {
@@ -37,16 +49,12 @@ var getConfig = function() {
 
 // Apply all filters to the full list (if "show all results" is checked)
 var applyFilters = function() {
+  clearSearch();
   var config = getConfig();
-  if (config.query) { // clear search on any non-search action
-    searchBox.value = "";
-    document.body.removeAttribute("data-searching");
-  }
   if (!config.showAll) { // Stop execution, show instructions
     if (listContainer.firstChild.tagName !== 'P') listContainer.innerHTML = window.instructions;
     return;
   }
-
   var items = filterItems(window.eventData, config);
   // Output HTML into template from final results
   listContainer.innerHTML = listTemplate({ items });
@@ -55,10 +63,9 @@ var applyFilters = function() {
 var runSearch = function() {
   var config = getConfig();
   if (!config.query) { // I.e. Cleared search box
-    document.body.removeAttribute("data-searching");
+    applyFilters();
     return;
   }
-
   if (!document.body.getAttribute("data-searching")) {
     document.body.setAttribute("data-searching", "");
   }
@@ -66,24 +73,26 @@ var runSearch = function() {
   listContainer.innerHTML = listTemplate({ items });
 };
 
-var eventsAndRecs = eventData.concat(recsData);
+var eventsAndRecs = window.eventData.concat(recsData);
 var buildItinerary = function() {
+  clearSearch();
   var config = getConfig();
+  if (config.showAll) { // Uncheck show all results setting when we click the button
+    showAllCheckbox.checked = false;
+  }
   var eligibleItems = filterItems(eventsAndRecs, config);
   var items = [];
   while (items.length < 3 && eligibleItems.length > 0) {
     var next = drawAndRemoveItem(eligibleItems);
-    console.log(next);
     items.push(next);
   }
   listContainer.innerHTML = listTemplate({ items })
 };
 
-filterContainer.addEventListener("change", applyFilters);
-searchBox.addEventListener("keyup", runSearch);
+filterMain.addEventListener("change", applyFilters);
+searchBox.addEventListener("input", debounce(runSearch));
 pickItemsButton.addEventListener("click", buildItinerary);
 
-var useDateCheckbox = $.one(`[data-flag="useCustomDate"]`);
 // If we check "use custom date," automatically uncheck all months
 useDateCheckbox.addEventListener("change", () => {
   if (useDateCheckbox.checked){
@@ -95,6 +104,6 @@ $(`[data-aggregate="months"]`).forEach(m => m.addEventListener("change", () => {
   if (useDateCheckbox.checked) useDateCheckbox.checked = false;
 }));
 
-// Initialize custom date to day
+// Initialize custom date to today
 var today = new Date();
 $.one(`[name="date"]`).value = `${today.getFullYear()}-${padLeft(today.getMonth() + 1, 2)}-${padLeft(today.getDate(), 2)}`;

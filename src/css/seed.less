@@ -78,32 +78,14 @@ main.app {
   .flex(0 0 240px);
 
   .filter-group {
-    .flex(0 0 30%);
     padding: 0 8px;
-
-    &.categories {
-      .flex(0 0 40%);
-    }
-
-    &.itinerary {
-      .flex(0 0 60%);
-
-      .controls {
-        .display-flex();
-        .justify-content(space-between);
-
-        @media @mobile {
-          display: block;
-        }
-
-        div {
-          padding: 8px;
-        }
-      }
-    }
 
     [data-searching] &:not(.search) {
       opacity: 0.3;
+
+      @media @mobile {
+        display: none;
+      }
     }
   }
 

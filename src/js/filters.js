@@ -1,4 +1,4 @@
-var { intersects, filterCategories } = require("./util");
+var { intersects } = require("./util");
 
 // Show items included in a list of categories
 var filterCategories = function(list, { categories }) {
