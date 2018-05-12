@@ -24,7 +24,7 @@
     <main class="app">
       <p class="constrained smaller">Search for events, or use the buttons below to get recommendations based on your interests. Click "Build your own" to generate a personalized itinerary for a summer outing, or select "Show all results" to see all events that match your criteria.</p>
 
-      <div class="search constrained smaller" id="search-controls">
+      <div class="search constrained smaller" id="search-controls" role="search">
         <h2 class="nav-header" id="search-label">Search for events</h2>
         <div class="search-wrapper">
           <input type="text" placeholder="Name, keywords, location …" data-string="query" autocomplete="off" aria-labelledby="search-label">
@@ -85,9 +85,8 @@
             <label for="live-results">Show all results</label>
           </div>
       </nav>
-    </section>
-      <div class="event-listings" aria-live="polite" aria-controls="search-controls filter-controls">
-      </div>
+
+      <div class="event-listings" aria-live="polite" aria-controls="search-controls filter-controls"></div>
     </main>
 
     <footer class="credits constrained">
