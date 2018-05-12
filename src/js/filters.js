@@ -30,7 +30,7 @@ var filterDate = function(list, { dayString }) {
   var [y, m, d] = dayString.split('-').map(Number);
   var day = new Date(y, m - 1, d, 0);
   return list.filter(function(item) {
-    if (item.categories.includes('market')) return false; // So we don't get a Wednesday farmer's market on, say, a Tuesday
+    if (item.categories.indexOf('market') > -1) return false; // So we don't get a Wednesday farmer's market on, say, a Tuesday
     if (item.timestamps.date) {
       return item.timestamps.date * 1 === day * 1;
     }
