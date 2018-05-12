@@ -34,6 +34,9 @@ var preprocessData = function(row) {
     }
   }
   row.timestamps.key = row.timestamps.date || row.timestamps.start;
+  if (!row.date && !row.start && !row.end) { // stick "forever" events at the end of the list
+    row.timestamps.key = row.timestamps.end;
+  }
   row.timestamps.endKey = row.timestamps.end || row.timestamps.date;
   row.url = row.url ? row.url.trim() : "";
 
