@@ -1,13 +1,5 @@
 @import "seattletimes";
 
-.mobile-only {
-  display: none;
-
-  @media @mobile {
-    display: block;
-  }
-}
-
 div.or-sep { // separator
   margin: auto 0;
   color: @df-middle-gray;
@@ -35,14 +27,9 @@ header {
 
   h1 {
     margin: 0;
-    // position: absolute;
     padding: 20px 0 40px 0;
     width: 100%;
-    top: 0;
-    left: 0;
-    // background: linear-gradient(to bottom, #39621d, transparent);
     text-align: center;
-    // color: #3dfbbe;
     font-size: 78px;
     font-family: Lobster, @df-serif;
     font-weight: normal;
@@ -103,7 +90,6 @@ h2.nav-header {
     border: 1px solid @df-light-gray;
     font-size: 15px;
     font-family: inherit;
-    line-height: inherit;
   }
 
   button { // clear button
@@ -120,15 +106,15 @@ h2.nav-header {
 }
 
 .filters {
-  font-family: @df-sans;
   .display-flex();
   .justify-content(space-between);
+  font-family: @df-sans;
 
   @media @mobile {
     display: block;
   }
 
-  [data-searching] & {
+  [data-searching] & { // gray-out or hide when searching occurs
     opacity: 0.3;
 
     @media @mobile {
@@ -136,30 +122,9 @@ h2.nav-header {
     }
   }
 
-  .filter-main {
-    .flex(0 1 75%);
-    .display-flex();
-
-    @media @tablet {
-      .flex-wrap(wrap);
-      div.filter-group {
-        .flex(0 0 50%);
-      }
-    }
-
-    @media @mobile {
-      display: block;
-    }
-  }
-
   .filter-group {
     .flex(0 1 250px);
     padding: 0 8px;
-
-    // ul {
-    //   border-left: 1px solid @df-middle-gray;
-    //   padding-left: 8px;
-    // }
   }
 
   ul {
@@ -175,10 +140,6 @@ h2.nav-header {
 
       &.always-block { display: block; }
     }
-  }
-
-  hr {
-    border-color: @df-light-gray;
   }
 
   label {
@@ -202,33 +163,13 @@ h2.nav-header {
       padding: 4px;
       text-align: center;
 
-      // &::before {
-      //   display: inline-block;
-      //   width: 1em;
-      //   content: "";
-      //   font-weight: normal;
-      // }
-
       &:hover, &:focus {
         border-color: black;
-        // background: @df-light-gray;
       }
     }
 
     &:checked + label {
       background-color: @st-light-blue;
-
-      color: inherit;
-      // &::before {
-      //   content: "✔";
-      //   @media @mobile {
-      //     padding-right: 4px;
-      //   }
-      // }
-    }
-
-    &:checked#hide-past + label {
-      background: @st-light-purple;
     }
   }
 
@@ -335,14 +276,6 @@ h2.nav-header {
     padding: 0;
     margin: 0;
   }
-}
-
-[data-planned="no"] {
-  .itinerary-results { display: none; }
-}
-
-[data-planned="yes"] {
-  .event-listings { display: none }
 }
 
 .credits {
